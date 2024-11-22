@@ -1,0 +1,165 @@
+<?xml version="1.0"?>
+<robot name="chassis_conv">
+    <link name="robot_base">
+        <inertial>
+            <origin rpy="-3.141593 3.141593 -3.141593" xyz="0.000000 0.000000 0.050000" />
+            <inertia iyy="0.16" ixz="0.0" ixx="0.16" ixy="0.0" izz="0.16" iyz="0.0" />
+            <mass value="16.0" />
+        </inertial>
+        <collision name="chassis_conv">
+            <origin xyz="0.000000 0.000000 0.050000" rpy="-3.141593 3.141593 -3.141593" />
+            <geometry>
+                <mesh filename="file:///home/cobos/Materia_final/p_robot_base_coll_1.dae" />
+            </geometry>
+        </collision>
+        <collision name="chassis_conv">
+            <origin xyz="0.000000 0.000000 0.050000" rpy="-3.141593 3.141593 -3.141593" />
+            <geometry>
+                <mesh filename="file:///home/cobos/Materia_final/p_robot_base_coll_2.dae" />
+            </geometry>
+        </collision>
+        <collision name="chassis_conv">
+            <origin xyz="0.000000 0.000000 0.050000" rpy="-3.141593 3.141593 -3.141593" />
+            <geometry>
+                <mesh filename="file:///home/cobos/Materia_final/p_robot_base_coll_3.dae" />
+            </geometry>
+        </collision>
+        <collision name="chassis_conv">
+            <origin xyz="0.000000 0.000000 0.050000" rpy="-3.141593 3.141593 -3.141593" />
+            <geometry>
+                <mesh filename="file:///home/cobos/Materia_final/p_robot_base_coll_4.dae" />
+            </geometry>
+        </collision>
+        <collision name="chassis_conv">
+            <origin xyz="0.000000 0.000000 0.050000" rpy="-3.141593 3.141593 -3.141593" />
+            <geometry>
+                <mesh filename="file:///home/cobos/Materia_final/p_robot_base_coll_5.dae" />
+            </geometry>
+        </collision>
+        <collision name="chassis_conv">
+            <origin xyz="0.000000 0.000000 0.050000" rpy="-3.141593 3.141593 -3.141593" />
+            <geometry>
+                <mesh filename="file:///home/cobos/Materia_final/p_robot_base_coll_6.dae" />
+            </geometry>
+        </collision>
+        <collision name="chassis_conv">
+            <origin xyz="0.000000 0.000000 0.050000" rpy="-3.141593 3.141593 -3.141593" />
+            <geometry>
+                <mesh filename="file:///home/cobos/Materia_final/p_robot_base_coll_7.dae" />
+            </geometry>
+        </collision>
+        <visual name="chassis">
+            <origin xyz="0.000000 0.000000 0.050000" rpy="-3.141593 3.141593 -3.141593" />
+            <geometry>
+                <mesh filename="file:///home/cobos/Materia_final/p_chassis_vis_1.dae" />
+            </geometry>
+            <material name="chassis_material">
+                <color rgba="1.000000 1.000000 1.000000 1.0" />
+            </material>
+        </visual>
+    </link>
+    <joint name="leftMotor" type="continuous">
+        <axis xyz="0 0 1" />
+        <parent link="robot_base" />
+        <child link="l_wheel_conv" />
+        <origin xyz="0.096000 -0.037000 0.050000" rpy="0.017453 -1.570796 0.000000" />
+    </joint>
+    <link name="l_wheel_conv">
+        <inertial>
+            <origin rpy="-3.141593 3.141593 -3.141593" xyz="-0.000000 -0.001032 -0.001817" />
+            <inertia iyy="0.015943318139146" ixz="0.0" ixx="0.015943318139146" ixy="0.0" izz="0.015943318139146" iyz="0.0" />
+            <mass value="1.5559073449779" />
+        </inertial>
+        <collision name="l_wheel_conv">
+            <origin xyz="-0.000000 -0.001032 -0.001817" rpy="-3.141593 3.141593 -3.141593" />
+            <geometry>
+                <mesh filename="file:///home/cobos/Materia_final/p_l_wheel_conv_coll_1.dae" />
+            </geometry>
+        </collision>
+        <collision name="l_wheel_conv">
+            <origin xyz="-0.000000 -0.001032 -0.001817" rpy="-3.141593 3.141593 -3.141593" />
+            <geometry>
+                <mesh filename="file:///home/cobos/Materia_final/p_l_wheel_conv_coll_2.dae" />
+            </geometry>
+        </collision>
+        <collision name="l_wheel_conv">
+            <origin xyz="-0.000000 -0.001032 -0.001817" rpy="-3.141593 3.141593 -3.141593" />
+            <geometry>
+                <mesh filename="file:///home/cobos/Materia_final/p_l_wheel_conv_coll_3.dae" />
+            </geometry>
+        </collision>
+        <collision name="l_wheel_conv">
+            <origin xyz="-0.000000 -0.001032 -0.001817" rpy="-3.141593 3.141593 -3.141593" />
+            <geometry>
+                <mesh filename="file:///home/cobos/Materia_final/p_l_wheel_conv_coll_4.dae" />
+            </geometry>
+        </collision>
+        <collision name="l_wheel_conv">
+            <origin xyz="-0.000000 -0.001032 -0.001817" rpy="-3.141593 3.141593 -3.141593" />
+            <geometry>
+                <mesh filename="file:///home/cobos/Materia_final/p_l_wheel_conv_coll_5.dae" />
+            </geometry>
+        </collision>
+        <visual name="l_wheel">
+            <origin xyz="0.000000 -0.001032 -0.001817" rpy="-3.141593 3.141593 -3.141593" />
+            <geometry>
+                <mesh filename="file:///home/cobos/Materia_final/p_l_wheel_vis_1.dae" />
+            </geometry>
+            <material name="l_wheel_material">
+                <color rgba="1.000000 1.000000 1.000000 1.0" />
+            </material>
+        </visual>
+    </link>
+    <joint name="rightMotor" type="continuous">
+        <axis xyz="0 0 1" />
+        <parent link="robot_base" />
+        <child link="r_wheel_conv" />
+        <origin xyz="-0.095000 -0.055000 0.050000" rpy="-0.087266 1.570796 0.000000" />
+    </joint>
+    <link name="r_wheel_conv">
+        <inertial>
+            <origin rpy="-3.141593 3.141593 -3.141593" xyz="0.000436 -0.000000 -0.004981" />
+            <inertia iyy="0.015330033574084" ixz="0.0" ixx="0.015330033574084" ixy="0.0" izz="0.015330033574084" iyz="0.0" />
+            <mass value="1.5197157597846" />
+        </inertial>
+        <collision name="r_wheel_conv">
+            <origin xyz="0.000436 -0.000000 -0.004981" rpy="-3.141593 3.141593 -3.141593" />
+            <geometry>
+                <mesh filename="file:///home/cobos/Materia_final/p_r_wheel_conv_coll_1.dae" />
+            </geometry>
+        </collision>
+        <collision name="r_wheel_conv">
+            <origin xyz="0.000436 -0.000000 -0.004981" rpy="-3.141593 3.141593 -3.141593" />
+            <geometry>
+                <mesh filename="file:///home/cobos/Materia_final/p_r_wheel_conv_coll_2.dae" />
+            </geometry>
+        </collision>
+        <collision name="r_wheel_conv">
+            <origin xyz="0.000436 -0.000000 -0.004981" rpy="-3.141593 3.141593 -3.141593" />
+            <geometry>
+                <mesh filename="file:///home/cobos/Materia_final/p_r_wheel_conv_coll_3.dae" />
+            </geometry>
+        </collision>
+        <collision name="r_wheel_conv">
+            <origin xyz="0.000436 -0.000000 -0.004981" rpy="-3.141593 3.141593 -3.141593" />
+            <geometry>
+                <mesh filename="file:///home/cobos/Materia_final/p_r_wheel_conv_coll_4.dae" />
+            </geometry>
+        </collision>
+        <collision name="r_wheel_conv">
+            <origin xyz="0.000436 -0.000000 -0.004981" rpy="-3.141593 3.141593 -3.141593" />
+            <geometry>
+                <mesh filename="file:///home/cobos/Materia_final/p_r_wheel_conv_coll_5.dae" />
+            </geometry>
+        </collision>
+        <visual name="r_wheel">
+            <origin xyz="0.000436 -0.000345 -0.001034" rpy="-3.141593 3.141593 -3.141593" />
+            <geometry>
+                <mesh filename="file:///home/cobos/Materia_final/p_r_wheel_vis_1.dae" />
+            </geometry>
+            <material name="r_wheel_material">
+                <color rgba="1.000000 1.000000 1.000000 1.0" />
+            </material>
+        </visual>
+    </link>
+</robot>

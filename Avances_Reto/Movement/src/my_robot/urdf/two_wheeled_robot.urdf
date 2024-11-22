@@ -1,0 +1,105 @@
+<robot name="two_wheeled_robot">
+
+  <!-- Base Link -->
+  <link name="base_link">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <box size="0.1 0.1 0.1"/>
+      </geometry>
+      <material name="base_material">
+        <color rgba="0.1 0.1 0.1 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <box size="0.1 0.1 0.1"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <mass value="0.1"/>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <inertia ixx="0.01" ixy="0" ixz="0" iyy="0.01" iyz="0" izz="0.01"/>
+    </inertial>
+  </link>
+
+  <!-- Chassis -->
+  <link name="chassis">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="package://my_robot/meshes/chassis.stl" scale="1 1 1"/>
+      </geometry>
+      <material name="chassis_material">
+        <color rgba="0.5 0.5 0.5 1"/>
+      </material>
+    </visual>
+  </link>
+
+  <joint name="base_to_chassis_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="chassis"/>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+  </joint>
+
+  <!-- Right Wheel -->
+  <link name="right_wheel">
+    <visual>
+      <origin xyz="0.095 0.05 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="package://my_robot/meshes/right_wheel.stl" scale="1 1 1"/>
+      </geometry>
+      <material name="wheel_material">
+        <color rgba="0.2 0.2 0.2 1"/>
+      </material>
+    </visual>
+  </link>
+
+  <joint name="right_wheel_joint" type="continuous">
+    <parent link="chassis"/>
+    <child link="right_wheel"/>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <axis xyz="0 0 1"/>
+  </joint>
+
+  <!-- Left Wheel -->
+  <link name="left_wheel">
+    <visual>
+      <origin xyz="-0.095 .045 0" rpy="0 0 3.14159"/>
+      <geometry>
+        <mesh filename="package://my_robot/meshes/left_wheel.stl" scale="1 1 1"/>
+      </geometry>
+      <material name="wheel_material">
+        <color rgba="0.2 0.2 0.2 1"/>
+      </material>
+    </visual>
+  </link>
+
+  <joint name="left_wheel_joint" type="continuous">
+    <parent link="chassis"/>
+    <child link="left_wheel"/>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <axis xyz="0 0 1"/>
+  </joint>
+
+  <!-- Dummy Link -->
+  <link name="dummy_link">
+    <visual>
+      <geometry>
+        <box size="0.01 0.01 0.01"/> <!-- Small box instead of sphere -->
+      </geometry>
+      <material name="dummy_material">
+        <color rgba="1 0 0 1"/> <!-- Red color for visibility -->
+      </material>
+    </visual>
+  </link>
+
+  <!-- Fixed Joint connecting base_link to dummy_link -->
+  <joint name="base_to_dummy_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="dummy_link"/>
+    <origin xyz="0 0 0.05" rpy="0 0 0"/> <!-- Offset the dummy link slightly along the z-axis -->
+  </joint>
+
+</robot>

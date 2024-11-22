@@ -1,0 +1,67 @@
+/home/cobos/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'tests_require'
+  warnings.warn(msg)
+running develop
+/home/cobos/.local/lib/python3.10/site-packages/setuptools/command/develop.py:41: EasyInstallDeprecationWarning: easy_install command is deprecated.
+!!
+
+        ********************************************************************************
+        Please avoid running ``setup.py`` and ``easy_install``.
+        Instead, use pypa/build, pypa/installer or other
+        standards-based tools.
+
+        See https://github.com/pypa/setuptools/issues/917 for details.
+        ********************************************************************************
+
+!!
+  easy_install.initialize_options(self)
+running egg_info
+creating my_robot.egg-info
+writing my_robot.egg-info/PKG-INFO
+writing dependency_links to my_robot.egg-info/dependency_links.txt
+writing entry points to my_robot.egg-info/entry_points.txt
+writing requirements to my_robot.egg-info/requires.txt
+writing top-level names to my_robot.egg-info/top_level.txt
+writing manifest file 'my_robot.egg-info/SOURCES.txt'
+reading manifest file 'my_robot.egg-info/SOURCES.txt'
+writing manifest file 'my_robot.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/cobos/Documents/Movement/install/my_robot/lib/python3.10/site-packages/my-robot.egg-link (link to .)
+Installing move_robot script to /home/cobos/Documents/Movement/install/my_robot/lib/my_robot
+
+Installed /home/cobos/Documents/Movement/build/my_robot
+running symlink_data
+creating /home/cobos/Documents/Movement/install/my_robot/share/ament_index/resource_index/packages
+symbolically linking /home/cobos/Documents/Movement/build/my_robot/resource/my_robot -> /home/cobos/Documents/Movement/install/my_robot/share/ament_index/resource_index/packages
+symbolically linking /home/cobos/Documents/Movement/build/my_robot/package.xml -> /home/cobos/Documents/Movement/install/my_robot/share/my_robot
+creating /home/cobos/Documents/Movement/install/my_robot/share/my_robot/urdf
+symbolically linking /home/cobos/Documents/Movement/build/my_robot/urdf/p.urdf -> /home/cobos/Documents/Movement/install/my_robot/share/my_robot/urdf
+symbolically linking /home/cobos/Documents/Movement/build/my_robot/urdf/two_wheeled_robot.urdf -> /home/cobos/Documents/Movement/install/my_robot/share/my_robot/urdf
+symbolically linking /home/cobos/Documents/Movement/build/my_robot/urdf/puzzlebot.urdf -> /home/cobos/Documents/Movement/install/my_robot/share/my_robot/urdf
+creating /home/cobos/Documents/Movement/install/my_robot/share/my_robot/launch
+symbolically linking /home/cobos/Documents/Movement/build/my_robot/launch/my_robot.launch.py -> /home/cobos/Documents/Movement/install/my_robot/share/my_robot/launch
+creating /home/cobos/Documents/Movement/install/my_robot/share/my_robot/meshes
+symbolically linking /home/cobos/Documents/Movement/build/my_robot/meshes/puzzlebot_r_wheel_coll_3.dae -> /home/cobos/Documents/Movement/install/my_robot/share/my_robot/meshes
+symbolically linking /home/cobos/Documents/Movement/build/my_robot/meshes/puzzlebot_robot_base_coll_3.dae -> /home/cobos/Documents/Movement/install/my_robot/share/my_robot/meshes
+symbolically linking /home/cobos/Documents/Movement/build/my_robot/meshes/puzzlebot_r_wheel_coll_4.dae -> /home/cobos/Documents/Movement/install/my_robot/share/my_robot/meshes
+symbolically linking /home/cobos/Documents/Movement/build/my_robot/meshes/right_wheel.stl -> /home/cobos/Documents/Movement/install/my_robot/share/my_robot/meshes
+symbolically linking /home/cobos/Documents/Movement/build/my_robot/meshes/puzzlebot_r_wheel_coll_5.dae -> /home/cobos/Documents/Movement/install/my_robot/share/my_robot/meshes
+symbolically linking /home/cobos/Documents/Movement/build/my_robot/meshes/puzzlebot_r_wheel_coll_2.dae -> /home/cobos/Documents/Movement/install/my_robot/share/my_robot/meshes
+symbolically linking /home/cobos/Documents/Movement/build/my_robot/meshes/puzzlebot_robot_base_coll_5.dae -> /home/cobos/Documents/Movement/install/my_robot/share/my_robot/meshes
+symbolically linking /home/cobos/Documents/Movement/build/my_robot/meshes/puzzlebot_robot_base_coll_2.dae -> /home/cobos/Documents/Movement/install/my_robot/share/my_robot/meshes
+symbolically linking /home/cobos/Documents/Movement/build/my_robot/meshes/puzzlebot_l_wheel_coll_1.dae -> /home/cobos/Documents/Movement/install/my_robot/share/my_robot/meshes
+symbolically linking /home/cobos/Documents/Movement/build/my_robot/meshes/puzzlebot_robot_base_coll_4.dae -> /home/cobos/Documents/Movement/install/my_robot/share/my_robot/meshes
+symbolically linking /home/cobos/Documents/Movement/build/my_robot/meshes/chassis.stl -> /home/cobos/Documents/Movement/install/my_robot/share/my_robot/meshes
+symbolically linking /home/cobos/Documents/Movement/build/my_robot/meshes/puzzlebot_robot_base_visual_vis_1.dae -> /home/cobos/Documents/Movement/install/my_robot/share/my_robot/meshes
+symbolically linking /home/cobos/Documents/Movement/build/my_robot/meshes/puzzlebot_l_wheel_coll_2.dae -> /home/cobos/Documents/Movement/install/my_robot/share/my_robot/meshes
+symbolically linking /home/cobos/Documents/Movement/build/my_robot/meshes/puzzlebot_r_wheel_coll_1.dae -> /home/cobos/Documents/Movement/install/my_robot/share/my_robot/meshes
+symbolically linking /home/cobos/Documents/Movement/build/my_robot/meshes/puzzlebot_l_wheel_coll_5.dae -> /home/cobos/Documents/Movement/install/my_robot/share/my_robot/meshes
+symbolically linking /home/cobos/Documents/Movement/build/my_robot/meshes/puzzlebot_l_wheel_conv_visual_vis_1.dae -> /home/cobos/Documents/Movement/install/my_robot/share/my_robot/meshes
+symbolically linking /home/cobos/Documents/Movement/build/my_robot/meshes/puzzlebot_l_wheel_coll_3.dae -> /home/cobos/Documents/Movement/install/my_robot/share/my_robot/meshes
+symbolically linking /home/cobos/Documents/Movement/build/my_robot/meshes/puzzlebot_robot_base_coll_1.dae -> /home/cobos/Documents/Movement/install/my_robot/share/my_robot/meshes
+symbolically linking /home/cobos/Documents/Movement/build/my_robot/meshes/puzzlebot_l_wheel_coll_4.dae -> /home/cobos/Documents/Movement/install/my_robot/share/my_robot/meshes
+symbolically linking /home/cobos/Documents/Movement/build/my_robot/meshes/puzzlebot_robot_base_coll_7.dae -> /home/cobos/Documents/Movement/install/my_robot/share/my_robot/meshes
+symbolically linking /home/cobos/Documents/Movement/build/my_robot/meshes/left_wheel.stl -> /home/cobos/Documents/Movement/install/my_robot/share/my_robot/meshes
+symbolically linking /home/cobos/Documents/Movement/build/my_robot/meshes/puzzlebot_r_wheel_conv_visual_vis_1.dae -> /home/cobos/Documents/Movement/install/my_robot/share/my_robot/meshes
+symbolically linking /home/cobos/Documents/Movement/build/my_robot/meshes/puzzlebot_robot_base_coll_6.dae -> /home/cobos/Documents/Movement/install/my_robot/share/my_robot/meshes
+creating /home/cobos/Documents/Movement/install/my_robot/share/my_robot/scripts
+symbolically linking /home/cobos/Documents/Movement/build/my_robot/scripts/move_robot.py -> /home/cobos/Documents/Movement/install/my_robot/share/my_robot/scripts

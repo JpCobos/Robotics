@@ -1,0 +1,1631 @@
+[0.000000] (-) TimerEvent: {}
+[0.000385] (drive_robot) JobQueued: {'identifier': 'drive_robot', 'dependencies': OrderedDict()}
+[0.000412] (my_robot) JobQueued: {'identifier': 'my_robot', 'dependencies': OrderedDict()}
+[0.000429] (ros2_bubble_rob) JobQueued: {'identifier': 'ros2_bubble_rob', 'dependencies': OrderedDict()}
+[0.000442] (sim_ros2_interface) JobQueued: {'identifier': 'sim_ros2_interface', 'dependencies': OrderedDict()}
+[0.000640] (drive_robot) JobStarted: {'identifier': 'drive_robot'}
+[0.006787] (my_robot) JobStarted: {'identifier': 'my_robot'}
+[0.010058] (ros2_bubble_rob) JobStarted: {'identifier': 'ros2_bubble_rob'}
+[0.012416] (sim_ros2_interface) JobStarted: {'identifier': 'sim_ros2_interface'}
+[0.100030] (-) TimerEvent: {}
+[0.200285] (-) TimerEvent: {}
+[0.300526] (-) TimerEvent: {}
+[0.359564] (ros2_bubble_rob) JobProgress: {'identifier': 'ros2_bubble_rob', 'progress': 'cmake'}
+[0.359908] (ros2_bubble_rob) Command: {'cmd': ['/usr/bin/cmake', '/home/cobos/Documents/Movement/src/ros2_bubble_rob', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/cobos/Documents/Movement/install/ros2_bubble_rob'], 'cwd': '/home/cobos/Documents/Movement/build/ros2_bubble_rob', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US'), ('GTK_CSD', '0'), ('USER', 'cobos'), ('XDG_SEAT', 'seat0'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/cobos'), ('OLDPWD', '/home/cobos'), ('DESKTOP_SESSION', 'i3'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'gail:atk-bridge'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('COLCON_PREFIX_PATH', '/home/cobos/Documents/Movement/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'cobos'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', 'c2'), ('COPPELIASIM_ROOT_DIR', '/home/cobos/Documents/Coppeliasim/CoppeliaSim_Edu_V4_8_0_rev0_Ubuntu22_04'), ('ROS_LOCALHOST_ONLY', '0'), ('GTK2_MODULES', 'overlay-scrollbar'), ('PATH', '/opt/ros/humble/bin:/home/cobos/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('GDM_LANG', 'en_US'), ('GTK3_MODULES', 'xapp-gtk3-module'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LD_PRELOAD', 'libgtk3-nocsd.so.0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'i3'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'i3'), ('XAUTHORITY', '/home/cobos/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/cobos'), ('AMENT_PREFIX_PATH', '/home/cobos/Documents/Movement/install/sim_ros2_interface:/home/cobos/Documents/Movement/install/ros2_bubble_rob:/home/cobos/Documents/Movement/install/drive_robot:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:64415506-0b6f-454a-b5d0-f02378858374'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'i3'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('XDG_VTNR', '7'), ('PWD', '/home/cobos/Documents/Movement/build/ros2_bubble_rob'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-i3:/etc/xdg'), ('CLUTTER_IM_MODULE', 'ibus'), ('XDG_DATA_DIRS', '/usr/share/i3:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/cobos/Documents/Movement/build/drive_robot:/home/cobos/Documents/Movement/install/drive_robot/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('I3SOCK', '/run/user/1000/i3/ipc-socket.2164'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/cobos/Documents/Movement/install/sim_ros2_interface:/home/cobos/Documents/Movement/install/ros2_bubble_rob:/home/cobos/Documents/Movement/install/drive_robot:/opt/ros/humble')]), 'shell': False}
+[0.362656] (sim_ros2_interface) JobProgress: {'identifier': 'sim_ros2_interface', 'progress': 'cmake'}
+[0.363076] (sim_ros2_interface) Command: {'cmd': ['/usr/bin/cmake', '/home/cobos/Documents/Movement/src/sim_ros2_interface', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/cobos/Documents/Movement/install/sim_ros2_interface'], 'cwd': '/home/cobos/Documents/Movement/build/sim_ros2_interface', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US'), ('GTK_CSD', '0'), ('USER', 'cobos'), ('XDG_SEAT', 'seat0'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/cobos'), ('OLDPWD', '/home/cobos'), ('DESKTOP_SESSION', 'i3'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'gail:atk-bridge'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('COLCON_PREFIX_PATH', '/home/cobos/Documents/Movement/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'cobos'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', 'c2'), ('COPPELIASIM_ROOT_DIR', '/home/cobos/Documents/Coppeliasim/CoppeliaSim_Edu_V4_8_0_rev0_Ubuntu22_04'), ('ROS_LOCALHOST_ONLY', '0'), ('GTK2_MODULES', 'overlay-scrollbar'), ('PATH', '/opt/ros/humble/bin:/home/cobos/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('GDM_LANG', 'en_US'), ('GTK3_MODULES', 'xapp-gtk3-module'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LD_PRELOAD', 'libgtk3-nocsd.so.0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'i3'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'i3'), ('XAUTHORITY', '/home/cobos/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/cobos'), ('AMENT_PREFIX_PATH', '/home/cobos/Documents/Movement/install/sim_ros2_interface:/home/cobos/Documents/Movement/install/ros2_bubble_rob:/home/cobos/Documents/Movement/install/drive_robot:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:64415506-0b6f-454a-b5d0-f02378858374'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'i3'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('XDG_VTNR', '7'), ('PWD', '/home/cobos/Documents/Movement/build/sim_ros2_interface'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-i3:/etc/xdg'), ('CLUTTER_IM_MODULE', 'ibus'), ('XDG_DATA_DIRS', '/usr/share/i3:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/cobos/Documents/Movement/build/drive_robot:/home/cobos/Documents/Movement/install/drive_robot/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('I3SOCK', '/run/user/1000/i3/ipc-socket.2164'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/cobos/Documents/Movement/install/sim_ros2_interface:/home/cobos/Documents/Movement/install/ros2_bubble_rob:/home/cobos/Documents/Movement/install/drive_robot:/opt/ros/humble')]), 'shell': False}
+[0.400639] (-) TimerEvent: {}
+[0.439671] (sim_ros2_interface) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.439914] (ros2_bubble_rob) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.500721] (-) TimerEvent: {}
+[0.525488] (ros2_bubble_rob) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.525681] (sim_ros2_interface) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.532805] (ros2_bubble_rob) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.533009] (sim_ros2_interface) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.587120] (ros2_bubble_rob) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.587278] (sim_ros2_interface) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.593301] (ros2_bubble_rob) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.593568] (ros2_bubble_rob) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.594071] (ros2_bubble_rob) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.596711] (ros2_bubble_rob) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.598161] (sim_ros2_interface) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.598310] (sim_ros2_interface) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.598602] (sim_ros2_interface) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.600772] (-) TimerEvent: {}
+[0.602215] (sim_ros2_interface) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.656769] (ros2_bubble_rob) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.662936] (sim_ros2_interface) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.663515] (ros2_bubble_rob) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.663702] (ros2_bubble_rob) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.664020] (ros2_bubble_rob) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.666135] (ros2_bubble_rob) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.671542] (sim_ros2_interface) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.671735] (sim_ros2_interface) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.672168] (sim_ros2_interface) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.674162] (sim_ros2_interface) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.700892] (-) TimerEvent: {}
+[0.801237] (-) TimerEvent: {}
+[0.830643] (my_robot) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/cobos/Documents/Movement/build/my_robot/build', '--no-deps', 'symlink_data'], 'cwd': '/home/cobos/Documents/Movement/build/my_robot', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_US', 'GTK_CSD': '0', 'USER': 'cobos', 'XDG_SEAT': 'seat0', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/cobos', 'OLDPWD': '/home/cobos', 'DESKTOP_SESSION': 'i3', 'ROS_PYTHON_VERSION': '3', 'GTK_MODULES': 'gail:atk-bridge', 'XDG_SEAT_PATH': '/org/freedesktop/DisplayManager/Seat0', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873', 'COLCON_PREFIX_PATH': '/home/cobos/Documents/Movement/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'cobos', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': 'c2', 'COPPELIASIM_ROOT_DIR': '/home/cobos/Documents/Coppeliasim/CoppeliaSim_Edu_V4_8_0_rev0_Ubuntu22_04', 'ROS_LOCALHOST_ONLY': '0', 'GTK2_MODULES': 'overlay-scrollbar', 'PATH': '/opt/ros/humble/bin:/home/cobos/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'GDM_LANG': 'en_US', 'GTK3_MODULES': 'xapp-gtk3-module', 'XDG_SESSION_PATH': '/org/freedesktop/DisplayManager/Session0', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LD_PRELOAD': 'libgtk3-nocsd.so.0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'i3', 'IBUS_DISABLE_SNOOPER': '1', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'i3', 'XAUTHORITY': '/home/cobos/.Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'XDG_GREETER_DATA_DIR': '/var/lib/lightdm-data/cobos', 'AMENT_PREFIX_PATH': '/home/cobos/Documents/Movement/install/sim_ros2_interface:/home/cobos/Documents/Movement/install/ros2_bubble_rob:/home/cobos/Documents/Movement/install/drive_robot:/opt/ros/humble', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:64415506-0b6f-454a-b5d0-f02378858374', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'i3', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'QT_IM_MODULE': 'ibus', 'XDG_VTNR': '7', 'PWD': '/home/cobos/Documents/Movement/build/my_robot', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-i3:/etc/xdg', 'CLUTTER_IM_MODULE': 'ibus', 'XDG_DATA_DIRS': '/usr/share/i3:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/cobos/Documents/Movement/build/my_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/cobos/Documents/Movement/install/my_robot/lib/python3.10/site-packages:/home/cobos/Documents/Movement/build/drive_robot:/home/cobos/Documents/Movement/install/drive_robot/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'I3SOCK': '/run/user/1000/i3/ipc-socket.2164', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/cobos/Documents/Movement/install/sim_ros2_interface:/home/cobos/Documents/Movement/install/ros2_bubble_rob'}, 'shell': False}
+[0.842311] (drive_robot) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/cobos/Documents/Movement/build/drive_robot/build', '--no-deps', 'symlink_data'], 'cwd': '/home/cobos/Documents/Movement/build/drive_robot', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_US', 'GTK_CSD': '0', 'USER': 'cobos', 'XDG_SEAT': 'seat0', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/cobos', 'OLDPWD': '/home/cobos', 'DESKTOP_SESSION': 'i3', 'ROS_PYTHON_VERSION': '3', 'GTK_MODULES': 'gail:atk-bridge', 'XDG_SEAT_PATH': '/org/freedesktop/DisplayManager/Seat0', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873', 'COLCON_PREFIX_PATH': '/home/cobos/Documents/Movement/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'cobos', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': 'c2', 'COPPELIASIM_ROOT_DIR': '/home/cobos/Documents/Coppeliasim/CoppeliaSim_Edu_V4_8_0_rev0_Ubuntu22_04', 'ROS_LOCALHOST_ONLY': '0', 'GTK2_MODULES': 'overlay-scrollbar', 'PATH': '/opt/ros/humble/bin:/home/cobos/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'GDM_LANG': 'en_US', 'GTK3_MODULES': 'xapp-gtk3-module', 'XDG_SESSION_PATH': '/org/freedesktop/DisplayManager/Session0', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LD_PRELOAD': 'libgtk3-nocsd.so.0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'i3', 'IBUS_DISABLE_SNOOPER': '1', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'i3', 'XAUTHORITY': '/home/cobos/.Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'XDG_GREETER_DATA_DIR': '/var/lib/lightdm-data/cobos', 'AMENT_PREFIX_PATH': '/home/cobos/Documents/Movement/install/sim_ros2_interface:/home/cobos/Documents/Movement/install/ros2_bubble_rob:/home/cobos/Documents/Movement/install/drive_robot:/opt/ros/humble', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:64415506-0b6f-454a-b5d0-f02378858374', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'i3', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'QT_IM_MODULE': 'ibus', 'XDG_VTNR': '7', 'PWD': '/home/cobos/Documents/Movement/build/drive_robot', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-i3:/etc/xdg', 'CLUTTER_IM_MODULE': 'ibus', 'XDG_DATA_DIRS': '/usr/share/i3:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/cobos/Documents/Movement/build/drive_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/cobos/Documents/Movement/install/drive_robot/lib/python3.10/site-packages:/home/cobos/Documents/Movement/build/drive_robot:/home/cobos/Documents/Movement/install/drive_robot/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'I3SOCK': '/run/user/1000/i3/ipc-socket.2164', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/cobos/Documents/Movement/install/sim_ros2_interface:/home/cobos/Documents/Movement/install/ros2_bubble_rob'}, 'shell': False}
+[0.901317] (-) TimerEvent: {}
+[0.965319] (my_robot) StderrLine: {'line': b"/home/cobos/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'tests_require'\n"}
+[0.965497] (my_robot) StderrLine: {'line': b'  warnings.warn(msg)\n'}
+[0.978900] (drive_robot) StderrLine: {'line': b"/home/cobos/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'tests_require'\n"}
+[0.979070] (drive_robot) StderrLine: {'line': b'  warnings.warn(msg)\n'}
+[0.980483] (sim_ros2_interface) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.983886] (ros2_bubble_rob) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[1.001437] (-) TimerEvent: {}
+[1.035614] (ros2_bubble_rob) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.035942] (sim_ros2_interface) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.060082] (sim_ros2_interface) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[1.060357] (ros2_bubble_rob) StdoutLine: {'line': b'-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.067729] (sim_ros2_interface) StdoutLine: {'line': b'-- Found diagnostic_msgs: 4.2.4 (/opt/ros/humble/share/diagnostic_msgs/cmake)\n'}
+[1.099525] (sim_ros2_interface) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.099674] (ros2_bubble_rob) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.101510] (-) TimerEvent: {}
+[1.103828] (ros2_bubble_rob) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.104011] (sim_ros2_interface) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.111986] (ros2_bubble_rob) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.112192] (sim_ros2_interface) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.123570] (my_robot) StdoutLine: {'line': b'running develop\n'}
+[1.123815] (my_robot) StderrLine: {'line': b'/home/cobos/.local/lib/python3.10/site-packages/setuptools/command/develop.py:41: EasyInstallDeprecationWarning: easy_install command is deprecated.\n'}
+[1.123922] (my_robot) StderrLine: {'line': b'!!\n'}
+[1.124014] (my_robot) StderrLine: {'line': b'\n'}
+[1.124137] (my_robot) StderrLine: {'line': b'        ********************************************************************************\n'}
+[1.124230] (my_robot) StderrLine: {'line': b'        Please avoid running ``setup.py`` and ``easy_install``.\n'}
+[1.124319] (my_robot) StderrLine: {'line': b'        Instead, use pypa/build, pypa/installer or other\n'}
+[1.124462] (my_robot) StderrLine: {'line': b'        standards-based tools.\n'}
+[1.124547] (my_robot) StderrLine: {'line': b'\n'}
+[1.124625] (my_robot) StderrLine: {'line': b'        See https://github.com/pypa/setuptools/issues/917 for details.\n'}
+[1.124700] (my_robot) StderrLine: {'line': b'        ********************************************************************************\n'}
+[1.124784] (my_robot) StderrLine: {'line': b'\n'}
+[1.124865] (my_robot) StderrLine: {'line': b'!!\n'}
+[1.124941] (my_robot) StderrLine: {'line': b'  easy_install.initialize_options(self)\n'}
+[1.125014] (sim_ros2_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.125107] (ros2_bubble_rob) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.139069] (sim_ros2_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.139274] (ros2_bubble_rob) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.140402] (drive_robot) StdoutLine: {'line': b'running develop\n'}
+[1.140621] (drive_robot) StderrLine: {'line': b'/home/cobos/.local/lib/python3.10/site-packages/setuptools/command/develop.py:41: EasyInstallDeprecationWarning: easy_install command is deprecated.\n'}
+[1.140730] (drive_robot) StderrLine: {'line': b'!!\n'}
+[1.140829] (drive_robot) StderrLine: {'line': b'\n'}
+[1.140917] (drive_robot) StderrLine: {'line': b'        ********************************************************************************\n'}
+[1.141007] (drive_robot) StderrLine: {'line': b'        Please avoid running ``setup.py`` and ``easy_install``.\n'}
+[1.141088] (drive_robot) StderrLine: {'line': b'        Instead, use pypa/build, pypa/installer or other\n'}
+[1.141167] (drive_robot) StderrLine: {'line': b'        standards-based tools.\n'}
+[1.141247] (drive_robot) StderrLine: {'line': b'\n'}
+[1.141326] (drive_robot) StderrLine: {'line': b'        See https://github.com/pypa/setuptools/issues/917 for details.\n'}
+[1.141405] (drive_robot) StderrLine: {'line': b'        ********************************************************************************\n'}
+[1.141484] (drive_robot) StderrLine: {'line': b'\n'}
+[1.141563] (drive_robot) StderrLine: {'line': b'!!\n'}
+[1.141642] (drive_robot) StderrLine: {'line': b'  easy_install.initialize_options(self)\n'}
+[1.177394] (sim_ros2_interface) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[1.181096] (ros2_bubble_rob) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.183839] (ros2_bubble_rob) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.191109] (sim_ros2_interface) StdoutLine: {'line': b'-- Found lifecycle_msgs: 1.2.1 (/opt/ros/humble/share/lifecycle_msgs/cmake)\n'}
+[1.201613] (-) TimerEvent: {}
+[1.201845] (sim_ros2_interface) StdoutLine: {'line': b'-- Found map_msgs: 2.1.0 (/opt/ros/humble/share/map_msgs/cmake)\n'}
+[1.252942] (ros2_bubble_rob) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.256429] (sim_ros2_interface) StdoutLine: {'line': b'-- Found pendulum_msgs: 0.20.5 (/opt/ros/humble/share/pendulum_msgs/cmake)\n'}
+[1.268972] (sim_ros2_interface) StdoutLine: {'line': b'-- Found rosgraph_msgs: 1.2.1 (/opt/ros/humble/share/rosgraph_msgs/cmake)\n'}
+[1.274601] (ros2_bubble_rob) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[1.281934] (sim_ros2_interface) StdoutLine: {'line': b'-- Found shape_msgs: 4.2.4 (/opt/ros/humble/share/shape_msgs/cmake)\n'}
+[1.296213] (sim_ros2_interface) StdoutLine: {'line': b'-- Found stereo_msgs: 4.2.4 (/opt/ros/humble/share/stereo_msgs/cmake)\n'}
+[1.301687] (-) TimerEvent: {}
+[1.306037] (ros2_bubble_rob) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.312543] (sim_ros2_interface) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.25.8 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)\n'}
+[1.313657] (ros2_bubble_rob) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.323240] (sim_ros2_interface) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[1.324652] (sim_ros2_interface) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[1.324768] (sim_ros2_interface) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[1.327917] (my_robot) StdoutLine: {'line': b'running egg_info\n'}
+[1.344078] (my_robot) StdoutLine: {'line': b'creating my_robot.egg-info\n'}
+[1.344240] (my_robot) StdoutLine: {'line': b'writing my_robot.egg-info/PKG-INFO\n'}
+[1.344500] (my_robot) StdoutLine: {'line': b'writing dependency_links to my_robot.egg-info/dependency_links.txt\n'}
+[1.344650] (my_robot) StdoutLine: {'line': b'writing entry points to my_robot.egg-info/entry_points.txt\n'}
+[1.344770] (my_robot) StdoutLine: {'line': b'writing requirements to my_robot.egg-info/requires.txt\n'}
+[1.344876] (my_robot) StdoutLine: {'line': b'writing top-level names to my_robot.egg-info/top_level.txt\n'}
+[1.344981] (my_robot) StdoutLine: {'line': b"writing manifest file 'my_robot.egg-info/SOURCES.txt'\n"}
+[1.349527] (drive_robot) StdoutLine: {'line': b'running egg_info\n'}
+[1.365845] (drive_robot) StdoutLine: {'line': b'creating drive_robot.egg-info\n'}
+[1.366077] (drive_robot) StdoutLine: {'line': b'writing drive_robot.egg-info/PKG-INFO\n'}
+[1.366308] (drive_robot) StdoutLine: {'line': b'writing dependency_links to drive_robot.egg-info/dependency_links.txt\n'}
+[1.366473] (drive_robot) StdoutLine: {'line': b'writing entry points to drive_robot.egg-info/entry_points.txt\n'}
+[1.366603] (drive_robot) StdoutLine: {'line': b'writing requirements to drive_robot.egg-info/requires.txt\n'}
+[1.366714] (drive_robot) StdoutLine: {'line': b'writing top-level names to drive_robot.egg-info/top_level.txt\n'}
+[1.366823] (drive_robot) StdoutLine: {'line': b"writing manifest file 'drive_robot.egg-info/SOURCES.txt'\n"}
+[1.369981] (ros2_bubble_rob) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.370284] (ros2_bubble_rob) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.377391] (my_robot) StdoutLine: {'line': b"reading manifest file 'my_robot.egg-info/SOURCES.txt'\n"}
+[1.378455] (my_robot) StdoutLine: {'line': b"writing manifest file 'my_robot.egg-info/SOURCES.txt'\n"}
+[1.390624] (sim_ros2_interface) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.392404] (sim_ros2_interface) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.395090] (my_robot) StdoutLine: {'line': b'running build_ext\n'}
+[1.395258] (my_robot) StdoutLine: {'line': b'Creating /home/cobos/Documents/Movement/install/my_robot/lib/python3.10/site-packages/my-robot.egg-link (link to .)\n'}
+[1.395742] (my_robot) StdoutLine: {'line': b'Installing move_robot script to /home/cobos/Documents/Movement/install/my_robot/lib/my_robot\n'}
+[1.395970] (my_robot) StdoutLine: {'line': b'\n'}
+[1.396091] (my_robot) StdoutLine: {'line': b'Installed /home/cobos/Documents/Movement/build/my_robot\n'}
+[1.396176] (my_robot) StdoutLine: {'line': b'running symlink_data\n'}
+[1.396274] (my_robot) StdoutLine: {'line': b'creating /home/cobos/Documents/Movement/install/my_robot/share/ament_index/resource_index/packages\n'}
+[1.396379] (my_robot) StdoutLine: {'line': b'symbolically linking /home/cobos/Documents/Movement/build/my_robot/resource/my_robot -> /home/cobos/Documents/Movement/install/my_robot/share/ament_index/resource_index/packages\n'}
+[1.396488] (my_robot) StdoutLine: {'line': b'symbolically linking /home/cobos/Documents/Movement/build/my_robot/package.xml -> /home/cobos/Documents/Movement/install/my_robot/share/my_robot\n'}
+[1.396565] (my_robot) StdoutLine: {'line': b'creating /home/cobos/Documents/Movement/install/my_robot/share/my_robot/urdf\n'}
+[1.396653] (my_robot) StdoutLine: {'line': b'symbolically linking /home/cobos/Documents/Movement/build/my_robot/urdf/p.urdf -> /home/cobos/Documents/Movement/install/my_robot/share/my_robot/urdf\n'}
+[1.396745] (my_robot) StdoutLine: {'line': b'symbolically linking /home/cobos/Documents/Movement/build/my_robot/urdf/two_wheeled_robot.urdf -> /home/cobos/Documents/Movement/install/my_robot/share/my_robot/urdf\n'}
+[1.396826] (my_robot) StdoutLine: {'line': b'symbolically linking /home/cobos/Documents/Movement/build/my_robot/urdf/puzzlebot.urdf -> /home/cobos/Documents/Movement/install/my_robot/share/my_robot/urdf\n'}
+[1.396912] (my_robot) StdoutLine: {'line': b'creating /home/cobos/Documents/Movement/install/my_robot/share/my_robot/launch\n'}
+[1.396990] (my_robot) StdoutLine: {'line': b'symbolically linking /home/cobos/Documents/Movement/build/my_robot/launch/my_robot.launch.py -> /home/cobos/Documents/Movement/install/my_robot/share/my_robot/launch\n'}
+[1.397072] (my_robot) StdoutLine: {'line': b'creating /home/cobos/Documents/Movement/install/my_robot/share/my_robot/meshes\n'}
+[1.397156] (my_robot) StdoutLine: {'line': b'symbolically linking /home/cobos/Documents/Movement/build/my_robot/meshes/puzzlebot_r_wheel_coll_3.dae -> /home/cobos/Documents/Movement/install/my_robot/share/my_robot/meshes\n'}
+[1.397238] (my_robot) StdoutLine: {'line': b'symbolically linking /home/cobos/Documents/Movement/build/my_robot/meshes/puzzlebot_robot_base_coll_3.dae -> /home/cobos/Documents/Movement/install/my_robot/share/my_robot/meshes\n'}
+[1.397325] (my_robot) StdoutLine: {'line': b'symbolically linking /home/cobos/Documents/Movement/build/my_robot/meshes/puzzlebot_r_wheel_coll_4.dae -> /home/cobos/Documents/Movement/install/my_robot/share/my_robot/meshes\n'}
+[1.397421] (my_robot) StdoutLine: {'line': b'symbolically linking /home/cobos/Documents/Movement/build/my_robot/meshes/right_wheel.stl -> /home/cobos/Documents/Movement/install/my_robot/share/my_robot/meshes\n'}
+[1.397488] (my_robot) StdoutLine: {'line': b'symbolically linking /home/cobos/Documents/Movement/build/my_robot/meshes/puzzlebot_r_wheel_coll_5.dae -> /home/cobos/Documents/Movement/install/my_robot/share/my_robot/meshes\n'}
+[1.397553] (my_robot) StdoutLine: {'line': b'symbolically linking /home/cobos/Documents/Movement/build/my_robot/meshes/puzzlebot_r_wheel_coll_2.dae -> /home/cobos/Documents/Movement/install/my_robot/share/my_robot/meshes\n'}
+[1.397630] (my_robot) StdoutLine: {'line': b'symbolically linking /home/cobos/Documents/Movement/build/my_robot/meshes/puzzlebot_robot_base_coll_5.dae -> /home/cobos/Documents/Movement/install/my_robot/share/my_robot/meshes\n'}
+[1.397706] (my_robot) StdoutLine: {'line': b'symbolically linking /home/cobos/Documents/Movement/build/my_robot/meshes/puzzlebot_robot_base_coll_2.dae -> /home/cobos/Documents/Movement/install/my_robot/share/my_robot/meshes\n'}
+[1.397791] (my_robot) StdoutLine: {'line': b'symbolically linking /home/cobos/Documents/Movement/build/my_robot/meshes/puzzlebot_l_wheel_coll_1.dae -> /home/cobos/Documents/Movement/install/my_robot/share/my_robot/meshes\n'}
+[1.397867] (my_robot) StdoutLine: {'line': b'symbolically linking /home/cobos/Documents/Movement/build/my_robot/meshes/puzzlebot_robot_base_coll_4.dae -> /home/cobos/Documents/Movement/install/my_robot/share/my_robot/meshes\n'}
+[1.397948] (my_robot) StdoutLine: {'line': b'symbolically linking /home/cobos/Documents/Movement/build/my_robot/meshes/chassis.stl -> /home/cobos/Documents/Movement/install/my_robot/share/my_robot/meshes\n'}
+[1.398022] (my_robot) StdoutLine: {'line': b'symbolically linking /home/cobos/Documents/Movement/build/my_robot/meshes/puzzlebot_robot_base_visual_vis_1.dae -> /home/cobos/Documents/Movement/install/my_robot/share/my_robot/meshes\n'}
+[1.398100] (my_robot) StdoutLine: {'line': b'symbolically linking /home/cobos/Documents/Movement/build/my_robot/meshes/puzzlebot_l_wheel_coll_2.dae -> /home/cobos/Documents/Movement/install/my_robot/share/my_robot/meshes\n'}
+[1.398177] (my_robot) StdoutLine: {'line': b'symbolically linking /home/cobos/Documents/Movement/build/my_robot/meshes/puzzlebot_r_wheel_coll_1.dae -> /home/cobos/Documents/Movement/install/my_robot/share/my_robot/meshes\n'}
+[1.398258] (my_robot) StdoutLine: {'line': b'symbolically linking /home/cobos/Documents/Movement/build/my_robot/meshes/puzzlebot_l_wheel_coll_5.dae -> /home/cobos/Documents/Movement/install/my_robot/share/my_robot/meshes\n'}
+[1.398336] (my_robot) StdoutLine: {'line': b'symbolically linking /home/cobos/Documents/Movement/build/my_robot/meshes/puzzlebot_l_wheel_conv_visual_vis_1.dae -> /home/cobos/Documents/Movement/install/my_robot/share/my_robot/meshes\n'}
+[1.398416] (my_robot) StdoutLine: {'line': b'symbolically linking /home/cobos/Documents/Movement/build/my_robot/meshes/puzzlebot_l_wheel_coll_3.dae -> /home/cobos/Documents/Movement/install/my_robot/share/my_robot/meshes\n'}
+[1.398491] (my_robot) StdoutLine: {'line': b'symbolically linking /home/cobos/Documents/Movement/build/my_robot/meshes/puzzlebot_robot_base_coll_1.dae -> /home/cobos/Documents/Movement/install/my_robot/share/my_robot/meshes\n'}
+[1.398567] (my_robot) StdoutLine: {'line': b'symbolically linking /home/cobos/Documents/Movement/build/my_robot/meshes/puzzlebot_l_wheel_coll_4.dae -> /home/cobos/Documents/Movement/install/my_robot/share/my_robot/meshes\n'}
+[1.398644] (my_robot) StdoutLine: {'line': b'symbolically linking /home/cobos/Documents/Movement/build/my_robot/meshes/puzzlebot_robot_base_coll_7.dae -> /home/cobos/Documents/Movement/install/my_robot/share/my_robot/meshes\n'}
+[1.398723] (my_robot) StdoutLine: {'line': b'symbolically linking /home/cobos/Documents/Movement/build/my_robot/meshes/left_wheel.stl -> /home/cobos/Documents/Movement/install/my_robot/share/my_robot/meshes\n'}
+[1.398809] (my_robot) StdoutLine: {'line': b'symbolically linking /home/cobos/Documents/Movement/build/my_robot/meshes/puzzlebot_r_wheel_conv_visual_vis_1.dae -> /home/cobos/Documents/Movement/install/my_robot/share/my_robot/meshes\n'}
+[1.398884] (my_robot) StdoutLine: {'line': b'symbolically linking /home/cobos/Documents/Movement/build/my_robot/meshes/puzzlebot_robot_base_coll_6.dae -> /home/cobos/Documents/Movement/install/my_robot/share/my_robot/meshes\n'}
+[1.398979] (my_robot) StdoutLine: {'line': b'creating /home/cobos/Documents/Movement/install/my_robot/share/my_robot/scripts\n'}
+[1.399060] (my_robot) StdoutLine: {'line': b'symbolically linking /home/cobos/Documents/Movement/build/my_robot/scripts/move_robot.py -> /home/cobos/Documents/Movement/install/my_robot/share/my_robot/scripts\n'}
+[1.400025] (drive_robot) StdoutLine: {'line': b"reading manifest file 'drive_robot.egg-info/SOURCES.txt'\n"}
+[1.400936] (drive_robot) StdoutLine: {'line': b"writing manifest file 'drive_robot.egg-info/SOURCES.txt'\n"}
+[1.401747] (-) TimerEvent: {}
+[1.418527] (drive_robot) StdoutLine: {'line': b'running build_ext\n'}
+[1.418656] (drive_robot) StdoutLine: {'line': b'Creating /home/cobos/Documents/Movement/install/drive_robot/lib/python3.10/site-packages/drive-robot.egg-link (link to .)\n'}
+[1.419308] (drive_robot) StdoutLine: {'line': b'Installing driving_node script to /home/cobos/Documents/Movement/install/drive_robot/lib/drive_robot\n'}
+[1.419432] (drive_robot) StdoutLine: {'line': b'Installing motor_control_node script to /home/cobos/Documents/Movement/install/drive_robot/lib/drive_robot\n'}
+[1.419568] (drive_robot) StdoutLine: {'line': b'\n'}
+[1.419661] (drive_robot) StdoutLine: {'line': b'Installed /home/cobos/Documents/Movement/build/drive_robot\n'}
+[1.419731] (drive_robot) StdoutLine: {'line': b'running symlink_data\n'}
+[1.419883] (drive_robot) StdoutLine: {'line': b'creating /home/cobos/Documents/Movement/install/drive_robot/share/ament_index/resource_index/packages\n'}
+[1.420014] (drive_robot) StdoutLine: {'line': b'symbolically linking /home/cobos/Documents/Movement/build/drive_robot/resource/drive_robot -> /home/cobos/Documents/Movement/install/drive_robot/share/ament_index/resource_index/packages\n'}
+[1.420160] (drive_robot) StdoutLine: {'line': b'symbolically linking /home/cobos/Documents/Movement/build/drive_robot/package.xml -> /home/cobos/Documents/Movement/install/drive_robot/share/drive_robot\n'}
+[1.424984] (ros2_bubble_rob) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.425808] (ros2_bubble_rob) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.427233] (my_robot) CommandEnded: {'returncode': 0}
+[1.437444] (my_robot) JobEnded: {'identifier': 'my_robot', 'rc': 0}
+[1.461906] (sim_ros2_interface) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.462713] (drive_robot) CommandEnded: {'returncode': 0}
+[1.468545] (drive_robot) JobEnded: {'identifier': 'drive_robot', 'rc': 0}
+[1.478924] (ros2_bubble_rob) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0")  \n'}
+[1.481479] (ros2_bubble_rob) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.484570] (sim_ros2_interface) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[1.501830] (-) TimerEvent: {}
+[1.518348] (sim_ros2_interface) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.525091] (sim_ros2_interface) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.569127] (ros2_bubble_rob) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[1.569953] (ros2_bubble_rob) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.570085] (ros2_bubble_rob) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/cobos/Documents/Movement/src/ros2_bubble_rob/include>\n'}
+[1.570151] (ros2_bubble_rob) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.570694] (ros2_bubble_rob) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[1.570797] (ros2_bubble_rob) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[1.571468] (ros2_bubble_rob) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.572356] (ros2_bubble_rob) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.572448] (ros2_bubble_rob) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.572792] (ros2_bubble_rob) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.574220] (ros2_bubble_rob) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.578998] (sim_ros2_interface) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.579231] (sim_ros2_interface) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.582667] (ros2_bubble_rob) StdoutLine: {'line': b'-- Generating done\n'}
+[1.584592] (ros2_bubble_rob) StdoutLine: {'line': b'-- Build files have been written to: /home/cobos/Documents/Movement/build/ros2_bubble_rob\n'}
+[1.595474] (ros2_bubble_rob) CommandEnded: {'returncode': 0}
+[1.596148] (ros2_bubble_rob) JobProgress: {'identifier': 'ros2_bubble_rob', 'progress': 'build'}
+[1.597215] (ros2_bubble_rob) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/cobos/Documents/Movement/build/ros2_bubble_rob', '--', '-j12', '-l12'], 'cwd': '/home/cobos/Documents/Movement/build/ros2_bubble_rob', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US'), ('GTK_CSD', '0'), ('USER', 'cobos'), ('XDG_SEAT', 'seat0'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/cobos'), ('OLDPWD', '/home/cobos'), ('DESKTOP_SESSION', 'i3'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'gail:atk-bridge'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('COLCON_PREFIX_PATH', '/home/cobos/Documents/Movement/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'cobos'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', 'c2'), ('COPPELIASIM_ROOT_DIR', '/home/cobos/Documents/Coppeliasim/CoppeliaSim_Edu_V4_8_0_rev0_Ubuntu22_04'), ('ROS_LOCALHOST_ONLY', '0'), ('GTK2_MODULES', 'overlay-scrollbar'), ('PATH', '/opt/ros/humble/bin:/home/cobos/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('GDM_LANG', 'en_US'), ('GTK3_MODULES', 'xapp-gtk3-module'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LD_PRELOAD', 'libgtk3-nocsd.so.0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'i3'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'i3'), ('XAUTHORITY', '/home/cobos/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/cobos'), ('AMENT_PREFIX_PATH', '/home/cobos/Documents/Movement/install/sim_ros2_interface:/home/cobos/Documents/Movement/install/ros2_bubble_rob:/home/cobos/Documents/Movement/install/drive_robot:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:64415506-0b6f-454a-b5d0-f02378858374'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'i3'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('XDG_VTNR', '7'), ('PWD', '/home/cobos/Documents/Movement/build/ros2_bubble_rob'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-i3:/etc/xdg'), ('CLUTTER_IM_MODULE', 'ibus'), ('XDG_DATA_DIRS', '/usr/share/i3:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/cobos/Documents/Movement/build/drive_robot:/home/cobos/Documents/Movement/install/drive_robot/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('I3SOCK', '/run/user/1000/i3/ipc-socket.2164'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/cobos/Documents/Movement/install/sim_ros2_interface:/home/cobos/Documents/Movement/install/ros2_bubble_rob:/home/cobos/Documents/Movement/install/drive_robot:/opt/ros/humble')]), 'shell': False}
+[1.601938] (-) TimerEvent: {}
+[1.633866] (sim_ros2_interface) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.634561] (ros2_bubble_rob) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/ros2BubbleRob.dir/src/ros2BubbleRob.cpp.o\x1b[0m\n'}
+[1.634790] (sim_ros2_interface) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.702045] (-) TimerEvent: {}
+[1.724791] (sim_ros2_interface) StdoutLine: {'line': b'-- Found trajectory_msgs: 4.2.4 (/opt/ros/humble/share/trajectory_msgs/cmake)\n'}
+[1.742864] (sim_ros2_interface) StdoutLine: {'line': b'-- Found visualization_msgs: 4.2.4 (/opt/ros/humble/share/visualization_msgs/cmake)\n'}
+[1.762012] (sim_ros2_interface) StdoutLine: {'line': b'-- Found std_srvs: 4.2.4 (/opt/ros/humble/share/std_srvs/cmake)\n'}
+[1.776849] (sim_ros2_interface) StdoutLine: {'line': b'-- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)\n'}
+[1.796349] (sim_ros2_interface) StdoutLine: {'line': b'-- Found image_transport: 3.1.9 (/opt/ros/humble/share/image_transport/cmake)\n'}
+[1.802132] (-) TimerEvent: {}
+[1.812637] (sim_ros2_interface) StdoutLine: {'line': b'-- CoppeliaSim: COPPELIASIM_INCLUDE_DIR: /home/cobos/Documents/Coppeliasim/CoppeliaSim_Edu_V4_8_0_rev0_Ubuntu22_04/programming/include\n'}
+[1.812745] (sim_ros2_interface) StdoutLine: {'line': b'-- CoppeliaSim: COPPELIASIM_ROOT_DIR: /home/cobos/Documents/Coppeliasim/CoppeliaSim_Edu_V4_8_0_rev0_Ubuntu22_04\n'}
+[1.812818] (sim_ros2_interface) StdoutLine: {'line': b'-- Checking CoppeliaSim header version...\n'}
+[1.902261] (-) TimerEvent: {}
+[2.002528] (-) TimerEvent: {}
+[2.071726] (sim_ros2_interface) StdoutLine: {'line': b'-- CoppeliaSim headers version 4.8.0 rev0\n'}
+[2.071921] (sim_ros2_interface) StdoutLine: {'line': b'-- CoppeliaSim: COPPELIASIM_RESOURCES_DIR: /home/cobos/Documents/Coppeliasim/CoppeliaSim_Edu_V4_8_0_rev0_Ubuntu22_04\n'}
+[2.071979] (sim_ros2_interface) StdoutLine: {'line': b'-- CoppeliaSim: COPPELIASIM_PLUGINS_DIR: /home/cobos/Documents/Coppeliasim/CoppeliaSim_Edu_V4_8_0_rev0_Ubuntu22_04\n'}
+[2.072029] (sim_ros2_interface) StdoutLine: {'line': b'-- CoppeliaSim: COPPELIASIM_EXECUTABLES_DIR: /home/cobos/Documents/Coppeliasim/CoppeliaSim_Edu_V4_8_0_rev0_Ubuntu22_04\n'}
+[2.072091] (sim_ros2_interface) StdoutLine: {'line': b'-- CoppeliaSim: COPPELIASIM_LIBRARIES_DIR: /home/cobos/Documents/Coppeliasim/CoppeliaSim_Edu_V4_8_0_rev0_Ubuntu22_04\n'}
+[2.072137] (sim_ros2_interface) StdoutLine: {'line': b'-- CoppeliaSim: COPPELIASIM_ADDONS_DIR: /home/cobos/Documents/Coppeliasim/CoppeliaSim_Edu_V4_8_0_rev0_Ubuntu22_04/addOns\n'}
+[2.072182] (sim_ros2_interface) StdoutLine: {'line': b'-- CoppeliaSim: COPPELIASIM_MANUAL_DIR: /home/cobos/Documents/Coppeliasim/CoppeliaSim_Edu_V4_8_0_rev0_Ubuntu22_04/manual\n'}
+[2.072237] (sim_ros2_interface) StdoutLine: {'line': b'-- CoppeliaSim: COPPELIASIM_MODELS_DIR: /home/cobos/Documents/Coppeliasim/CoppeliaSim_Edu_V4_8_0_rev0_Ubuntu22_04/models\n'}
+[2.072280] (sim_ros2_interface) StdoutLine: {'line': b'-- CoppeliaSim: COPPELIASIM_SCENES_DIR: /home/cobos/Documents/Coppeliasim/CoppeliaSim_Edu_V4_8_0_rev0_Ubuntu22_04/scenes\n'}
+[2.072322] (sim_ros2_interface) StdoutLine: {'line': b'-- CoppeliaSim: COPPELIASIM_LUA_DIR: /home/cobos/Documents/Coppeliasim/CoppeliaSim_Edu_V4_8_0_rev0_Ubuntu22_04/lua\n'}
+[2.072365] (sim_ros2_interface) StdoutLine: {'line': b'-- CoppeliaSim: COPPELIASIM_PYTHON_DIR: /home/cobos/Documents/Coppeliasim/CoppeliaSim_Edu_V4_8_0_rev0_Ubuntu22_04/python\n'}
+[2.072407] (sim_ros2_interface) StdoutLine: {'line': b'-- CoppeliaSim: COPPELIASIM_EXECUTABLE: /home/cobos/Documents/Coppeliasim/CoppeliaSim_Edu_V4_8_0_rev0_Ubuntu22_04/coppeliaSim\n'}
+[2.079678] (sim_ros2_interface) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: regex \n'}
+[2.083406] (sim_ros2_interface) StdoutLine: {'line': b'-- Found Git: /usr/bin/git (found version "2.34.1") \n'}
+[2.102628] (-) TimerEvent: {}
+[2.130576] (sim_ros2_interface) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0")  \n'}
+[2.131713] (sim_ros2_interface) StdoutLine: {'line': b'-- Adding simStubsGen command...\n'}
+[2.176634] (sim_ros2_interface) StdoutLine: {'line': b'-- Reading plugin metadata...\n'}
+[2.202747] (-) TimerEvent: {}
+[2.304783] (-) TimerEvent: {}
+[2.405083] (-) TimerEvent: {}
+[2.505336] (-) TimerEvent: {}
+[2.605581] (-) TimerEvent: {}
+[2.705831] (-) TimerEvent: {}
+[2.806084] (-) TimerEvent: {}
+[2.852687] (sim_ros2_interface) StdoutLine: {'line': b'-- Plugin: simROS2\n'}
+[2.906177] (-) TimerEvent: {}
+[2.937827] (sim_ros2_interface) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.958397] (sim_ros2_interface) StdoutLine: {'line': b'-- Generating done\n'}
+[2.960117] (sim_ros2_interface) StdoutLine: {'line': b'-- Build files have been written to: /home/cobos/Documents/Movement/build/sim_ros2_interface\n'}
+[2.970319] (sim_ros2_interface) CommandEnded: {'returncode': 0}
+[2.970814] (sim_ros2_interface) JobProgress: {'identifier': 'sim_ros2_interface', 'progress': 'build'}
+[2.971514] (sim_ros2_interface) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/cobos/Documents/Movement/build/sim_ros2_interface', '--', '-j12', '-l12'], 'cwd': '/home/cobos/Documents/Movement/build/sim_ros2_interface', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US'), ('GTK_CSD', '0'), ('USER', 'cobos'), ('XDG_SEAT', 'seat0'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/cobos'), ('OLDPWD', '/home/cobos'), ('DESKTOP_SESSION', 'i3'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'gail:atk-bridge'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('COLCON_PREFIX_PATH', '/home/cobos/Documents/Movement/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'cobos'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', 'c2'), ('COPPELIASIM_ROOT_DIR', '/home/cobos/Documents/Coppeliasim/CoppeliaSim_Edu_V4_8_0_rev0_Ubuntu22_04'), ('ROS_LOCALHOST_ONLY', '0'), ('GTK2_MODULES', 'overlay-scrollbar'), ('PATH', '/opt/ros/humble/bin:/home/cobos/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('GDM_LANG', 'en_US'), ('GTK3_MODULES', 'xapp-gtk3-module'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LD_PRELOAD', 'libgtk3-nocsd.so.0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'i3'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'i3'), ('XAUTHORITY', '/home/cobos/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/cobos'), ('AMENT_PREFIX_PATH', '/home/cobos/Documents/Movement/install/sim_ros2_interface:/home/cobos/Documents/Movement/install/ros2_bubble_rob:/home/cobos/Documents/Movement/install/drive_robot:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:64415506-0b6f-454a-b5d0-f02378858374'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'i3'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('XDG_VTNR', '7'), ('PWD', '/home/cobos/Documents/Movement/build/sim_ros2_interface'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-i3:/etc/xdg'), ('CLUTTER_IM_MODULE', 'ibus'), ('XDG_DATA_DIRS', '/usr/share/i3:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/cobos/Documents/Movement/build/drive_robot:/home/cobos/Documents/Movement/install/drive_robot/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('I3SOCK', '/run/user/1000/i3/ipc-socket.2164'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/cobos/Documents/Movement/install/sim_ros2_interface:/home/cobos/Documents/Movement/install/ros2_bubble_rob:/home/cobos/Documents/Movement/install/drive_robot:/opt/ros/humble')]), 'shell': False}
+[3.009008] (-) TimerEvent: {}
+[3.012261] (sim_ros2_interface) StdoutLine: {'line': b'[  7%] \x1b[34m\x1b[1mGenerating generated/actcli_sendGoal.cpp\x1b[0m\n'}
+[3.012520] (sim_ros2_interface) StdoutLine: {'line': b'[ 10%] \x1b[34m\x1b[1mGenerating generated/actcli_cancelLastGoal.cpp\x1b[0m\n'}
+[3.012720] (sim_ros2_interface) StdoutLine: {'line': b'[  7%] \x1b[34m\x1b[1mGenerating generated/actcli_new.cpp\x1b[0m\n'}
+[3.012837] (sim_ros2_interface) StdoutLine: {'line': b'[ 10%] \x1b[34m\x1b[1mGenerating generated/actcli_del.cpp\x1b[0m\n'}
+[3.012936] (sim_ros2_interface) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating generated/actsrv_action_is_active.cpp\x1b[0m\n'}
+[3.013986] (sim_ros2_interface) StdoutLine: {'line': b'[ 17%] \x1b[34m\x1b[1mGenerating generated/actsrv_action_abort.cpp\x1b[0m\n'}
+[3.014129] (sim_ros2_interface) StdoutLine: {'line': b'[ 20%] \x1b[34m\x1b[1mGenerating generated/actsrv_action_is_executing.cpp\x1b[0m\n'}
+[3.014222] (sim_ros2_interface) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating generated/actsrv_action_publish_feedback.cpp\x1b[0m\n'}
+[3.014311] (sim_ros2_interface) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating generated/actsrv_action_execute.cpp\x1b[0m\n'}
+[3.014394] (sim_ros2_interface) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating generated/actsrv_action_is_canceling.cpp\x1b[0m\n'}
+[3.021003] (sim_ros2_interface) StdoutLine: {'line': b'[ 27%] \x1b[34m\x1b[1mGenerating generated/actsrv_action_canceled.cpp\x1b[0m\n'}
+[3.021231] (sim_ros2_interface) StdoutLine: {'line': b'[ 30%] \x1b[34m\x1b[1mGenerating generated/actsrv_action_succeed.cpp\x1b[0m\n'}
+[3.109091] (-) TimerEvent: {}
+[3.209532] (-) TimerEvent: {}
+[3.303605] (sim_ros2_interface) StdoutLine: {'line': b'[ 32%] \x1b[34m\x1b[1mGenerating generated/actsrv_new.cpp\x1b[0m\n'}
+[3.303959] (sim_ros2_interface) StdoutLine: {'line': b'[ 35%] \x1b[34m\x1b[1mGenerating generated/actsrv_del.cpp\x1b[0m\n'}
+[3.308717] (sim_ros2_interface) StdoutLine: {'line': b'[ 37%] \x1b[34m\x1b[1mGenerating generated/callbacks.cpp\x1b[0m\n'}
+[3.309616] (-) TimerEvent: {}
+[3.311639] (sim_ros2_interface) StdoutLine: {'line': b'[ 40%] \x1b[34m\x1b[1mGenerating generated/callbacks.h\x1b[0m\n'}
+[3.315815] (sim_ros2_interface) StdoutLine: {'line': b'[ 42%] \x1b[34m\x1b[1mGenerating generated/cli_call.cpp\x1b[0m\n'}
+[3.329412] (sim_ros2_interface) StdoutLine: {'line': b'[ 45%] \x1b[34m\x1b[1mGenerating generated/cli_del.cpp\x1b[0m\n'}
+[3.333720] (sim_ros2_interface) StdoutLine: {'line': b'[ 47%] \x1b[34m\x1b[1mGenerating generated/cli_new.cpp\x1b[0m\n'}
+[3.333940] (sim_ros2_interface) StdoutLine: {'line': b'[ 50%] \x1b[34m\x1b[1mGenerating generated/cli_wait.cpp\x1b[0m\n'}
+[3.337352] (sim_ros2_interface) StdoutLine: {'line': b'[ 52%] \x1b[34m\x1b[1mGenerating generated/if_const.cpp\x1b[0m\n'}
+[3.342997] (sim_ros2_interface) StdoutLine: {'line': b'[ 55%] \x1b[34m\x1b[1mGenerating generated/if_list.cpp\x1b[0m\n'}
+[3.343230] (sim_ros2_interface) StdoutLine: {'line': b'[ 57%] \x1b[34m\x1b[1mGenerating generated/if_new.cpp\x1b[0m\n'}
+[3.346149] (sim_ros2_interface) StdoutLine: {'line': b'[ 60%] \x1b[34m\x1b[1mGenerating generated/pub_del.cpp\x1b[0m\n'}
+[3.409716] (-) TimerEvent: {}
+[3.510036] (-) TimerEvent: {}
+[3.600943] (sim_ros2_interface) StdoutLine: {'line': b'[ 62%] \x1b[34m\x1b[1mGenerating generated/pub_publish.cpp\x1b[0m\n'}
+[3.601702] (sim_ros2_interface) StdoutLine: {'line': b'[ 65%] \x1b[34m\x1b[1mGenerating generated/pub_new.cpp\x1b[0m\n'}
+[3.603155] (sim_ros2_interface) StdoutLine: {'line': b'[ 67%] \x1b[34m\x1b[1mGenerating generated/srv_del.cpp\x1b[0m\n'}
+[3.610142] (-) TimerEvent: {}
+[3.614117] (sim_ros2_interface) StdoutLine: {'line': b'[ 70%] \x1b[34m\x1b[1mGenerating generated/srv_new.cpp\x1b[0m\n'}
+[3.614454] (sim_ros2_interface) StdoutLine: {'line': b'[ 72%] \x1b[34m\x1b[1mGenerating generated/sub_del.cpp\x1b[0m\n'}
+[3.618672] (sim_ros2_interface) StdoutLine: {'line': b'[ 75%] \x1b[34m\x1b[1mGenerating generated/sub_new.cpp\x1b[0m\n'}
+[3.710239] (-) TimerEvent: {}
+[3.810568] (-) TimerEvent: {}
+[3.837943] (sim_ros2_interface) StdoutLine: {'line': b'[ 75%] Built target generate_ros_code\n'}
+[3.845706] (sim_ros2_interface) StdoutLine: {'line': b'[ 77%] \x1b[34m\x1b[1mGenerating generated/stubs.cpp, generated/stubs.h, generated/plugin.h, generated/stubsPlusPlus.cpp, generated/index.json, generated/reference.html, generated/typecheck.lua\x1b[0m\n'}
+[3.872776] (sim_ros2_interface) StdoutLine: {'line': b'/home/cobos/Documents/Coppeliasim/CoppeliaSim_Edu_V4_8_0_rev0_Ubuntu22_04/programming/include/simStubsGen/generate.py --verbose --xml-file /home/cobos/Documents/Movement/src/sim_ros2_interface/meta/callbacks.xml --gen-all /home/cobos/Documents/Movement/build/sim_ros2_interface/generated --lua-file /home/cobos/Documents/Movement/src/sim_ros2_interface/lua/simROS2.lua\n'}
+[3.910677] (-) TimerEvent: {}
+[4.010931] (-) TimerEvent: {}
+[4.111205] (-) TimerEvent: {}
+[4.144238] (sim_ros2_interface) StdoutLine: {'line': b'/usr/bin/python3 /home/cobos/Documents/Coppeliasim/CoppeliaSim_Edu_V4_8_0_rev0_Ubuntu22_04/programming/include/simStubsGen/generate_lua_xml.py /home/cobos/Documents/Movement/src/sim_ros2_interface/meta/callbacks.xml /home/cobos/Documents/Movement/src/sim_ros2_interface/lua/simROS2.lua /home/cobos/Documents/Movement/build/sim_ros2_interface/generated/lua.xml\n'}
+[4.211313] (-) TimerEvent: {}
+[4.311556] (-) TimerEvent: {}
+[4.411811] (-) TimerEvent: {}
+[4.461381] (sim_ros2_interface) StdoutLine: {'line': b'/usr/bin/python3 /home/cobos/Documents/Coppeliasim/CoppeliaSim_Edu_V4_8_0_rev0_Ubuntu22_04/programming/include/simStubsGen/merge_xml.py /home/cobos/Documents/Movement/src/sim_ros2_interface/meta/callbacks.xml /home/cobos/Documents/Movement/build/sim_ros2_interface/generated/lua.xml /home/cobos/Documents/Movement/build/sim_ros2_interface/generated/reference.xml\n'}
+[4.489057] (sim_ros2_interface) StdoutLine: {'line': b'xsltproc -o /home/cobos/Documents/Movement/build/sim_ros2_interface/generated/reference.html /home/cobos/Documents/Coppeliasim/CoppeliaSim_Edu_V4_8_0_rev0_Ubuntu22_04/programming/include/simStubsGen/xsl/reference.xsl /home/cobos/Documents/Movement/build/sim_ros2_interface/generated/reference.xml\n'}
+[4.507955] (sim_ros2_interface) StdoutLine: {'line': b'/usr/bin/python3 /home/cobos/Documents/Coppeliasim/CoppeliaSim_Edu_V4_8_0_rev0_Ubuntu22_04/programming/include/simStubsGen/generate_lua_typechecker.py /home/cobos/Documents/Movement/src/sim_ros2_interface/meta/callbacks.xml /home/cobos/Documents/Movement/src/sim_ros2_interface/lua/simROS2.lua /home/cobos/Documents/Movement/build/sim_ros2_interface/generated/lua.xml /home/cobos/Documents/Movement/build/sim_ros2_interface/generated/typecheck.lua\n'}
+[4.511891] (-) TimerEvent: {}
+[4.612073] (-) TimerEvent: {}
+[4.712310] (-) TimerEvent: {}
+[4.812551] (-) TimerEvent: {}
+[4.848299] (sim_ros2_interface) StdoutLine: {'line': b'/usr/bin/python3 /home/cobos/Documents/Coppeliasim/CoppeliaSim_Edu_V4_8_0_rev0_Ubuntu22_04/programming/include/simStubsGen/generate_api_index.py /home/cobos/Documents/Movement/build/sim_ros2_interface/generated/reference.xml /home/cobos/Documents/Movement/build/sim_ros2_interface/generated/index.json\n'}
+[4.912667] (-) TimerEvent: {}
+[5.012975] (-) TimerEvent: {}
+[5.113235] (-) TimerEvent: {}
+[5.164590] (sim_ros2_interface) StdoutLine: {'line': b'/usr/bin/python3 /home/cobos/Documents/Coppeliasim/CoppeliaSim_Edu_V4_8_0_rev0_Ubuntu22_04/programming/include/simStubsGen/generate_ce.py /home/cobos/Documents/Movement/build/sim_ros2_interface/generated/reference.xml /home/cobos/Documents/Movement/build/sim_ros2_interface/generated/ce.lua\n'}
+[5.213372] (-) TimerEvent: {}
+[5.313606] (-) TimerEvent: {}
+[5.413843] (-) TimerEvent: {}
+[5.479527] (sim_ros2_interface) StdoutLine: {'line': b'/usr/bin/python3 /home/cobos/Documents/Coppeliasim/CoppeliaSim_Edu_V4_8_0_rev0_Ubuntu22_04/programming/include/simStubsGen/external/pycpp/pycpp.py -p xml_file=/home/cobos/Documents/Movement/src/sim_ros2_interface/meta/callbacks.xml -P /home/cobos/Documents/Coppeliasim/CoppeliaSim_Edu_V4_8_0_rev0_Ubuntu22_04/programming/include/simStubsGen -i /home/cobos/Documents/Coppeliasim/CoppeliaSim_Edu_V4_8_0_rev0_Ubuntu22_04/programming/include/simStubsGen/cpp/stubs.cpp -o /home/cobos/Documents/Movement/build/sim_ros2_interface/generated/stubs.cpp\n'}
+[5.513927] (-) TimerEvent: {}
+[5.614162] (-) TimerEvent: {}
+[5.714399] (-) TimerEvent: {}
+[5.807986] (sim_ros2_interface) StdoutLine: {'line': b'/usr/bin/python3 /home/cobos/Documents/Coppeliasim/CoppeliaSim_Edu_V4_8_0_rev0_Ubuntu22_04/programming/include/simStubsGen/external/pycpp/pycpp.py -p xml_file=/home/cobos/Documents/Movement/src/sim_ros2_interface/meta/callbacks.xml -P /home/cobos/Documents/Coppeliasim/CoppeliaSim_Edu_V4_8_0_rev0_Ubuntu22_04/programming/include/simStubsGen -i /home/cobos/Documents/Coppeliasim/CoppeliaSim_Edu_V4_8_0_rev0_Ubuntu22_04/programming/include/simStubsGen/cpp/stubs.h -o /home/cobos/Documents/Movement/build/sim_ros2_interface/generated/stubs.h\n'}
+[5.814526] (-) TimerEvent: {}
+[5.914780] (-) TimerEvent: {}
+[6.014987] (-) TimerEvent: {}
+[6.115213] (-) TimerEvent: {}
+[6.137400] (sim_ros2_interface) StdoutLine: {'line': b'/usr/bin/python3 /home/cobos/Documents/Coppeliasim/CoppeliaSim_Edu_V4_8_0_rev0_Ubuntu22_04/programming/include/simStubsGen/external/pycpp/pycpp.py -p xml_file=/home/cobos/Documents/Movement/src/sim_ros2_interface/meta/callbacks.xml -P /home/cobos/Documents/Coppeliasim/CoppeliaSim_Edu_V4_8_0_rev0_Ubuntu22_04/programming/include/simStubsGen -i /home/cobos/Documents/Coppeliasim/CoppeliaSim_Edu_V4_8_0_rev0_Ubuntu22_04/programming/include/simStubsGen/cpp/plugin.h -o /home/cobos/Documents/Movement/build/sim_ros2_interface/generated/plugin.h\n'}
+[6.215326] (-) TimerEvent: {}
+[6.315563] (-) TimerEvent: {}
+[6.415848] (-) TimerEvent: {}
+[6.472520] (sim_ros2_interface) StdoutLine: {'line': b'/usr/bin/python3 /home/cobos/Documents/Coppeliasim/CoppeliaSim_Edu_V4_8_0_rev0_Ubuntu22_04/programming/include/simStubsGen/external/pycpp/pycpp.py -p xml_file=/home/cobos/Documents/Movement/src/sim_ros2_interface/meta/callbacks.xml -P /home/cobos/Documents/Coppeliasim/CoppeliaSim_Edu_V4_8_0_rev0_Ubuntu22_04/programming/include/simStubsGen -i /home/cobos/Documents/Coppeliasim/CoppeliaSim_Edu_V4_8_0_rev0_Ubuntu22_04/programming/include/simStubsGen/cpp/stubsPlusPlus.cpp -o /home/cobos/Documents/Movement/build/sim_ros2_interface/generated/stubsPlusPlus.cpp\n'}
+[6.515928] (-) TimerEvent: {}
+[6.616181] (-) TimerEvent: {}
+[6.716421] (-) TimerEvent: {}
+[6.816693] (-) TimerEvent: {}
+[6.830268] (sim_ros2_interface) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding CXX object CMakeFiles/simROS2.dir/generated/callbacks.cpp.o\x1b[0m\n'}
+[6.830557] (sim_ros2_interface) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding CXX object CMakeFiles/simROS2.dir/src/ros_msg_builtin_io.cpp.o\x1b[0m\n'}
+[6.830662] (sim_ros2_interface) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding CXX object CMakeFiles/simROS2.dir/home/cobos/Documents/Coppeliasim/CoppeliaSim_Edu_V4_8_0_rev0_Ubuntu22_04/programming/include/simPlusPlus/Plugin.cpp.o\x1b[0m\n'}
+[6.830747] (sim_ros2_interface) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding CXX object CMakeFiles/simROS2.dir/generated/stubs.cpp.o\x1b[0m\n'}
+[6.831231] (sim_ros2_interface) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding CXX object CMakeFiles/simROS2.dir/home/cobos/Documents/Coppeliasim/CoppeliaSim_Edu_V4_8_0_rev0_Ubuntu22_04/programming/include/simLib/simLib.cpp.o\x1b[0m\n'}
+[6.831883] (sim_ros2_interface) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding CXX object CMakeFiles/simROS2.dir/home/cobos/Documents/Coppeliasim/CoppeliaSim_Edu_V4_8_0_rev0_Ubuntu22_04/programming/include/simPlusPlus/Lib.cpp.o\x1b[0m\n'}
+[6.832091] (sim_ros2_interface) StdoutLine: {'line': b'[ 95%] \x1b[32mBuilding CXX object CMakeFiles/simROS2.dir/src/sim_ros2_interface.cpp.o\x1b[0m\n'}
+[6.916803] (-) TimerEvent: {}
+[7.017122] (-) TimerEvent: {}
+[7.117410] (-) TimerEvent: {}
+[7.217696] (-) TimerEvent: {}
+[7.318002] (-) TimerEvent: {}
+[7.418307] (-) TimerEvent: {}
+[7.518607] (-) TimerEvent: {}
+[7.618939] (-) TimerEvent: {}
+[7.719279] (-) TimerEvent: {}
+[7.819612] (-) TimerEvent: {}
+[7.919958] (-) TimerEvent: {}
+[8.020296] (-) TimerEvent: {}
+[8.120623] (-) TimerEvent: {}
+[8.220969] (-) TimerEvent: {}
+[8.321321] (-) TimerEvent: {}
+[8.421663] (-) TimerEvent: {}
+[8.521984] (-) TimerEvent: {}
+[8.622293] (-) TimerEvent: {}
+[8.722605] (-) TimerEvent: {}
+[8.822939] (-) TimerEvent: {}
+[8.923268] (-) TimerEvent: {}
+[9.023579] (-) TimerEvent: {}
+[9.123893] (-) TimerEvent: {}
+[9.224190] (-) TimerEvent: {}
+[9.324515] (-) TimerEvent: {}
+[9.424824] (-) TimerEvent: {}
+[9.525145] (-) TimerEvent: {}
+[9.625458] (-) TimerEvent: {}
+[9.725797] (-) TimerEvent: {}
+[9.826107] (-) TimerEvent: {}
+[9.926443] (-) TimerEvent: {}
+[10.026707] (-) TimerEvent: {}
+[10.126944] (-) TimerEvent: {}
+[10.227174] (-) TimerEvent: {}
+[10.327461] (-) TimerEvent: {}
+[10.427724] (-) TimerEvent: {}
+[10.527959] (-) TimerEvent: {}
+[10.628183] (-) TimerEvent: {}
+[10.728424] (-) TimerEvent: {}
+[10.828747] (-) TimerEvent: {}
+[10.929062] (-) TimerEvent: {}
+[11.029328] (-) TimerEvent: {}
+[11.129590] (-) TimerEvent: {}
+[11.229882] (-) TimerEvent: {}
+[11.330121] (-) TimerEvent: {}
+[11.430402] (-) TimerEvent: {}
+[11.530678] (-) TimerEvent: {}
+[11.630996] (-) TimerEvent: {}
+[11.731270] (-) TimerEvent: {}
+[11.831523] (-) TimerEvent: {}
+[11.931827] (-) TimerEvent: {}
+[12.032125] (-) TimerEvent: {}
+[12.132495] (-) TimerEvent: {}
+[12.232871] (-) TimerEvent: {}
+[12.242938] (ros2_bubble_rob) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable ros2BubbleRob\x1b[0m\n'}
+[12.332984] (-) TimerEvent: {}
+[12.433300] (-) TimerEvent: {}
+[12.533712] (-) TimerEvent: {}
+[12.634016] (-) TimerEvent: {}
+[12.667890] (ros2_bubble_rob) StdoutLine: {'line': b'[100%] Built target ros2BubbleRob\n'}
+[12.676440] (ros2_bubble_rob) CommandEnded: {'returncode': 0}
+[12.694692] (ros2_bubble_rob) JobProgress: {'identifier': 'ros2_bubble_rob', 'progress': 'install'}
+[12.701438] (ros2_bubble_rob) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/cobos/Documents/Movement/build/ros2_bubble_rob'], 'cwd': '/home/cobos/Documents/Movement/build/ros2_bubble_rob', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US'), ('GTK_CSD', '0'), ('USER', 'cobos'), ('XDG_SEAT', 'seat0'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/cobos'), ('OLDPWD', '/home/cobos'), ('DESKTOP_SESSION', 'i3'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'gail:atk-bridge'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('COLCON_PREFIX_PATH', '/home/cobos/Documents/Movement/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'cobos'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', 'c2'), ('COPPELIASIM_ROOT_DIR', '/home/cobos/Documents/Coppeliasim/CoppeliaSim_Edu_V4_8_0_rev0_Ubuntu22_04'), ('ROS_LOCALHOST_ONLY', '0'), ('GTK2_MODULES', 'overlay-scrollbar'), ('PATH', '/opt/ros/humble/bin:/home/cobos/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('GDM_LANG', 'en_US'), ('GTK3_MODULES', 'xapp-gtk3-module'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LD_PRELOAD', 'libgtk3-nocsd.so.0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'i3'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'i3'), ('XAUTHORITY', '/home/cobos/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/cobos'), ('AMENT_PREFIX_PATH', '/home/cobos/Documents/Movement/install/sim_ros2_interface:/home/cobos/Documents/Movement/install/ros2_bubble_rob:/home/cobos/Documents/Movement/install/drive_robot:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:64415506-0b6f-454a-b5d0-f02378858374'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'i3'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('XDG_VTNR', '7'), ('PWD', '/home/cobos/Documents/Movement/build/ros2_bubble_rob'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-i3:/etc/xdg'), ('CLUTTER_IM_MODULE', 'ibus'), ('XDG_DATA_DIRS', '/usr/share/i3:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/cobos/Documents/Movement/build/drive_robot:/home/cobos/Documents/Movement/install/drive_robot/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('I3SOCK', '/run/user/1000/i3/ipc-socket.2164'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/cobos/Documents/Movement/install/sim_ros2_interface:/home/cobos/Documents/Movement/install/ros2_bubble_rob:/home/cobos/Documents/Movement/install/drive_robot:/opt/ros/humble')]), 'shell': False}
+[12.706920] (ros2_bubble_rob) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[12.707262] (ros2_bubble_rob) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[12.707511] (ros2_bubble_rob) StdoutLine: {'line': b'-- Symlinking: /home/cobos/Documents/Movement/install/ros2_bubble_rob/share/ament_index/resource_index/package_run_dependencies/ros2_bubble_rob\n'}
+[12.714651] (ros2_bubble_rob) StdoutLine: {'line': b'-- Symlinking: /home/cobos/Documents/Movement/install/ros2_bubble_rob/share/ament_index/resource_index/parent_prefix_path/ros2_bubble_rob\n'}
+[12.721020] (ros2_bubble_rob) StdoutLine: {'line': b'-- Symlinking: /home/cobos/Documents/Movement/install/ros2_bubble_rob/share/ros2_bubble_rob/environment/ament_prefix_path.sh\n'}
+[12.727026] (ros2_bubble_rob) StdoutLine: {'line': b'-- Symlinking: /home/cobos/Documents/Movement/install/ros2_bubble_rob/share/ros2_bubble_rob/environment/ament_prefix_path.dsv\n'}
+[12.733054] (ros2_bubble_rob) StdoutLine: {'line': b'-- Symlinking: /home/cobos/Documents/Movement/install/ros2_bubble_rob/share/ros2_bubble_rob/environment/path.sh\n'}
+[12.734077] (-) TimerEvent: {}
+[12.738933] (ros2_bubble_rob) StdoutLine: {'line': b'-- Symlinking: /home/cobos/Documents/Movement/install/ros2_bubble_rob/share/ros2_bubble_rob/environment/path.dsv\n'}
+[12.744949] (ros2_bubble_rob) StdoutLine: {'line': b'-- Symlinking: /home/cobos/Documents/Movement/install/ros2_bubble_rob/share/ros2_bubble_rob/local_setup.bash\n'}
+[12.750939] (ros2_bubble_rob) StdoutLine: {'line': b'-- Symlinking: /home/cobos/Documents/Movement/install/ros2_bubble_rob/share/ros2_bubble_rob/local_setup.sh\n'}
+[12.757026] (ros2_bubble_rob) StdoutLine: {'line': b'-- Symlinking: /home/cobos/Documents/Movement/install/ros2_bubble_rob/share/ros2_bubble_rob/local_setup.zsh\n'}
+[12.763350] (ros2_bubble_rob) StdoutLine: {'line': b'-- Symlinking: /home/cobos/Documents/Movement/install/ros2_bubble_rob/share/ros2_bubble_rob/local_setup.dsv\n'}
+[12.769445] (ros2_bubble_rob) StdoutLine: {'line': b'-- Symlinking: /home/cobos/Documents/Movement/install/ros2_bubble_rob/share/ros2_bubble_rob/package.dsv\n'}
+[12.775413] (ros2_bubble_rob) StdoutLine: {'line': b'-- Symlinking: /home/cobos/Documents/Movement/install/ros2_bubble_rob/share/ament_index/resource_index/packages/ros2_bubble_rob\n'}
+[12.781435] (ros2_bubble_rob) StdoutLine: {'line': b'-- Symlinking: /home/cobos/Documents/Movement/install/ros2_bubble_rob/share/ros2_bubble_rob/cmake/ros2_bubble_robConfig.cmake\n'}
+[12.787505] (ros2_bubble_rob) StdoutLine: {'line': b'-- Symlinking: /home/cobos/Documents/Movement/install/ros2_bubble_rob/share/ros2_bubble_rob/cmake/ros2_bubble_robConfig-version.cmake\n'}
+[12.793381] (ros2_bubble_rob) StdoutLine: {'line': b'-- Symlinking: /home/cobos/Documents/Movement/install/ros2_bubble_rob/share/ros2_bubble_rob/package.xml\n'}
+[12.799369] (ros2_bubble_rob) StdoutLine: {'line': b'-- Installing: /home/cobos/Documents/Movement/install/ros2_bubble_rob/lib/ros2_bubble_rob/ros2BubbleRob\n'}
+[12.802240] (ros2_bubble_rob) StdoutLine: {'line': b'-- Set runtime path of "/home/cobos/Documents/Movement/install/ros2_bubble_rob/lib/ros2_bubble_rob/ros2BubbleRob" to ""\n'}
+[12.803569] (ros2_bubble_rob) CommandEnded: {'returncode': 0}
+[12.830596] (ros2_bubble_rob) JobEnded: {'identifier': 'ros2_bubble_rob', 'rc': 0}
+[12.834168] (-) TimerEvent: {}
+[12.934403] (-) TimerEvent: {}
+[13.034672] (-) TimerEvent: {}
+[13.134942] (-) TimerEvent: {}
+[13.235227] (-) TimerEvent: {}
+[13.335507] (-) TimerEvent: {}
+[13.435797] (-) TimerEvent: {}
+[13.536069] (-) TimerEvent: {}
+[13.636358] (-) TimerEvent: {}
+[13.736646] (-) TimerEvent: {}
+[13.836930] (-) TimerEvent: {}
+[13.937210] (-) TimerEvent: {}
+[14.037505] (-) TimerEvent: {}
+[14.137782] (-) TimerEvent: {}
+[14.238058] (-) TimerEvent: {}
+[14.338355] (-) TimerEvent: {}
+[14.438638] (-) TimerEvent: {}
+[14.538914] (-) TimerEvent: {}
+[14.639202] (-) TimerEvent: {}
+[14.739491] (-) TimerEvent: {}
+[14.839772] (-) TimerEvent: {}
+[14.940061] (-) TimerEvent: {}
+[15.040333] (-) TimerEvent: {}
+[15.140602] (-) TimerEvent: {}
+[15.240877] (-) TimerEvent: {}
+[15.341140] (-) TimerEvent: {}
+[15.441398] (-) TimerEvent: {}
+[15.541674] (-) TimerEvent: {}
+[15.641957] (-) TimerEvent: {}
+[15.742246] (-) TimerEvent: {}
+[15.842520] (-) TimerEvent: {}
+[15.942814] (-) TimerEvent: {}
+[16.043079] (-) TimerEvent: {}
+[16.143369] (-) TimerEvent: {}
+[16.243649] (-) TimerEvent: {}
+[16.343929] (-) TimerEvent: {}
+[16.444219] (-) TimerEvent: {}
+[16.544512] (-) TimerEvent: {}
+[16.644791] (-) TimerEvent: {}
+[16.745073] (-) TimerEvent: {}
+[16.845345] (-) TimerEvent: {}
+[16.945633] (-) TimerEvent: {}
+[17.045937] (-) TimerEvent: {}
+[17.146228] (-) TimerEvent: {}
+[17.246500] (-) TimerEvent: {}
+[17.346786] (-) TimerEvent: {}
+[17.447045] (-) TimerEvent: {}
+[17.547306] (-) TimerEvent: {}
+[17.647565] (-) TimerEvent: {}
+[17.747843] (-) TimerEvent: {}
+[17.848103] (-) TimerEvent: {}
+[17.948381] (-) TimerEvent: {}
+[18.048640] (-) TimerEvent: {}
+[18.148931] (-) TimerEvent: {}
+[18.249214] (-) TimerEvent: {}
+[18.349503] (-) TimerEvent: {}
+[18.449778] (-) TimerEvent: {}
+[18.550060] (-) TimerEvent: {}
+[18.650329] (-) TimerEvent: {}
+[18.750620] (-) TimerEvent: {}
+[18.850906] (-) TimerEvent: {}
+[18.951177] (-) TimerEvent: {}
+[19.051460] (-) TimerEvent: {}
+[19.151749] (-) TimerEvent: {}
+[19.252049] (-) TimerEvent: {}
+[19.352369] (-) TimerEvent: {}
+[19.452616] (-) TimerEvent: {}
+[19.552862] (-) TimerEvent: {}
+[19.653075] (-) TimerEvent: {}
+[19.753339] (-) TimerEvent: {}
+[19.853584] (-) TimerEvent: {}
+[19.953840] (-) TimerEvent: {}
+[20.054055] (-) TimerEvent: {}
+[20.154274] (-) TimerEvent: {}
+[20.254521] (-) TimerEvent: {}
+[20.354779] (-) TimerEvent: {}
+[20.455030] (-) TimerEvent: {}
+[20.555275] (-) TimerEvent: {}
+[20.655535] (-) TimerEvent: {}
+[20.755790] (-) TimerEvent: {}
+[20.856055] (-) TimerEvent: {}
+[20.956282] (-) TimerEvent: {}
+[21.057351] (-) TimerEvent: {}
+[21.157600] (-) TimerEvent: {}
+[21.257848] (-) TimerEvent: {}
+[21.358109] (-) TimerEvent: {}
+[21.458355] (-) TimerEvent: {}
+[21.558620] (-) TimerEvent: {}
+[21.658867] (-) TimerEvent: {}
+[21.759112] (-) TimerEvent: {}
+[21.859399] (-) TimerEvent: {}
+[21.959646] (-) TimerEvent: {}
+[22.060750] (-) TimerEvent: {}
+[22.160972] (-) TimerEvent: {}
+[22.261243] (-) TimerEvent: {}
+[22.361494] (-) TimerEvent: {}
+[22.461740] (-) TimerEvent: {}
+[22.561997] (-) TimerEvent: {}
+[22.662255] (-) TimerEvent: {}
+[22.762509] (-) TimerEvent: {}
+[22.862808] (-) TimerEvent: {}
+[22.963095] (-) TimerEvent: {}
+[23.063345] (-) TimerEvent: {}
+[23.163596] (-) TimerEvent: {}
+[23.263815] (-) TimerEvent: {}
+[23.364084] (-) TimerEvent: {}
+[23.464365] (-) TimerEvent: {}
+[23.564620] (-) TimerEvent: {}
+[23.664877] (-) TimerEvent: {}
+[23.765154] (-) TimerEvent: {}
+[23.865409] (-) TimerEvent: {}
+[23.965683] (-) TimerEvent: {}
+[24.065962] (-) TimerEvent: {}
+[24.166196] (-) TimerEvent: {}
+[24.266412] (-) TimerEvent: {}
+[24.366660] (-) TimerEvent: {}
+[24.467015] (-) TimerEvent: {}
+[24.567287] (-) TimerEvent: {}
+[24.667541] (-) TimerEvent: {}
+[24.767811] (-) TimerEvent: {}
+[24.868084] (-) TimerEvent: {}
+[24.968344] (-) TimerEvent: {}
+[25.068618] (-) TimerEvent: {}
+[25.168872] (-) TimerEvent: {}
+[25.269143] (-) TimerEvent: {}
+[25.369399] (-) TimerEvent: {}
+[25.469663] (-) TimerEvent: {}
+[25.569940] (-) TimerEvent: {}
+[25.670163] (-) TimerEvent: {}
+[25.770386] (-) TimerEvent: {}
+[25.870644] (-) TimerEvent: {}
+[25.970917] (-) TimerEvent: {}
+[26.071194] (-) TimerEvent: {}
+[26.171449] (-) TimerEvent: {}
+[26.271724] (-) TimerEvent: {}
+[26.372002] (-) TimerEvent: {}
+[26.472273] (-) TimerEvent: {}
+[26.572532] (-) TimerEvent: {}
+[26.672795] (-) TimerEvent: {}
+[26.773049] (-) TimerEvent: {}
+[26.873322] (-) TimerEvent: {}
+[26.973577] (-) TimerEvent: {}
+[27.073834] (-) TimerEvent: {}
+[27.174056] (-) TimerEvent: {}
+[27.274276] (-) TimerEvent: {}
+[27.374529] (-) TimerEvent: {}
+[27.474793] (-) TimerEvent: {}
+[27.575051] (-) TimerEvent: {}
+[27.675307] (-) TimerEvent: {}
+[27.776713] (-) TimerEvent: {}
+[27.877090] (-) TimerEvent: {}
+[27.977325] (-) TimerEvent: {}
+[28.077585] (-) TimerEvent: {}
+[28.177853] (-) TimerEvent: {}
+[28.278111] (-) TimerEvent: {}
+[28.378366] (-) TimerEvent: {}
+[28.478636] (-) TimerEvent: {}
+[28.578899] (-) TimerEvent: {}
+[28.679154] (-) TimerEvent: {}
+[28.779403] (-) TimerEvent: {}
+[28.879619] (-) TimerEvent: {}
+[28.979832] (-) TimerEvent: {}
+[29.080063] (-) TimerEvent: {}
+[29.180279] (-) TimerEvent: {}
+[29.280530] (-) TimerEvent: {}
+[29.380784] (-) TimerEvent: {}
+[29.480996] (-) TimerEvent: {}
+[29.581207] (-) TimerEvent: {}
+[29.681456] (-) TimerEvent: {}
+[29.781701] (-) TimerEvent: {}
+[29.881924] (-) TimerEvent: {}
+[29.982142] (-) TimerEvent: {}
+[30.082380] (-) TimerEvent: {}
+[30.182627] (-) TimerEvent: {}
+[30.282855] (-) TimerEvent: {}
+[30.383074] (-) TimerEvent: {}
+[30.483327] (-) TimerEvent: {}
+[30.583596] (-) TimerEvent: {}
+[30.683849] (-) TimerEvent: {}
+[30.784099] (-) TimerEvent: {}
+[30.884358] (-) TimerEvent: {}
+[30.984621] (-) TimerEvent: {}
+[31.084873] (-) TimerEvent: {}
+[31.185127] (-) TimerEvent: {}
+[31.285377] (-) TimerEvent: {}
+[31.385631] (-) TimerEvent: {}
+[31.485850] (-) TimerEvent: {}
+[31.586117] (-) TimerEvent: {}
+[31.686364] (-) TimerEvent: {}
+[31.786612] (-) TimerEvent: {}
+[31.886860] (-) TimerEvent: {}
+[31.987113] (-) TimerEvent: {}
+[32.087335] (-) TimerEvent: {}
+[32.187594] (-) TimerEvent: {}
+[32.287850] (-) TimerEvent: {}
+[32.388101] (-) TimerEvent: {}
+[32.488344] (-) TimerEvent: {}
+[32.588633] (-) TimerEvent: {}
+[32.688852] (-) TimerEvent: {}
+[32.789106] (-) TimerEvent: {}
+[32.889362] (-) TimerEvent: {}
+[32.989618] (-) TimerEvent: {}
+[33.089866] (-) TimerEvent: {}
+[33.190146] (-) TimerEvent: {}
+[33.290403] (-) TimerEvent: {}
+[33.390662] (-) TimerEvent: {}
+[33.490921] (-) TimerEvent: {}
+[33.591201] (-) TimerEvent: {}
+[33.691464] (-) TimerEvent: {}
+[33.791717] (-) TimerEvent: {}
+[33.892022] (-) TimerEvent: {}
+[33.992276] (-) TimerEvent: {}
+[34.092533] (-) TimerEvent: {}
+[34.192787] (-) TimerEvent: {}
+[34.293071] (-) TimerEvent: {}
+[34.393343] (-) TimerEvent: {}
+[34.493619] (-) TimerEvent: {}
+[34.593884] (-) TimerEvent: {}
+[34.694145] (-) TimerEvent: {}
+[34.794395] (-) TimerEvent: {}
+[34.894665] (-) TimerEvent: {}
+[34.994947] (-) TimerEvent: {}
+[35.095208] (-) TimerEvent: {}
+[35.195461] (-) TimerEvent: {}
+[35.295709] (-) TimerEvent: {}
+[35.395966] (-) TimerEvent: {}
+[35.496218] (-) TimerEvent: {}
+[35.596444] (-) TimerEvent: {}
+[35.696691] (-) TimerEvent: {}
+[35.796948] (-) TimerEvent: {}
+[35.897196] (-) TimerEvent: {}
+[35.997459] (-) TimerEvent: {}
+[36.097701] (-) TimerEvent: {}
+[36.198001] (-) TimerEvent: {}
+[36.298259] (-) TimerEvent: {}
+[36.398517] (-) TimerEvent: {}
+[36.498771] (-) TimerEvent: {}
+[36.598986] (-) TimerEvent: {}
+[36.699254] (-) TimerEvent: {}
+[36.799514] (-) TimerEvent: {}
+[36.899789] (-) TimerEvent: {}
+[37.000043] (-) TimerEvent: {}
+[37.100297] (-) TimerEvent: {}
+[37.200569] (-) TimerEvent: {}
+[37.300837] (-) TimerEvent: {}
+[37.401068] (-) TimerEvent: {}
+[37.501318] (-) TimerEvent: {}
+[37.601551] (-) TimerEvent: {}
+[37.701831] (-) TimerEvent: {}
+[37.802083] (-) TimerEvent: {}
+[37.902329] (-) TimerEvent: {}
+[38.002669] (-) TimerEvent: {}
+[38.102906] (-) TimerEvent: {}
+[38.203127] (-) TimerEvent: {}
+[38.303382] (-) TimerEvent: {}
+[38.403645] (-) TimerEvent: {}
+[38.503887] (-) TimerEvent: {}
+[38.604104] (-) TimerEvent: {}
+[38.704330] (-) TimerEvent: {}
+[38.804617] (-) TimerEvent: {}
+[38.904873] (-) TimerEvent: {}
+[39.005125] (-) TimerEvent: {}
+[39.105364] (-) TimerEvent: {}
+[39.205616] (-) TimerEvent: {}
+[39.305864] (-) TimerEvent: {}
+[39.406136] (-) TimerEvent: {}
+[39.506469] (-) TimerEvent: {}
+[39.606749] (-) TimerEvent: {}
+[39.707012] (-) TimerEvent: {}
+[39.807233] (-) TimerEvent: {}
+[39.907509] (-) TimerEvent: {}
+[40.007783] (-) TimerEvent: {}
+[40.108005] (-) TimerEvent: {}
+[40.208245] (-) TimerEvent: {}
+[40.308497] (-) TimerEvent: {}
+[40.408749] (-) TimerEvent: {}
+[40.509036] (-) TimerEvent: {}
+[40.609279] (-) TimerEvent: {}
+[40.709580] (-) TimerEvent: {}
+[40.810835] (-) TimerEvent: {}
+[40.911204] (-) TimerEvent: {}
+[41.011439] (-) TimerEvent: {}
+[41.111710] (-) TimerEvent: {}
+[41.211952] (-) TimerEvent: {}
+[41.312227] (-) TimerEvent: {}
+[41.412481] (-) TimerEvent: {}
+[41.512743] (-) TimerEvent: {}
+[41.612996] (-) TimerEvent: {}
+[41.713213] (-) TimerEvent: {}
+[41.813432] (-) TimerEvent: {}
+[41.913649] (-) TimerEvent: {}
+[42.013913] (-) TimerEvent: {}
+[42.114133] (-) TimerEvent: {}
+[42.214365] (-) TimerEvent: {}
+[42.314593] (-) TimerEvent: {}
+[42.414856] (-) TimerEvent: {}
+[42.515076] (-) TimerEvent: {}
+[42.615334] (-) TimerEvent: {}
+[42.715631] (-) TimerEvent: {}
+[42.815974] (-) TimerEvent: {}
+[42.916218] (-) TimerEvent: {}
+[43.016477] (-) TimerEvent: {}
+[43.116780] (-) TimerEvent: {}
+[43.217063] (-) TimerEvent: {}
+[43.317387] (-) TimerEvent: {}
+[43.417648] (-) TimerEvent: {}
+[43.517894] (-) TimerEvent: {}
+[43.618183] (-) TimerEvent: {}
+[43.718445] (-) TimerEvent: {}
+[43.818724] (-) TimerEvent: {}
+[43.918989] (-) TimerEvent: {}
+[44.019254] (-) TimerEvent: {}
+[44.119534] (-) TimerEvent: {}
+[44.219829] (-) TimerEvent: {}
+[44.320093] (-) TimerEvent: {}
+[44.420333] (-) TimerEvent: {}
+[44.520564] (-) TimerEvent: {}
+[44.620797] (-) TimerEvent: {}
+[44.721053] (-) TimerEvent: {}
+[44.821289] (-) TimerEvent: {}
+[44.921593] (-) TimerEvent: {}
+[45.021880] (-) TimerEvent: {}
+[45.122122] (-) TimerEvent: {}
+[45.222395] (-) TimerEvent: {}
+[45.323099] (-) TimerEvent: {}
+[45.423765] (-) TimerEvent: {}
+[45.524106] (-) TimerEvent: {}
+[45.624393] (-) TimerEvent: {}
+[45.724807] (-) TimerEvent: {}
+[45.825037] (-) TimerEvent: {}
+[45.925272] (-) TimerEvent: {}
+[46.025878] (-) TimerEvent: {}
+[46.126374] (-) TimerEvent: {}
+[46.226644] (-) TimerEvent: {}
+[46.326885] (-) TimerEvent: {}
+[46.427122] (-) TimerEvent: {}
+[46.527334] (-) TimerEvent: {}
+[46.627569] (-) TimerEvent: {}
+[46.727858] (-) TimerEvent: {}
+[46.828121] (-) TimerEvent: {}
+[46.928365] (-) TimerEvent: {}
+[47.028629] (-) TimerEvent: {}
+[47.128847] (-) TimerEvent: {}
+[47.229063] (-) TimerEvent: {}
+[47.329280] (-) TimerEvent: {}
+[47.429495] (-) TimerEvent: {}
+[47.529715] (-) TimerEvent: {}
+[47.629935] (-) TimerEvent: {}
+[47.730178] (-) TimerEvent: {}
+[47.830427] (-) TimerEvent: {}
+[47.930711] (-) TimerEvent: {}
+[48.031091] (-) TimerEvent: {}
+[48.131367] (-) TimerEvent: {}
+[48.231773] (-) TimerEvent: {}
+[48.332138] (-) TimerEvent: {}
+[48.432475] (-) TimerEvent: {}
+[48.532814] (-) TimerEvent: {}
+[48.633062] (-) TimerEvent: {}
+[48.733298] (-) TimerEvent: {}
+[48.833579] (-) TimerEvent: {}
+[48.933856] (-) TimerEvent: {}
+[49.034116] (-) TimerEvent: {}
+[49.134370] (-) TimerEvent: {}
+[49.234642] (-) TimerEvent: {}
+[49.334932] (-) TimerEvent: {}
+[49.435162] (-) TimerEvent: {}
+[49.535399] (-) TimerEvent: {}
+[49.635612] (-) TimerEvent: {}
+[49.735854] (-) TimerEvent: {}
+[49.836148] (-) TimerEvent: {}
+[49.936430] (-) TimerEvent: {}
+[50.036713] (-) TimerEvent: {}
+[50.137011] (-) TimerEvent: {}
+[50.237289] (-) TimerEvent: {}
+[50.337574] (-) TimerEvent: {}
+[50.437901] (-) TimerEvent: {}
+[50.538191] (-) TimerEvent: {}
+[50.638627] (-) TimerEvent: {}
+[50.739695] (-) TimerEvent: {}
+[50.840278] (-) TimerEvent: {}
+[50.940575] (-) TimerEvent: {}
+[51.040830] (-) TimerEvent: {}
+[51.141068] (-) TimerEvent: {}
+[51.241292] (-) TimerEvent: {}
+[51.341514] (-) TimerEvent: {}
+[51.441825] (-) TimerEvent: {}
+[51.542069] (-) TimerEvent: {}
+[51.642314] (-) TimerEvent: {}
+[51.742574] (-) TimerEvent: {}
+[51.842889] (-) TimerEvent: {}
+[51.943123] (-) TimerEvent: {}
+[52.043381] (-) TimerEvent: {}
+[52.143655] (-) TimerEvent: {}
+[52.243846] (-) TimerEvent: {}
+[52.344148] (-) TimerEvent: {}
+[52.444624] (-) TimerEvent: {}
+[52.544885] (-) TimerEvent: {}
+[52.645109] (-) TimerEvent: {}
+[52.745361] (-) TimerEvent: {}
+[52.845615] (-) TimerEvent: {}
+[52.945901] (-) TimerEvent: {}
+[53.046208] (-) TimerEvent: {}
+[53.146456] (-) TimerEvent: {}
+[53.246731] (-) TimerEvent: {}
+[53.346998] (-) TimerEvent: {}
+[53.447395] (-) TimerEvent: {}
+[53.547724] (-) TimerEvent: {}
+[53.648022] (-) TimerEvent: {}
+[53.748319] (-) TimerEvent: {}
+[53.848608] (-) TimerEvent: {}
+[53.948847] (-) TimerEvent: {}
+[54.049121] (-) TimerEvent: {}
+[54.149427] (-) TimerEvent: {}
+[54.249732] (-) TimerEvent: {}
+[54.349964] (-) TimerEvent: {}
+[54.450200] (-) TimerEvent: {}
+[54.550422] (-) TimerEvent: {}
+[54.650706] (-) TimerEvent: {}
+[54.751033] (-) TimerEvent: {}
+[54.851347] (-) TimerEvent: {}
+[54.951661] (-) TimerEvent: {}
+[55.051977] (-) TimerEvent: {}
+[55.152282] (-) TimerEvent: {}
+[55.252546] (-) TimerEvent: {}
+[55.352831] (-) TimerEvent: {}
+[55.453265] (-) TimerEvent: {}
+[55.553973] (-) TimerEvent: {}
+[55.654376] (-) TimerEvent: {}
+[55.754701] (-) TimerEvent: {}
+[55.855151] (-) TimerEvent: {}
+[55.955406] (-) TimerEvent: {}
+[56.058830] (-) TimerEvent: {}
+[56.159363] (-) TimerEvent: {}
+[56.259638] (-) TimerEvent: {}
+[56.359950] (-) TimerEvent: {}
+[56.460237] (-) TimerEvent: {}
+[56.560468] (-) TimerEvent: {}
+[56.660769] (-) TimerEvent: {}
+[56.761030] (-) TimerEvent: {}
+[56.861281] (-) TimerEvent: {}
+[56.961565] (-) TimerEvent: {}
+[57.061874] (-) TimerEvent: {}
+[57.162134] (-) TimerEvent: {}
+[57.262417] (-) TimerEvent: {}
+[57.362773] (-) TimerEvent: {}
+[57.463083] (-) TimerEvent: {}
+[57.563378] (-) TimerEvent: {}
+[57.663624] (-) TimerEvent: {}
+[57.763867] (-) TimerEvent: {}
+[57.864088] (-) TimerEvent: {}
+[57.964447] (-) TimerEvent: {}
+[58.065010] (-) TimerEvent: {}
+[58.165311] (-) TimerEvent: {}
+[58.265600] (-) TimerEvent: {}
+[58.365884] (-) TimerEvent: {}
+[58.466102] (-) TimerEvent: {}
+[58.566348] (-) TimerEvent: {}
+[58.666578] (-) TimerEvent: {}
+[58.766825] (-) TimerEvent: {}
+[58.867095] (-) TimerEvent: {}
+[58.967344] (-) TimerEvent: {}
+[59.067594] (-) TimerEvent: {}
+[59.167880] (-) TimerEvent: {}
+[59.268155] (-) TimerEvent: {}
+[59.368447] (-) TimerEvent: {}
+[59.469208] (-) TimerEvent: {}
+[59.569818] (-) TimerEvent: {}
+[59.670436] (-) TimerEvent: {}
+[59.770964] (-) TimerEvent: {}
+[59.871306] (-) TimerEvent: {}
+[59.971783] (-) TimerEvent: {}
+[60.072017] (-) TimerEvent: {}
+[60.172231] (-) TimerEvent: {}
+[60.272445] (-) TimerEvent: {}
+[60.372718] (-) TimerEvent: {}
+[60.472953] (-) TimerEvent: {}
+[60.573177] (-) TimerEvent: {}
+[60.673394] (-) TimerEvent: {}
+[60.774033] (-) TimerEvent: {}
+[60.874286] (-) TimerEvent: {}
+[60.974497] (-) TimerEvent: {}
+[61.074743] (-) TimerEvent: {}
+[61.174963] (-) TimerEvent: {}
+[61.275213] (-) TimerEvent: {}
+[61.375427] (-) TimerEvent: {}
+[61.475695] (-) TimerEvent: {}
+[61.576026] (-) TimerEvent: {}
+[61.676255] (-) TimerEvent: {}
+[61.776523] (-) TimerEvent: {}
+[61.876874] (-) TimerEvent: {}
+[61.977138] (-) TimerEvent: {}
+[62.077372] (-) TimerEvent: {}
+[62.177681] (-) TimerEvent: {}
+[62.277964] (-) TimerEvent: {}
+[62.378277] (-) TimerEvent: {}
+[62.478580] (-) TimerEvent: {}
+[62.578852] (-) TimerEvent: {}
+[62.679079] (-) TimerEvent: {}
+[62.779301] (-) TimerEvent: {}
+[62.879545] (-) TimerEvent: {}
+[62.979809] (-) TimerEvent: {}
+[63.080064] (-) TimerEvent: {}
+[63.180295] (-) TimerEvent: {}
+[63.280542] (-) TimerEvent: {}
+[63.380799] (-) TimerEvent: {}
+[63.481013] (-) TimerEvent: {}
+[63.581224] (-) TimerEvent: {}
+[63.681451] (-) TimerEvent: {}
+[63.781697] (-) TimerEvent: {}
+[63.881943] (-) TimerEvent: {}
+[63.982187] (-) TimerEvent: {}
+[64.082429] (-) TimerEvent: {}
+[64.182670] (-) TimerEvent: {}
+[64.282911] (-) TimerEvent: {}
+[64.383142] (-) TimerEvent: {}
+[64.483419] (-) TimerEvent: {}
+[64.583891] (-) TimerEvent: {}
+[64.684228] (-) TimerEvent: {}
+[64.785422] (-) TimerEvent: {}
+[64.885971] (-) TimerEvent: {}
+[64.986236] (-) TimerEvent: {}
+[65.086478] (-) TimerEvent: {}
+[65.186778] (-) TimerEvent: {}
+[65.287172] (-) TimerEvent: {}
+[65.387403] (-) TimerEvent: {}
+[65.487651] (-) TimerEvent: {}
+[65.587866] (-) TimerEvent: {}
+[65.688097] (-) TimerEvent: {}
+[65.788308] (-) TimerEvent: {}
+[65.888521] (-) TimerEvent: {}
+[65.988791] (-) TimerEvent: {}
+[66.089024] (-) TimerEvent: {}
+[66.189258] (-) TimerEvent: {}
+[66.289510] (-) TimerEvent: {}
+[66.389768] (-) TimerEvent: {}
+[66.490020] (-) TimerEvent: {}
+[66.590273] (-) TimerEvent: {}
+[66.690527] (-) TimerEvent: {}
+[66.790751] (-) TimerEvent: {}
+[66.890978] (-) TimerEvent: {}
+[66.991262] (-) TimerEvent: {}
+[67.091558] (-) TimerEvent: {}
+[67.191845] (-) TimerEvent: {}
+[67.292154] (-) TimerEvent: {}
+[67.392421] (-) TimerEvent: {}
+[67.492722] (-) TimerEvent: {}
+[67.592982] (-) TimerEvent: {}
+[67.693271] (-) TimerEvent: {}
+[67.793518] (-) TimerEvent: {}
+[67.893749] (-) TimerEvent: {}
+[67.993977] (-) TimerEvent: {}
+[68.094216] (-) TimerEvent: {}
+[68.194443] (-) TimerEvent: {}
+[68.294721] (-) TimerEvent: {}
+[68.394986] (-) TimerEvent: {}
+[68.495268] (-) TimerEvent: {}
+[68.595523] (-) TimerEvent: {}
+[68.695777] (-) TimerEvent: {}
+[68.796007] (-) TimerEvent: {}
+[68.896218] (-) TimerEvent: {}
+[68.996447] (-) TimerEvent: {}
+[69.096727] (-) TimerEvent: {}
+[69.196996] (-) TimerEvent: {}
+[69.297243] (-) TimerEvent: {}
+[69.397512] (-) TimerEvent: {}
+[69.497798] (-) TimerEvent: {}
+[69.598016] (-) TimerEvent: {}
+[69.698240] (-) TimerEvent: {}
+[69.798538] (-) TimerEvent: {}
+[69.899230] (-) TimerEvent: {}
+[69.999607] (-) TimerEvent: {}
+[70.099931] (-) TimerEvent: {}
+[70.200510] (-) TimerEvent: {}
+[70.301093] (-) TimerEvent: {}
+[70.401331] (-) TimerEvent: {}
+[70.501619] (-) TimerEvent: {}
+[70.601838] (-) TimerEvent: {}
+[70.702091] (-) TimerEvent: {}
+[70.802332] (-) TimerEvent: {}
+[70.902597] (-) TimerEvent: {}
+[71.002841] (-) TimerEvent: {}
+[71.103100] (-) TimerEvent: {}
+[71.203344] (-) TimerEvent: {}
+[71.303583] (-) TimerEvent: {}
+[71.403797] (-) TimerEvent: {}
+[71.504041] (-) TimerEvent: {}
+[71.604246] (-) TimerEvent: {}
+[71.704502] (-) TimerEvent: {}
+[71.804742] (-) TimerEvent: {}
+[71.904953] (-) TimerEvent: {}
+[72.005188] (-) TimerEvent: {}
+[72.105431] (-) TimerEvent: {}
+[72.205684] (-) TimerEvent: {}
+[72.305926] (-) TimerEvent: {}
+[72.406133] (-) TimerEvent: {}
+[72.506374] (-) TimerEvent: {}
+[72.606613] (-) TimerEvent: {}
+[72.706836] (-) TimerEvent: {}
+[72.807041] (-) TimerEvent: {}
+[72.907275] (-) TimerEvent: {}
+[73.007481] (-) TimerEvent: {}
+[73.107739] (-) TimerEvent: {}
+[73.207949] (-) TimerEvent: {}
+[73.308154] (-) TimerEvent: {}
+[73.408397] (-) TimerEvent: {}
+[73.508630] (-) TimerEvent: {}
+[73.608871] (-) TimerEvent: {}
+[73.709126] (-) TimerEvent: {}
+[73.809370] (-) TimerEvent: {}
+[73.909582] (-) TimerEvent: {}
+[74.009822] (-) TimerEvent: {}
+[74.110040] (-) TimerEvent: {}
+[74.210278] (-) TimerEvent: {}
+[74.310516] (-) TimerEvent: {}
+[74.410762] (-) TimerEvent: {}
+[74.511001] (-) TimerEvent: {}
+[74.611240] (-) TimerEvent: {}
+[74.711476] (-) TimerEvent: {}
+[74.811716] (-) TimerEvent: {}
+[74.911928] (-) TimerEvent: {}
+[75.012132] (-) TimerEvent: {}
+[75.112370] (-) TimerEvent: {}
+[75.212606] (-) TimerEvent: {}
+[75.312867] (-) TimerEvent: {}
+[75.413075] (-) TimerEvent: {}
+[75.513318] (-) TimerEvent: {}
+[75.613566] (-) TimerEvent: {}
+[75.713801] (-) TimerEvent: {}
+[75.814043] (-) TimerEvent: {}
+[75.914297] (-) TimerEvent: {}
+[76.014543] (-) TimerEvent: {}
+[76.114806] (-) TimerEvent: {}
+[76.215050] (-) TimerEvent: {}
+[76.315302] (-) TimerEvent: {}
+[76.415539] (-) TimerEvent: {}
+[76.515785] (-) TimerEvent: {}
+[76.616022] (-) TimerEvent: {}
+[76.716274] (-) TimerEvent: {}
+[76.816535] (-) TimerEvent: {}
+[76.916779] (-) TimerEvent: {}
+[77.017043] (-) TimerEvent: {}
+[77.117283] (-) TimerEvent: {}
+[77.217532] (-) TimerEvent: {}
+[77.317850] (-) TimerEvent: {}
+[77.418115] (-) TimerEvent: {}
+[77.518397] (-) TimerEvent: {}
+[77.618654] (-) TimerEvent: {}
+[77.718929] (-) TimerEvent: {}
+[77.819206] (-) TimerEvent: {}
+[77.919470] (-) TimerEvent: {}
+[78.019745] (-) TimerEvent: {}
+[78.120014] (-) TimerEvent: {}
+[78.220314] (-) TimerEvent: {}
+[78.320581] (-) TimerEvent: {}
+[78.420847] (-) TimerEvent: {}
+[78.521113] (-) TimerEvent: {}
+[78.621397] (-) TimerEvent: {}
+[78.721658] (-) TimerEvent: {}
+[78.821926] (-) TimerEvent: {}
+[78.922202] (-) TimerEvent: {}
+[79.022467] (-) TimerEvent: {}
+[79.122774] (-) TimerEvent: {}
+[79.223038] (-) TimerEvent: {}
+[79.323321] (-) TimerEvent: {}
+[79.423583] (-) TimerEvent: {}
+[79.523871] (-) TimerEvent: {}
+[79.624140] (-) TimerEvent: {}
+[79.724393] (-) TimerEvent: {}
+[79.824676] (-) TimerEvent: {}
+[79.924947] (-) TimerEvent: {}
+[80.025251] (-) TimerEvent: {}
+[80.125515] (-) TimerEvent: {}
+[80.225808] (-) TimerEvent: {}
+[80.326068] (-) TimerEvent: {}
+[80.426337] (-) TimerEvent: {}
+[80.526600] (-) TimerEvent: {}
+[80.626806] (-) TimerEvent: {}
+[80.727068] (-) TimerEvent: {}
+[80.827330] (-) TimerEvent: {}
+[80.927607] (-) TimerEvent: {}
+[81.027872] (-) TimerEvent: {}
+[81.128130] (-) TimerEvent: {}
+[81.228397] (-) TimerEvent: {}
+[81.328765] (-) TimerEvent: {}
+[81.429024] (-) TimerEvent: {}
+[81.529288] (-) TimerEvent: {}
+[81.629541] (-) TimerEvent: {}
+[81.729795] (-) TimerEvent: {}
+[81.830053] (-) TimerEvent: {}
+[81.930317] (-) TimerEvent: {}
+[82.030567] (-) TimerEvent: {}
+[82.130821] (-) TimerEvent: {}
+[82.232988] (-) TimerEvent: {}
+[82.333579] (-) TimerEvent: {}
+[82.434231] (-) TimerEvent: {}
+[82.534769] (-) TimerEvent: {}
+[82.635494] (-) TimerEvent: {}
+[82.737363] (-) TimerEvent: {}
+[82.840882] (-) TimerEvent: {}
+[82.941545] (-) TimerEvent: {}
+[83.041928] (-) TimerEvent: {}
+[83.142209] (-) TimerEvent: {}
+[83.242577] (-) TimerEvent: {}
+[83.342811] (-) TimerEvent: {}
+[83.443084] (-) TimerEvent: {}
+[83.543389] (-) TimerEvent: {}
+[83.643645] (-) TimerEvent: {}
+[83.743850] (-) TimerEvent: {}
+[83.844086] (-) TimerEvent: {}
+[83.944338] (-) TimerEvent: {}
+[84.044595] (-) TimerEvent: {}
+[84.144892] (-) TimerEvent: {}
+[84.245112] (-) TimerEvent: {}
+[84.345393] (-) TimerEvent: {}
+[84.445688] (-) TimerEvent: {}
+[84.545960] (-) TimerEvent: {}
+[84.646210] (-) TimerEvent: {}
+[84.746473] (-) TimerEvent: {}
+[84.846715] (-) TimerEvent: {}
+[84.946956] (-) TimerEvent: {}
+[85.047226] (-) TimerEvent: {}
+[85.147436] (-) TimerEvent: {}
+[85.247666] (-) TimerEvent: {}
+[85.347895] (-) TimerEvent: {}
+[85.448144] (-) TimerEvent: {}
+[85.548386] (-) TimerEvent: {}
+[85.648637] (-) TimerEvent: {}
+[85.748845] (-) TimerEvent: {}
+[85.849080] (-) TimerEvent: {}
+[85.949320] (-) TimerEvent: {}
+[86.049531] (-) TimerEvent: {}
+[86.150031] (-) TimerEvent: {}
+[86.250348] (-) TimerEvent: {}
+[86.350792] (-) TimerEvent: {}
+[86.451335] (-) TimerEvent: {}
+[86.551674] (-) TimerEvent: {}
+[86.652093] (-) TimerEvent: {}
+[86.752299] (-) TimerEvent: {}
+[86.852583] (-) TimerEvent: {}
+[86.952875] (-) TimerEvent: {}
+[87.053122] (-) TimerEvent: {}
+[87.153383] (-) TimerEvent: {}
+[87.253594] (-) TimerEvent: {}
+[87.353805] (-) TimerEvent: {}
+[87.454051] (-) TimerEvent: {}
+[87.554266] (-) TimerEvent: {}
+[87.654500] (-) TimerEvent: {}
+[87.754763] (-) TimerEvent: {}
+[87.854981] (-) TimerEvent: {}
+[87.955432] (-) TimerEvent: {}
+[88.055802] (-) TimerEvent: {}
+[88.156020] (-) TimerEvent: {}
+[88.256277] (-) TimerEvent: {}
+[88.356492] (-) TimerEvent: {}
+[88.456741] (-) TimerEvent: {}
+[88.556994] (-) TimerEvent: {}
+[88.657220] (-) TimerEvent: {}
+[88.757450] (-) TimerEvent: {}
+[88.857715] (-) TimerEvent: {}
+[88.958028] (-) TimerEvent: {}
+[89.058309] (-) TimerEvent: {}
+[89.158549] (-) TimerEvent: {}
+[89.258855] (-) TimerEvent: {}
+[89.359106] (-) TimerEvent: {}
+[89.459412] (-) TimerEvent: {}
+[89.559683] (-) TimerEvent: {}
+[89.659922] (-) TimerEvent: {}
+[89.760175] (-) TimerEvent: {}
+[89.860413] (-) TimerEvent: {}
+[89.960663] (-) TimerEvent: {}
+[90.060908] (-) TimerEvent: {}
+[90.161167] (-) TimerEvent: {}
+[90.261407] (-) TimerEvent: {}
+[90.361670] (-) TimerEvent: {}
+[90.461976] (-) TimerEvent: {}
+[90.562199] (-) TimerEvent: {}
+[90.662422] (-) TimerEvent: {}
+[90.762665] (-) TimerEvent: {}
+[90.862882] (-) TimerEvent: {}
+[90.963116] (-) TimerEvent: {}
+[91.063376] (-) TimerEvent: {}
+[91.163641] (-) TimerEvent: {}
+[91.263936] (-) TimerEvent: {}
+[91.364151] (-) TimerEvent: {}
+[91.465036] (-) TimerEvent: {}
+[91.565770] (-) TimerEvent: {}
+[91.666269] (-) TimerEvent: {}
+[91.766501] (-) TimerEvent: {}
+[91.866842] (-) TimerEvent: {}
+[91.967341] (-) TimerEvent: {}
+[92.067615] (-) TimerEvent: {}
+[92.167844] (-) TimerEvent: {}
+[92.268053] (-) TimerEvent: {}
+[92.368278] (-) TimerEvent: {}
+[92.468484] (-) TimerEvent: {}
+[92.568747] (-) TimerEvent: {}
+[92.668958] (-) TimerEvent: {}
+[92.769184] (-) TimerEvent: {}
+[92.869402] (-) TimerEvent: {}
+[92.969667] (-) TimerEvent: {}
+[93.069859] (-) TimerEvent: {}
+[93.170071] (-) TimerEvent: {}
+[93.270276] (-) TimerEvent: {}
+[93.370486] (-) TimerEvent: {}
+[93.470692] (-) TimerEvent: {}
+[93.570907] (-) TimerEvent: {}
+[93.671114] (-) TimerEvent: {}
+[93.771369] (-) TimerEvent: {}
+[93.871582] (-) TimerEvent: {}
+[93.971806] (-) TimerEvent: {}
+[94.072051] (-) TimerEvent: {}
+[94.172287] (-) TimerEvent: {}
+[94.272551] (-) TimerEvent: {}
+[94.372819] (-) TimerEvent: {}
+[94.473074] (-) TimerEvent: {}
+[94.573345] (-) TimerEvent: {}
+[94.673575] (-) TimerEvent: {}
+[94.773876] (-) TimerEvent: {}
+[94.874170] (-) TimerEvent: {}
+[94.974416] (-) TimerEvent: {}
+[95.074692] (-) TimerEvent: {}
+[95.174928] (-) TimerEvent: {}
+[95.275205] (-) TimerEvent: {}
+[95.375466] (-) TimerEvent: {}
+[95.475736] (-) TimerEvent: {}
+[95.575982] (-) TimerEvent: {}
+[95.676238] (-) TimerEvent: {}
+[95.776521] (-) TimerEvent: {}
+[95.876791] (-) TimerEvent: {}
+[95.977068] (-) TimerEvent: {}
+[96.077328] (-) TimerEvent: {}
+[96.177573] (-) TimerEvent: {}
+[96.277839] (-) TimerEvent: {}
+[96.378128] (-) TimerEvent: {}
+[96.478412] (-) TimerEvent: {}
+[96.578733] (-) TimerEvent: {}
+[96.678970] (-) TimerEvent: {}
+[96.779174] (-) TimerEvent: {}
+[96.879389] (-) TimerEvent: {}
+[96.979870] (-) TimerEvent: {}
+[97.080735] (-) TimerEvent: {}
+[97.180946] (-) TimerEvent: {}
+[97.281852] (-) TimerEvent: {}
+[97.382479] (-) TimerEvent: {}
+[97.482692] (-) TimerEvent: {}
+[97.582975] (-) TimerEvent: {}
+[97.683187] (-) TimerEvent: {}
+[97.783402] (-) TimerEvent: {}
+[97.883637] (-) TimerEvent: {}
+[97.983863] (-) TimerEvent: {}
+[98.084211] (-) TimerEvent: {}
+[98.184501] (-) TimerEvent: {}
+[98.284787] (-) TimerEvent: {}
+[98.385117] (-) TimerEvent: {}
+[98.485635] (-) TimerEvent: {}
+[98.585840] (-) TimerEvent: {}
+[98.686088] (-) TimerEvent: {}
+[98.786300] (-) TimerEvent: {}
+[98.886509] (-) TimerEvent: {}
+[98.986718] (-) TimerEvent: {}
+[99.086965] (-) TimerEvent: {}
+[99.187190] (-) TimerEvent: {}
+[99.287437] (-) TimerEvent: {}
+[99.387728] (-) TimerEvent: {}
+[99.488038] (-) TimerEvent: {}
+[99.588297] (-) TimerEvent: {}
+[99.688589] (-) TimerEvent: {}
+[99.788850] (-) TimerEvent: {}
+[99.889166] (-) TimerEvent: {}
+[99.989559] (-) TimerEvent: {}
+[100.089831] (-) TimerEvent: {}
+[100.190105] (-) TimerEvent: {}
+[100.290334] (-) TimerEvent: {}
+[100.390595] (-) TimerEvent: {}
+[100.490808] (-) TimerEvent: {}
+[100.591111] (-) TimerEvent: {}
+[100.691376] (-) TimerEvent: {}
+[100.791663] (-) TimerEvent: {}
+[100.891953] (-) TimerEvent: {}
+[100.992167] (-) TimerEvent: {}
+[101.092402] (-) TimerEvent: {}
+[101.192629] (-) TimerEvent: {}
+[101.292875] (-) TimerEvent: {}
+[101.393140] (-) TimerEvent: {}
+[101.493368] (-) TimerEvent: {}
+[101.593647] (-) TimerEvent: {}
+[101.693876] (-) TimerEvent: {}
+[101.794118] (-) TimerEvent: {}
+[101.894345] (-) TimerEvent: {}
+[101.994571] (-) TimerEvent: {}
+[102.095010] (-) TimerEvent: {}
+[102.197474] (-) TimerEvent: {}
+[102.297909] (-) TimerEvent: {}
+[102.398187] (-) TimerEvent: {}
+[102.498448] (-) TimerEvent: {}
+[102.598672] (-) TimerEvent: {}
+[102.698892] (-) TimerEvent: {}
+[102.799119] (-) TimerEvent: {}
+[102.899332] (-) TimerEvent: {}
+[102.999568] (-) TimerEvent: {}
+[103.099824] (-) TimerEvent: {}
+[103.200037] (-) TimerEvent: {}
+[103.300244] (-) TimerEvent: {}
+[103.400509] (-) TimerEvent: {}
+[103.500718] (-) TimerEvent: {}
+[103.600930] (-) TimerEvent: {}
+[103.701138] (-) TimerEvent: {}
+[103.801399] (-) TimerEvent: {}
+[103.901674] (-) TimerEvent: {}
+[104.001888] (-) TimerEvent: {}
+[104.102122] (-) TimerEvent: {}
+[104.202374] (-) TimerEvent: {}
+[104.302614] (-) TimerEvent: {}
+[104.402850] (-) TimerEvent: {}
+[104.503095] (-) TimerEvent: {}
+[104.603331] (-) TimerEvent: {}
+[104.703570] (-) TimerEvent: {}
+[104.803791] (-) TimerEvent: {}
+[104.904110] (-) TimerEvent: {}
+[105.004421] (-) TimerEvent: {}
+[105.104656] (-) TimerEvent: {}
+[105.204923] (-) TimerEvent: {}
+[105.305157] (-) TimerEvent: {}
+[105.405403] (-) TimerEvent: {}
+[105.505659] (-) TimerEvent: {}
+[105.605953] (-) TimerEvent: {}
+[105.706235] (-) TimerEvent: {}
+[105.806503] (-) TimerEvent: {}
+[105.906778] (-) TimerEvent: {}
+[106.007011] (-) TimerEvent: {}
+[106.107256] (-) TimerEvent: {}
+[106.207508] (-) TimerEvent: {}
+[106.307767] (-) TimerEvent: {}
+[106.407979] (-) TimerEvent: {}
+[106.508251] (-) TimerEvent: {}
+[106.608499] (-) TimerEvent: {}
+[106.708736] (-) TimerEvent: {}
+[106.808986] (-) TimerEvent: {}
+[106.909230] (-) TimerEvent: {}
+[107.009466] (-) TimerEvent: {}
+[107.109714] (-) TimerEvent: {}
+[107.210528] (-) TimerEvent: {}
+[107.310966] (-) TimerEvent: {}
+[107.411334] (-) TimerEvent: {}
+[107.511717] (-) TimerEvent: {}
+[107.611970] (-) TimerEvent: {}
+[107.712202] (-) TimerEvent: {}
+[107.812490] (-) TimerEvent: {}
+[107.913067] (-) TimerEvent: {}
+[108.013277] (-) TimerEvent: {}
+[108.113510] (-) TimerEvent: {}
+[108.214845] (-) TimerEvent: {}
+[108.315142] (-) TimerEvent: {}
+[108.415357] (-) TimerEvent: {}
+[108.515593] (-) TimerEvent: {}
+[108.615840] (-) TimerEvent: {}
+[108.716055] (-) TimerEvent: {}
+[108.816275] (-) TimerEvent: {}
+[108.916529] (-) TimerEvent: {}
+[109.016779] (-) TimerEvent: {}
+[109.117000] (-) TimerEvent: {}
+[109.217246] (-) TimerEvent: {}
+[109.317512] (-) TimerEvent: {}
+[109.417795] (-) TimerEvent: {}
+[109.518053] (-) TimerEvent: {}
+[109.618375] (-) TimerEvent: {}
+[109.718784] (-) TimerEvent: {}
+[109.819029] (-) TimerEvent: {}
+[109.919266] (-) TimerEvent: {}
+[110.019514] (-) TimerEvent: {}
+[110.119861] (-) TimerEvent: {}
+[110.220126] (-) TimerEvent: {}
+[110.320378] (-) TimerEvent: {}
+[110.420636] (-) TimerEvent: {}
+[110.520846] (-) TimerEvent: {}
+[110.621099] (-) TimerEvent: {}
+[110.721340] (-) TimerEvent: {}
+[110.821570] (-) TimerEvent: {}
+[110.921869] (-) TimerEvent: {}
+[111.022105] (-) TimerEvent: {}
+[111.122359] (-) TimerEvent: {}
+[111.222612] (-) TimerEvent: {}
+[111.322862] (-) TimerEvent: {}
+[111.423100] (-) TimerEvent: {}
+[111.523352] (-) TimerEvent: {}
+[111.623663] (-) TimerEvent: {}
+[111.723961] (-) TimerEvent: {}
+[111.824240] (-) TimerEvent: {}
+[111.924501] (-) TimerEvent: {}
+[112.024770] (-) TimerEvent: {}
+[112.125043] (-) TimerEvent: {}
+[112.225390] (-) TimerEvent: {}
+[112.325921] (-) TimerEvent: {}
+[112.426166] (-) TimerEvent: {}
+[112.526455] (-) TimerEvent: {}
+[112.627770] (-) TimerEvent: {}
+[112.728171] (-) TimerEvent: {}
+[112.828387] (-) TimerEvent: {}
+[112.928620] (-) TimerEvent: {}
+[113.028825] (-) TimerEvent: {}
+[113.129046] (-) TimerEvent: {}
+[113.229336] (-) TimerEvent: {}
+[113.329735] (-) TimerEvent: {}
+[113.429988] (-) TimerEvent: {}
+[113.530211] (-) TimerEvent: {}
+[113.630428] (-) TimerEvent: {}
+[113.730710] (-) TimerEvent: {}
+[113.830949] (-) TimerEvent: {}
+[113.931168] (-) TimerEvent: {}
+[114.031386] (-) TimerEvent: {}
+[114.131642] (-) TimerEvent: {}
+[114.231846] (-) TimerEvent: {}
+[114.332080] (-) TimerEvent: {}
+[114.432324] (-) TimerEvent: {}
+[114.532582] (-) TimerEvent: {}
+[114.632808] (-) TimerEvent: {}
+[114.733067] (-) TimerEvent: {}
+[114.833310] (-) TimerEvent: {}
+[114.933555] (-) TimerEvent: {}
+[115.033806] (-) TimerEvent: {}
+[115.134052] (-) TimerEvent: {}
+[115.234296] (-) TimerEvent: {}
+[115.334627] (-) TimerEvent: {}
+[115.434871] (-) TimerEvent: {}
+[115.535138] (-) TimerEvent: {}
+[115.635410] (-) TimerEvent: {}
+[115.712042] (sim_ros2_interface) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking CXX shared library libsimROS2.so\x1b[0m\n'}
+[115.735500] (-) TimerEvent: {}
+[115.835773] (-) TimerEvent: {}
+[115.936047] (-) TimerEvent: {}
+[116.036282] (-) TimerEvent: {}
+[116.136516] (-) TimerEvent: {}
+[116.236783] (-) TimerEvent: {}
+[116.337075] (-) TimerEvent: {}
+[116.437355] (-) TimerEvent: {}
+[116.537585] (-) TimerEvent: {}
+[116.637802] (-) TimerEvent: {}
+[116.738054] (-) TimerEvent: {}
+[116.838469] (-) TimerEvent: {}
+[116.938747] (-) TimerEvent: {}
+[117.039094] (-) TimerEvent: {}
+[117.139509] (-) TimerEvent: {}
+[117.239870] (-) TimerEvent: {}
+[117.340344] (-) TimerEvent: {}
+[117.440941] (-) TimerEvent: {}
+[117.541601] (-) TimerEvent: {}
+[117.642020] (-) TimerEvent: {}
+[117.742455] (-) TimerEvent: {}
+[117.842878] (-) TimerEvent: {}
+[117.943367] (-) TimerEvent: {}
+[118.043813] (-) TimerEvent: {}
+[118.144100] (-) TimerEvent: {}
+[118.244454] (-) TimerEvent: {}
+[118.344982] (-) TimerEvent: {}
+[118.445254] (-) TimerEvent: {}
+[118.545565] (-) TimerEvent: {}
+[118.645859] (-) TimerEvent: {}
+[118.746162] (-) TimerEvent: {}
+[118.846415] (-) TimerEvent: {}
+[118.946718] (-) TimerEvent: {}
+[119.046990] (-) TimerEvent: {}
+[119.147290] (-) TimerEvent: {}
+[119.247659] (-) TimerEvent: {}
+[119.348016] (-) TimerEvent: {}
+[119.448311] (-) TimerEvent: {}
+[119.548609] (-) TimerEvent: {}
+[119.648881] (-) TimerEvent: {}
+[119.749150] (-) TimerEvent: {}
+[119.849460] (-) TimerEvent: {}
+[119.949731] (-) TimerEvent: {}
+[120.050072] (-) TimerEvent: {}
+[120.150411] (-) TimerEvent: {}
+[120.250748] (-) TimerEvent: {}
+[120.351093] (-) TimerEvent: {}
+[120.451426] (-) TimerEvent: {}
+[120.551737] (-) TimerEvent: {}
+[120.652070] (-) TimerEvent: {}
+[120.752394] (-) TimerEvent: {}
+[120.852743] (-) TimerEvent: {}
+[120.953060] (-) TimerEvent: {}
+[121.053432] (-) TimerEvent: {}
+[121.153855] (-) TimerEvent: {}
+[121.254216] (-) TimerEvent: {}
+[121.354620] (-) TimerEvent: {}
+[121.454935] (-) TimerEvent: {}
+[121.555238] (-) TimerEvent: {}
+[121.655499] (-) TimerEvent: {}
+[121.755877] (-) TimerEvent: {}
+[121.856551] (-) TimerEvent: {}
+[121.956939] (-) TimerEvent: {}
+[122.057586] (-) TimerEvent: {}
+[122.158206] (-) TimerEvent: {}
+[122.258795] (-) TimerEvent: {}
+[122.359065] (-) TimerEvent: {}
+[122.459319] (-) TimerEvent: {}
+[122.559617] (-) TimerEvent: {}
+[122.659882] (-) TimerEvent: {}
+[122.760216] (-) TimerEvent: {}
+[122.860479] (-) TimerEvent: {}
+[122.960753] (-) TimerEvent: {}
+[123.060987] (-) TimerEvent: {}
+[123.161202] (-) TimerEvent: {}
+[123.261442] (-) TimerEvent: {}
+[123.361658] (-) TimerEvent: {}
+[123.461944] (-) TimerEvent: {}
+[123.562324] (-) TimerEvent: {}
+[123.662600] (-) TimerEvent: {}
+[123.762832] (-) TimerEvent: {}
+[123.863143] (-) TimerEvent: {}
+[123.963363] (-) TimerEvent: {}
+[124.063643] (-) TimerEvent: {}
+[124.163977] (-) TimerEvent: {}
+[124.264247] (-) TimerEvent: {}
+[124.364475] (-) TimerEvent: {}
+[124.464782] (-) TimerEvent: {}
+[124.565058] (-) TimerEvent: {}
+[124.665343] (-) TimerEvent: {}
+[124.765635] (-) TimerEvent: {}
+[124.865902] (-) TimerEvent: {}
+[124.966140] (-) TimerEvent: {}
+[125.066402] (-) TimerEvent: {}
+[125.166695] (-) TimerEvent: {}
+[125.266998] (-) TimerEvent: {}
+[125.367259] (-) TimerEvent: {}
+[125.467532] (-) TimerEvent: {}
+[125.567785] (-) TimerEvent: {}
+[125.667998] (-) TimerEvent: {}
+[125.768234] (-) TimerEvent: {}
+[125.868482] (-) TimerEvent: {}
+[125.968727] (-) TimerEvent: {}
+[126.069013] (-) TimerEvent: {}
+[126.169308] (-) TimerEvent: {}
+[126.269601] (-) TimerEvent: {}
+[126.369869] (-) TimerEvent: {}
+[126.470081] (-) TimerEvent: {}
+[126.570339] (-) TimerEvent: {}
+[126.670657] (-) TimerEvent: {}
+[126.770931] (-) TimerEvent: {}
+[126.871275] (-) TimerEvent: {}
+[126.971644] (-) TimerEvent: {}
+[127.072171] (-) TimerEvent: {}
+[127.172492] (-) TimerEvent: {}
+[127.272762] (-) TimerEvent: {}
+[127.372996] (-) TimerEvent: {}
+[127.473262] (-) TimerEvent: {}
+[127.573618] (-) TimerEvent: {}
+[127.673931] (-) TimerEvent: {}
+[127.774229] (-) TimerEvent: {}
+[127.874560] (-) TimerEvent: {}
+[127.956722] (sim_ros2_interface) StdoutLine: {'line': b'[100%] Built target simROS2\n'}
+[127.965982] (sim_ros2_interface) CommandEnded: {'returncode': 0}
+[127.974664] (-) TimerEvent: {}
+[127.995407] (sim_ros2_interface) JobProgress: {'identifier': 'sim_ros2_interface', 'progress': 'install'}
+[127.995976] (sim_ros2_interface) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/cobos/Documents/Movement/build/sim_ros2_interface'], 'cwd': '/home/cobos/Documents/Movement/build/sim_ros2_interface', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US'), ('GTK_CSD', '0'), ('USER', 'cobos'), ('XDG_SEAT', 'seat0'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/cobos'), ('OLDPWD', '/home/cobos'), ('DESKTOP_SESSION', 'i3'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'gail:atk-bridge'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('COLCON_PREFIX_PATH', '/home/cobos/Documents/Movement/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'cobos'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', 'c2'), ('COPPELIASIM_ROOT_DIR', '/home/cobos/Documents/Coppeliasim/CoppeliaSim_Edu_V4_8_0_rev0_Ubuntu22_04'), ('ROS_LOCALHOST_ONLY', '0'), ('GTK2_MODULES', 'overlay-scrollbar'), ('PATH', '/opt/ros/humble/bin:/home/cobos/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('GDM_LANG', 'en_US'), ('GTK3_MODULES', 'xapp-gtk3-module'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LD_PRELOAD', 'libgtk3-nocsd.so.0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'i3'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'i3'), ('XAUTHORITY', '/home/cobos/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/cobos'), ('AMENT_PREFIX_PATH', '/home/cobos/Documents/Movement/install/sim_ros2_interface:/home/cobos/Documents/Movement/install/ros2_bubble_rob:/home/cobos/Documents/Movement/install/drive_robot:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:64415506-0b6f-454a-b5d0-f02378858374'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'i3'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('XDG_VTNR', '7'), ('PWD', '/home/cobos/Documents/Movement/build/sim_ros2_interface'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-i3:/etc/xdg'), ('CLUTTER_IM_MODULE', 'ibus'), ('XDG_DATA_DIRS', '/usr/share/i3:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/cobos/Documents/Movement/build/drive_robot:/home/cobos/Documents/Movement/install/drive_robot/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('I3SOCK', '/run/user/1000/i3/ipc-socket.2164'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/cobos/Documents/Movement/install/sim_ros2_interface:/home/cobos/Documents/Movement/install/ros2_bubble_rob:/home/cobos/Documents/Movement/install/drive_robot:/opt/ros/humble')]), 'shell': False}
+[128.001396] (sim_ros2_interface) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[128.001700] (sim_ros2_interface) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[128.001938] (sim_ros2_interface) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cobos/Documents/Coppeliasim/CoppeliaSim_Edu_V4_8_0_rev0_Ubuntu22_04/lua/simROS2-typecheck.lua\n'}
+[128.002070] (sim_ros2_interface) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cobos/Documents/Coppeliasim/CoppeliaSim_Edu_V4_8_0_rev0_Ubuntu22_04/lua/simROS2.lua\n'}
+[128.002195] (sim_ros2_interface) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cobos/Documents/Coppeliasim/CoppeliaSim_Edu_V4_8_0_rev0_Ubuntu22_04/manual/en/simROS2.htm\n'}
+[128.002316] (sim_ros2_interface) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cobos/Documents/Coppeliasim/CoppeliaSim_Edu_V4_8_0_rev0_Ubuntu22_04/manual/index/simROS2.json\n'}
+[128.002426] (sim_ros2_interface) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cobos/Documents/Coppeliasim/CoppeliaSim_Edu_V4_8_0_rev0_Ubuntu22_04/lua/simROS2-ce.lua\n'}
+[128.002597] (sim_ros2_interface) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cobos/Documents/Coppeliasim/CoppeliaSim_Edu_V4_8_0_rev0_Ubuntu22_04/libsimROS2.so\n'}
+[128.002849] (sim_ros2_interface) StdoutLine: {'line': b'-- Symlinking: /home/cobos/Documents/Movement/install/sim_ros2_interface/share/ament_index/resource_index/package_run_dependencies/sim_ros2_interface\n'}
+[128.010074] (sim_ros2_interface) StdoutLine: {'line': b'-- Symlinking: /home/cobos/Documents/Movement/install/sim_ros2_interface/share/ament_index/resource_index/parent_prefix_path/sim_ros2_interface\n'}
+[128.017383] (sim_ros2_interface) StdoutLine: {'line': b'-- Symlinking: /home/cobos/Documents/Movement/install/sim_ros2_interface/share/sim_ros2_interface/environment/ament_prefix_path.sh\n'}
+[128.024074] (sim_ros2_interface) StdoutLine: {'line': b'-- Symlinking: /home/cobos/Documents/Movement/install/sim_ros2_interface/share/sim_ros2_interface/environment/ament_prefix_path.dsv\n'}
+[128.030550] (sim_ros2_interface) StdoutLine: {'line': b'-- Symlinking: /home/cobos/Documents/Movement/install/sim_ros2_interface/share/sim_ros2_interface/environment/path.sh\n'}
+[128.036991] (sim_ros2_interface) StdoutLine: {'line': b'-- Symlinking: /home/cobos/Documents/Movement/install/sim_ros2_interface/share/sim_ros2_interface/environment/path.dsv\n'}
+[128.043491] (sim_ros2_interface) StdoutLine: {'line': b'-- Symlinking: /home/cobos/Documents/Movement/install/sim_ros2_interface/share/sim_ros2_interface/local_setup.bash\n'}
+[128.050207] (sim_ros2_interface) StdoutLine: {'line': b'-- Symlinking: /home/cobos/Documents/Movement/install/sim_ros2_interface/share/sim_ros2_interface/local_setup.sh\n'}
+[128.057311] (sim_ros2_interface) StdoutLine: {'line': b'-- Symlinking: /home/cobos/Documents/Movement/install/sim_ros2_interface/share/sim_ros2_interface/local_setup.zsh\n'}
+[128.063823] (sim_ros2_interface) StdoutLine: {'line': b'-- Symlinking: /home/cobos/Documents/Movement/install/sim_ros2_interface/share/sim_ros2_interface/local_setup.dsv\n'}
+[128.070479] (sim_ros2_interface) StdoutLine: {'line': b'-- Symlinking: /home/cobos/Documents/Movement/install/sim_ros2_interface/share/sim_ros2_interface/package.dsv\n'}
+[128.074786] (-) TimerEvent: {}
+[128.078507] (sim_ros2_interface) StdoutLine: {'line': b'-- Symlinking: /home/cobos/Documents/Movement/install/sim_ros2_interface/share/ament_index/resource_index/packages/sim_ros2_interface\n'}
+[128.085595] (sim_ros2_interface) StdoutLine: {'line': b'-- Symlinking: /home/cobos/Documents/Movement/install/sim_ros2_interface/share/sim_ros2_interface/cmake/sim_ros2_interfaceConfig.cmake\n'}
+[128.092156] (sim_ros2_interface) StdoutLine: {'line': b'-- Symlinking: /home/cobos/Documents/Movement/install/sim_ros2_interface/share/sim_ros2_interface/cmake/sim_ros2_interfaceConfig-version.cmake\n'}
+[128.100045] (sim_ros2_interface) StdoutLine: {'line': b'-- Symlinking: /home/cobos/Documents/Movement/install/sim_ros2_interface/share/sim_ros2_interface/package.xml\n'}
+[128.107746] (sim_ros2_interface) CommandEnded: {'returncode': 0}
+[128.145510] (sim_ros2_interface) JobEnded: {'identifier': 'sim_ros2_interface', 'rc': 0}
+[128.146084] (-) EventReactorShutdown: {}

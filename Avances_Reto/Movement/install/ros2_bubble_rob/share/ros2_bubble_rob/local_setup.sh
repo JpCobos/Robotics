@@ -1,0 +1,1 @@
+/home/cobos/Documents/Movement/build/ros2_bubble_rob/ament_cmake_environment_hooks/local_setup.sh

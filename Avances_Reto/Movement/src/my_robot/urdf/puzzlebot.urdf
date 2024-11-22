@@ -1,0 +1,165 @@
+<?xml version="1.0"?>
+<robot name="robot_base_respondable">
+    <link name="robot_base">
+        <inertial>
+            <origin rpy="3.141592 3.141593 3.141592" xyz="0.001018 0.000367 0" />
+            <inertia ixx="0.16" ixy="0.0" izz="0.16" iyz="0.0" ixz="0.0" iyy="0.16" />
+            <mass value="16.0" />
+        </inertial>
+        <collision name="robot_base_respondable">
+            <origin xyz="0.001018 0.000367 0" rpy="3.141592 3.141593 3.141592" />
+            <geometry>
+                <mesh filename="file:///home/cobos/Documents/urdf/puzzlebot_robot_base_coll_1.dae" />
+            </geometry>
+        </collision>
+        <collision name="robot_base_respondable">
+            <origin xyz="0.001018 0.000367 0" rpy="3.141592 3.141593 3.141592" />
+            <geometry>
+                <mesh filename="file:///home/cobos/Documents/urdf/puzzlebot_robot_base_coll_2.dae" />
+            </geometry>
+        </collision>
+        <collision name="robot_base_respondable">
+            <origin xyz="0.001018 0.000367 0" rpy="3.141592 3.141593 3.141592" />
+            <geometry>
+                <mesh filename="file:///home/cobos/Documents/urdf/puzzlebot_robot_base_coll_3.dae" />
+            </geometry>
+        </collision>
+        <collision name="robot_base_respondable">
+            <origin xyz="0.001018 0.000367 0" rpy="3.141592 3.141593 3.141592" />
+            <geometry>
+                <mesh filename="file:///home/cobos/Documents/urdf/puzzlebot_robot_base_coll_4.dae" />
+            </geometry>
+        </collision>
+        <collision name="robot_base_respondable">
+            <origin xyz="0.001018 0.000367 0" rpy="3.141592 3.141593 3.141592" />
+            <geometry>
+                <mesh filename="file:///home/cobos/Documents/urdf/puzzlebot_robot_base_coll_5.dae" />
+            </geometry>
+        </collision>
+        <collision name="robot_base_respondable">
+            <origin xyz="0.001018 0.000367 0" rpy="3.141592 3.141593 3.141592" />
+            <geometry>
+                <mesh filename="file:///home/cobos/Documents/urdf/puzzlebot_robot_base_coll_6.dae" />
+            </geometry>
+        </collision>
+        <collision name="robot_base_respondable">
+            <origin xyz="0.001018 0.000367 0" rpy="3.141592 3.141593 3.141592" />
+            <geometry>
+                <mesh filename="file:///home/cobos/Documents/urdf/puzzlebot_robot_base_coll_7.dae" />
+            </geometry>
+        </collision>
+        <visual name="robot_base_visual">
+            <origin xyz="0.001018 0.000367 0" rpy="3.141592 3.141593 3.141592" />
+            <geometry>
+                <mesh filename="file:///home/cobos/Documents/urdf/puzzlebot_robot_base_visual_vis_1.dae" />
+            </geometry>
+            <material name="robot_base_visual_material">
+                <color rgba="1.000000 1.000000 1.000000 1.0" />
+            </material>
+        </visual>
+    </link>
+    <joint type="continuous" name="leftMotor">
+        <axis xyz="0 0 1" />
+        <parent link="robot_base" />
+        <child link="l_wheel" />
+        <origin xyz="0.097018 -0.036633 0.051050" rpy="0.017453 -1.570796 0.000000" />
+    </joint>
+    <link name="l_wheel">
+        <inertial>
+            <origin rpy="3.141592 3.141593 3.141592" xyz="0.000000 -0.001032 -0.001817" />
+            <inertia ixx="0.015943318139146" ixy="0.0" izz="0.015943318139146" iyz="0.0" ixz="0.0" iyy="0.015943318139146" />
+            <mass value="1.5559073449779" />
+        </inertial>
+        <collision name="l_wheel">
+            <origin xyz="0.000000 -0.001032 -0.001817" rpy="3.141592 3.141593 3.141592" />
+            <geometry>
+                <mesh filename="file:///home/cobos/Documents/urdf/puzzlebot_l_wheel_coll_1.dae" />
+            </geometry>
+        </collision>
+        <collision name="l_wheel">
+            <origin xyz="0.000000 -0.001032 -0.001817" rpy="3.141592 3.141593 3.141592" />
+            <geometry>
+                <mesh filename="file:///home/cobos/Documents/urdf/puzzlebot_l_wheel_coll_2.dae" />
+            </geometry>
+        </collision>
+        <collision name="l_wheel">
+            <origin xyz="0.000000 -0.001032 -0.001817" rpy="3.141592 3.141593 3.141592" />
+            <geometry>
+                <mesh filename="file:///home/cobos/Documents/urdf/puzzlebot_l_wheel_coll_3.dae" />
+            </geometry>
+        </collision>
+        <collision name="l_wheel">
+            <origin xyz="0.000000 -0.001032 -0.001817" rpy="3.141592 3.141593 3.141592" />
+            <geometry>
+                <mesh filename="file:///home/cobos/Documents/urdf/puzzlebot_l_wheel_coll_4.dae" />
+            </geometry>
+        </collision>
+        <collision name="l_wheel">
+            <origin xyz="0.000000 -0.001032 -0.001817" rpy="3.141592 3.141593 3.141592" />
+            <geometry>
+                <mesh filename="file:///home/cobos/Documents/urdf/puzzlebot_l_wheel_coll_5.dae" />
+            </geometry>
+        </collision>
+        <visual name="l_wheel_conv_visual">
+            <origin xyz="0.000000 -0.001032 -0.001817" rpy="3.141592 3.141593 3.141592" />
+            <geometry>
+                <mesh filename="file:///home/cobos/Documents/urdf/puzzlebot_l_wheel_conv_visual_vis_1.dae" />
+            </geometry>
+            <material name="l_wheel_conv_visual_material">
+                <color rgba="1.000000 1.000000 1.000000 1.0" />
+            </material>
+        </visual>
+    </link>
+    <joint type="continuous" name="rightMotor">
+        <axis xyz="0 0 1" />
+        <parent link="robot_base" />
+        <child link="r_wheel" />
+        <origin xyz="-0.093982 -0.054633 0.051050" rpy="-0.087266 1.570796 0.000000" />
+    </joint>
+    <link name="r_wheel">
+        <inertial>
+            <origin rpy="3.141592 3.141593 3.141592" xyz="0.000436 0.000000 -0.004981" />
+            <inertia ixx="0.015330033574084" ixy="0.0" izz="0.015330033574084" iyz="0.0" ixz="0.0" iyy="0.015330033574084" />
+            <mass value="1.5197157597846" />
+        </inertial>
+        <collision name="r_wheel">
+            <origin xyz="0.000436 0.000000 -0.004981" rpy="3.141592 3.141593 3.141592" />
+            <geometry>
+                <mesh filename="file:///home/cobos/Documents/urdf/puzzlebot_r_wheel_coll_1.dae" />
+            </geometry>
+        </collision>
+        <collision name="r_wheel">
+            <origin xyz="0.000436 0.000000 -0.004981" rpy="3.141592 3.141593 3.141592" />
+            <geometry>
+                <mesh filename="file:///home/cobos/Documents/urdf/puzzlebot_r_wheel_coll_2.dae" />
+            </geometry>
+        </collision>
+        <collision name="r_wheel">
+            <origin xyz="0.000436 0.000000 -0.004981" rpy="3.141592 3.141593 3.141592" />
+            <geometry>
+                <mesh filename="file:///home/cobos/Documents/urdf/puzzlebot_r_wheel_coll_3.dae" />
+            </geometry>
+        </collision>
+        <collision name="r_wheel">
+            <origin xyz="0.000436 0.000000 -0.004981" rpy="3.141592 3.141593 3.141592" />
+            <geometry>
+                <mesh filename="file:///home/cobos/Documents/urdf/puzzlebot_r_wheel_coll_4.dae" />
+            </geometry>
+        </collision>
+        <collision name="r_wheel">
+            <origin xyz="0.000436 0.000000 -0.004981" rpy="3.141592 3.141593 3.141592" />
+            <geometry>
+                <mesh filename="file:///home/cobos/Documents/urdf/puzzlebot_r_wheel_coll_5.dae" />
+            </geometry>
+        </collision>
+        <visual name="r_wheel_conv_visual">
+            <origin xyz="0.000436 -0.000345 -0.001034" rpy="3.141592 3.141593 3.141592" />
+            <geometry>
+                <mesh filename="file:///home/cobos/Documents/urdf/puzzlebot_r_wheel_conv_visual_vis_1.dae" />
+            </geometry>
+            <material name="r_wheel_conv_visual_material">
+                <color rgba="1.000000 1.000000 1.000000 1.0" />
+            </material>
+        </visual>
+    </link>
+</robot>

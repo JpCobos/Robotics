@@ -1,0 +1,320 @@
+[0.084s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.084s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7a4f7df32980>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7a4f7e01bbe0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7a4f7e01bbe0>>)
+[0.115s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.115s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.115s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.115s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.115s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.115s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.115s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/cobos/Documents/Movement'
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(src/drive_robot) by extensions ['ignore', 'ignore_ament_install']
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(src/drive_robot) by extension 'ignore'
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(src/drive_robot) by extension 'ignore_ament_install'
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(src/drive_robot) by extensions ['colcon_pkg']
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(src/drive_robot) by extension 'colcon_pkg'
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(src/drive_robot) by extensions ['colcon_meta']
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(src/drive_robot) by extension 'colcon_meta'
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(src/drive_robot) by extensions ['ros']
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(src/drive_robot) by extension 'ros'
+[0.131s] DEBUG:colcon.colcon_core.package_identification:Package 'src/drive_robot' with type 'ros.ament_python' and name 'drive_robot'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot) by extensions ['ignore', 'ignore_ament_install']
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot) by extension 'ignore'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot) by extension 'ignore_ament_install'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot) by extensions ['colcon_pkg']
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot) by extension 'colcon_pkg'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot) by extensions ['colcon_meta']
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot) by extension 'colcon_meta'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot) by extensions ['ros']
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot) by extension 'ros'
+[0.131s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_robot' with type 'ros.ament_python' and name 'my_robot'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_bubble_rob) by extensions ['ignore', 'ignore_ament_install']
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_bubble_rob) by extension 'ignore'
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_bubble_rob) by extension 'ignore_ament_install'
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_bubble_rob) by extensions ['colcon_pkg']
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_bubble_rob) by extension 'colcon_pkg'
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_bubble_rob) by extensions ['colcon_meta']
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_bubble_rob) by extension 'colcon_meta'
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_bubble_rob) by extensions ['ros']
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_bubble_rob) by extension 'ros'
+[0.132s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_bubble_rob' with type 'ros.ament_cmake' and name 'ros2_bubble_rob'
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(src/sim_ros2_interface) by extensions ['ignore', 'ignore_ament_install']
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(src/sim_ros2_interface) by extension 'ignore'
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(src/sim_ros2_interface) by extension 'ignore_ament_install'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(src/sim_ros2_interface) by extensions ['colcon_pkg']
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(src/sim_ros2_interface) by extension 'colcon_pkg'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(src/sim_ros2_interface) by extensions ['colcon_meta']
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(src/sim_ros2_interface) by extension 'colcon_meta'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(src/sim_ros2_interface) by extensions ['ros']
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(src/sim_ros2_interface) by extension 'ros'
+[0.134s] DEBUG:colcon.colcon_core.package_identification:Package 'src/sim_ros2_interface' with type 'ros.ament_cmake' and name 'sim_ros2_interface'
+[0.134s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.134s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.134s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.134s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.134s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.151s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.151s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.152s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/cobos/Documents/Movement/install/sim_ros2_interface' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.152s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/cobos/Documents/Movement/install/ros2_bubble_rob' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.152s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/cobos/Documents/Movement/install/drive_robot' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.152s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/cobos/Documents/Movement/install/sim_ros2_interface' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.152s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/cobos/Documents/Movement/install/ros2_bubble_rob' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.152s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 0 installed packages in /home/cobos/Documents/Movement/install
+[0.153s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 325 installed packages in /opt/ros/humble
+[0.154s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.188s] Level 5:colcon.colcon_core.verb:set package 'drive_robot' build argument 'cmake_args' from command line to 'None'
+[0.188s] Level 5:colcon.colcon_core.verb:set package 'drive_robot' build argument 'cmake_target' from command line to 'None'
+[0.188s] Level 5:colcon.colcon_core.verb:set package 'drive_robot' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.188s] Level 5:colcon.colcon_core.verb:set package 'drive_robot' build argument 'cmake_clean_cache' from command line to 'False'
+[0.188s] Level 5:colcon.colcon_core.verb:set package 'drive_robot' build argument 'cmake_clean_first' from command line to 'False'
+[0.188s] Level 5:colcon.colcon_core.verb:set package 'drive_robot' build argument 'cmake_force_configure' from command line to 'False'
+[0.188s] Level 5:colcon.colcon_core.verb:set package 'drive_robot' build argument 'ament_cmake_args' from command line to 'None'
+[0.188s] Level 5:colcon.colcon_core.verb:set package 'drive_robot' build argument 'catkin_cmake_args' from command line to 'None'
+[0.188s] Level 5:colcon.colcon_core.verb:set package 'drive_robot' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.188s] DEBUG:colcon.colcon_core.verb:Building package 'drive_robot' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/cobos/Documents/Movement/build/drive_robot', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/cobos/Documents/Movement/install/drive_robot', 'merge_install': False, 'path': '/home/cobos/Documents/Movement/src/drive_robot', 'symlink_install': True, 'test_result_base': None}
+[0.188s] Level 5:colcon.colcon_core.verb:set package 'my_robot' build argument 'cmake_args' from command line to 'None'
+[0.188s] Level 5:colcon.colcon_core.verb:set package 'my_robot' build argument 'cmake_target' from command line to 'None'
+[0.188s] Level 5:colcon.colcon_core.verb:set package 'my_robot' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.188s] Level 5:colcon.colcon_core.verb:set package 'my_robot' build argument 'cmake_clean_cache' from command line to 'False'
+[0.188s] Level 5:colcon.colcon_core.verb:set package 'my_robot' build argument 'cmake_clean_first' from command line to 'False'
+[0.188s] Level 5:colcon.colcon_core.verb:set package 'my_robot' build argument 'cmake_force_configure' from command line to 'False'
+[0.188s] Level 5:colcon.colcon_core.verb:set package 'my_robot' build argument 'ament_cmake_args' from command line to 'None'
+[0.188s] Level 5:colcon.colcon_core.verb:set package 'my_robot' build argument 'catkin_cmake_args' from command line to 'None'
+[0.188s] Level 5:colcon.colcon_core.verb:set package 'my_robot' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.188s] DEBUG:colcon.colcon_core.verb:Building package 'my_robot' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/cobos/Documents/Movement/build/my_robot', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/cobos/Documents/Movement/install/my_robot', 'merge_install': False, 'path': '/home/cobos/Documents/Movement/src/my_robot', 'symlink_install': True, 'test_result_base': None}
+[0.189s] Level 5:colcon.colcon_core.verb:set package 'ros2_bubble_rob' build argument 'cmake_args' from command line to 'None'
+[0.189s] Level 5:colcon.colcon_core.verb:set package 'ros2_bubble_rob' build argument 'cmake_target' from command line to 'None'
+[0.189s] Level 5:colcon.colcon_core.verb:set package 'ros2_bubble_rob' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.189s] Level 5:colcon.colcon_core.verb:set package 'ros2_bubble_rob' build argument 'cmake_clean_cache' from command line to 'False'
+[0.189s] Level 5:colcon.colcon_core.verb:set package 'ros2_bubble_rob' build argument 'cmake_clean_first' from command line to 'False'
+[0.189s] Level 5:colcon.colcon_core.verb:set package 'ros2_bubble_rob' build argument 'cmake_force_configure' from command line to 'False'
+[0.189s] Level 5:colcon.colcon_core.verb:set package 'ros2_bubble_rob' build argument 'ament_cmake_args' from command line to 'None'
+[0.189s] Level 5:colcon.colcon_core.verb:set package 'ros2_bubble_rob' build argument 'catkin_cmake_args' from command line to 'None'
+[0.189s] Level 5:colcon.colcon_core.verb:set package 'ros2_bubble_rob' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.189s] DEBUG:colcon.colcon_core.verb:Building package 'ros2_bubble_rob' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/cobos/Documents/Movement/build/ros2_bubble_rob', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/cobos/Documents/Movement/install/ros2_bubble_rob', 'merge_install': False, 'path': '/home/cobos/Documents/Movement/src/ros2_bubble_rob', 'symlink_install': True, 'test_result_base': None}
+[0.189s] Level 5:colcon.colcon_core.verb:set package 'sim_ros2_interface' build argument 'cmake_args' from command line to 'None'
+[0.189s] Level 5:colcon.colcon_core.verb:set package 'sim_ros2_interface' build argument 'cmake_target' from command line to 'None'
+[0.189s] Level 5:colcon.colcon_core.verb:set package 'sim_ros2_interface' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.189s] Level 5:colcon.colcon_core.verb:set package 'sim_ros2_interface' build argument 'cmake_clean_cache' from command line to 'False'
+[0.189s] Level 5:colcon.colcon_core.verb:set package 'sim_ros2_interface' build argument 'cmake_clean_first' from command line to 'False'
+[0.189s] Level 5:colcon.colcon_core.verb:set package 'sim_ros2_interface' build argument 'cmake_force_configure' from command line to 'False'
+[0.189s] Level 5:colcon.colcon_core.verb:set package 'sim_ros2_interface' build argument 'ament_cmake_args' from command line to 'None'
+[0.189s] Level 5:colcon.colcon_core.verb:set package 'sim_ros2_interface' build argument 'catkin_cmake_args' from command line to 'None'
+[0.189s] Level 5:colcon.colcon_core.verb:set package 'sim_ros2_interface' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.189s] DEBUG:colcon.colcon_core.verb:Building package 'sim_ros2_interface' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/cobos/Documents/Movement/build/sim_ros2_interface', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/cobos/Documents/Movement/install/sim_ros2_interface', 'merge_install': False, 'path': '/home/cobos/Documents/Movement/src/sim_ros2_interface', 'symlink_install': True, 'test_result_base': None}
+[0.190s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.190s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.191s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/cobos/Documents/Movement/src/drive_robot' with build type 'ament_python'
+[0.191s] Level 1:colcon.colcon_core.shell:create_environment_hook('drive_robot', 'ament_prefix_path')
+[0.192s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.193s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cobos/Documents/Movement/install/drive_robot/share/drive_robot/hook/ament_prefix_path.ps1'
+[0.193s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/cobos/Documents/Movement/install/drive_robot/share/drive_robot/hook/ament_prefix_path.dsv'
+[0.194s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cobos/Documents/Movement/install/drive_robot/share/drive_robot/hook/ament_prefix_path.sh'
+[0.194s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.194s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.197s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/cobos/Documents/Movement/src/my_robot' with build type 'ament_python'
+[0.197s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot', 'ament_prefix_path')
+[0.197s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cobos/Documents/Movement/install/my_robot/share/my_robot/hook/ament_prefix_path.ps1'
+[0.197s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/cobos/Documents/Movement/install/my_robot/share/my_robot/hook/ament_prefix_path.dsv'
+[0.198s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cobos/Documents/Movement/install/my_robot/share/my_robot/hook/ament_prefix_path.sh'
+[0.198s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.198s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.200s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/cobos/Documents/Movement/src/ros2_bubble_rob' with build type 'ament_cmake'
+[0.200s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/cobos/Documents/Movement/src/ros2_bubble_rob'
+[0.200s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.200s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.202s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/cobos/Documents/Movement/src/sim_ros2_interface' with build type 'ament_cmake'
+[0.203s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/cobos/Documents/Movement/src/sim_ros2_interface'
+[0.203s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.203s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.374s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/cobos/Documents/Movement/src/drive_robot'
+[0.374s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.374s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.547s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/cobos/Documents/Movement/src/my_robot'
+[0.547s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.547s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.552s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/cobos/Documents/Movement/build/ros2_bubble_rob': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cobos/Documents/Movement/install/drive_robot:/opt/ros/humble /usr/bin/cmake /home/cobos/Documents/Movement/src/ros2_bubble_rob -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cobos/Documents/Movement/install/ros2_bubble_rob
+[0.555s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/cobos/Documents/Movement/build/sim_ros2_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cobos/Documents/Movement/install/drive_robot:/opt/ros/humble /usr/bin/cmake /home/cobos/Documents/Movement/src/sim_ros2_interface -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cobos/Documents/Movement/install/sim_ros2_interface
+[1.023s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/cobos/Documents/Movement/build/my_robot': PYTHONPATH=/home/cobos/Documents/Movement/build/my_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/cobos/Documents/Movement/install/my_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/cobos/Documents/Movement/build/my_robot/build --no-deps symlink_data
+[1.034s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/cobos/Documents/Movement/build/drive_robot': PYTHONPATH=/home/cobos/Documents/Movement/build/drive_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/cobos/Documents/Movement/install/drive_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/cobos/Documents/Movement/build/drive_robot/build --no-deps symlink_data
+[1.617s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot', 'pythonpath_develop')
+[1.618s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cobos/Documents/Movement/build/my_robot/share/my_robot/hook/pythonpath_develop.ps1'
+[1.618s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/cobos/Documents/Movement/build/my_robot' returned '0': PYTHONPATH=/home/cobos/Documents/Movement/build/my_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/cobos/Documents/Movement/install/my_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/cobos/Documents/Movement/build/my_robot/build --no-deps symlink_data
+[1.618s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/cobos/Documents/Movement/build/my_robot/share/my_robot/hook/pythonpath_develop.dsv'
+[1.619s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cobos/Documents/Movement/build/my_robot/share/my_robot/hook/pythonpath_develop.sh'
+[1.621s] Level 1:colcon.colcon_core.environment:checking '/home/cobos/Documents/Movement/install/my_robot' for CMake module files
+[1.621s] Level 1:colcon.colcon_core.environment:checking '/home/cobos/Documents/Movement/install/my_robot' for CMake config files
+[1.622s] Level 1:colcon.colcon_core.environment:checking '/home/cobos/Documents/Movement/install/my_robot/lib'
+[1.622s] Level 1:colcon.colcon_core.environment:checking '/home/cobos/Documents/Movement/install/my_robot/bin'
+[1.622s] Level 1:colcon.colcon_core.environment:checking '/home/cobos/Documents/Movement/install/my_robot/lib/pkgconfig/my_robot.pc'
+[1.622s] Level 1:colcon.colcon_core.environment:checking '/home/cobos/Documents/Movement/install/my_robot/lib/python3.10/site-packages'
+[1.622s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot', 'pythonpath')
+[1.623s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cobos/Documents/Movement/install/my_robot/share/my_robot/hook/pythonpath.ps1'
+[1.623s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/cobos/Documents/Movement/install/my_robot/share/my_robot/hook/pythonpath.dsv'
+[1.623s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cobos/Documents/Movement/install/my_robot/share/my_robot/hook/pythonpath.sh'
+[1.624s] Level 1:colcon.colcon_core.environment:checking '/home/cobos/Documents/Movement/install/my_robot/bin'
+[1.624s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_robot)
+[1.624s] INFO:colcon.colcon_core.shell:Creating package script '/home/cobos/Documents/Movement/install/my_robot/share/my_robot/package.ps1'
+[1.625s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/cobos/Documents/Movement/install/my_robot/share/my_robot/package.dsv'
+[1.625s] INFO:colcon.colcon_core.shell:Creating package script '/home/cobos/Documents/Movement/install/my_robot/share/my_robot/package.sh'
+[1.626s] INFO:colcon.colcon_core.shell:Creating package script '/home/cobos/Documents/Movement/install/my_robot/share/my_robot/package.bash'
+[1.627s] INFO:colcon.colcon_core.shell:Creating package script '/home/cobos/Documents/Movement/install/my_robot/share/my_robot/package.zsh'
+[1.627s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/cobos/Documents/Movement/install/my_robot/share/colcon-core/packages/my_robot)
+[1.652s] Level 1:colcon.colcon_core.shell:create_environment_hook('drive_robot', 'pythonpath_develop')
+[1.653s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cobos/Documents/Movement/build/drive_robot/share/drive_robot/hook/pythonpath_develop.ps1'
+[1.653s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/cobos/Documents/Movement/build/drive_robot' returned '0': PYTHONPATH=/home/cobos/Documents/Movement/build/drive_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/cobos/Documents/Movement/install/drive_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/cobos/Documents/Movement/build/drive_robot/build --no-deps symlink_data
+[1.654s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/cobos/Documents/Movement/build/drive_robot/share/drive_robot/hook/pythonpath_develop.dsv'
+[1.654s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cobos/Documents/Movement/build/drive_robot/share/drive_robot/hook/pythonpath_develop.sh'
+[1.654s] Level 1:colcon.colcon_core.environment:checking '/home/cobos/Documents/Movement/install/drive_robot' for CMake module files
+[1.654s] Level 1:colcon.colcon_core.environment:checking '/home/cobos/Documents/Movement/install/drive_robot' for CMake config files
+[1.655s] Level 1:colcon.colcon_core.environment:checking '/home/cobos/Documents/Movement/install/drive_robot/lib'
+[1.655s] Level 1:colcon.colcon_core.environment:checking '/home/cobos/Documents/Movement/install/drive_robot/bin'
+[1.655s] Level 1:colcon.colcon_core.environment:checking '/home/cobos/Documents/Movement/install/drive_robot/lib/pkgconfig/drive_robot.pc'
+[1.655s] Level 1:colcon.colcon_core.environment:checking '/home/cobos/Documents/Movement/install/drive_robot/lib/python3.10/site-packages'
+[1.655s] Level 1:colcon.colcon_core.shell:create_environment_hook('drive_robot', 'pythonpath')
+[1.655s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cobos/Documents/Movement/install/drive_robot/share/drive_robot/hook/pythonpath.ps1'
+[1.656s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/cobos/Documents/Movement/install/drive_robot/share/drive_robot/hook/pythonpath.dsv'
+[1.656s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cobos/Documents/Movement/install/drive_robot/share/drive_robot/hook/pythonpath.sh'
+[1.656s] Level 1:colcon.colcon_core.environment:checking '/home/cobos/Documents/Movement/install/drive_robot/bin'
+[1.656s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(drive_robot)
+[1.657s] INFO:colcon.colcon_core.shell:Creating package script '/home/cobos/Documents/Movement/install/drive_robot/share/drive_robot/package.ps1'
+[1.657s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/cobos/Documents/Movement/install/drive_robot/share/drive_robot/package.dsv'
+[1.658s] INFO:colcon.colcon_core.shell:Creating package script '/home/cobos/Documents/Movement/install/drive_robot/share/drive_robot/package.sh'
+[1.658s] INFO:colcon.colcon_core.shell:Creating package script '/home/cobos/Documents/Movement/install/drive_robot/share/drive_robot/package.bash'
+[1.658s] INFO:colcon.colcon_core.shell:Creating package script '/home/cobos/Documents/Movement/install/drive_robot/share/drive_robot/package.zsh'
+[1.658s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/cobos/Documents/Movement/install/drive_robot/share/colcon-core/packages/drive_robot)
+[1.786s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/cobos/Documents/Movement/build/ros2_bubble_rob' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cobos/Documents/Movement/install/drive_robot:/opt/ros/humble /usr/bin/cmake /home/cobos/Documents/Movement/src/ros2_bubble_rob -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cobos/Documents/Movement/install/ros2_bubble_rob
+[1.788s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/cobos/Documents/Movement/build/ros2_bubble_rob': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cobos/Documents/Movement/install/drive_robot:/opt/ros/humble /usr/bin/cmake --build /home/cobos/Documents/Movement/build/ros2_bubble_rob -- -j12 -l12
+[3.161s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/cobos/Documents/Movement/build/sim_ros2_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cobos/Documents/Movement/install/drive_robot:/opt/ros/humble /usr/bin/cmake /home/cobos/Documents/Movement/src/sim_ros2_interface -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cobos/Documents/Movement/install/sim_ros2_interface
+[3.162s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/cobos/Documents/Movement/build/sim_ros2_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cobos/Documents/Movement/install/drive_robot:/opt/ros/humble /usr/bin/cmake --build /home/cobos/Documents/Movement/build/sim_ros2_interface -- -j12 -l12
+[12.867s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/cobos/Documents/Movement/build/ros2_bubble_rob' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cobos/Documents/Movement/install/drive_robot:/opt/ros/humble /usr/bin/cmake --build /home/cobos/Documents/Movement/build/ros2_bubble_rob -- -j12 -l12
+[12.892s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/cobos/Documents/Movement/build/ros2_bubble_rob': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cobos/Documents/Movement/install/drive_robot:/opt/ros/humble /usr/bin/cmake --install /home/cobos/Documents/Movement/build/ros2_bubble_rob
+[12.994s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_bubble_rob)
+[12.994s] Level 1:colcon.colcon_core.environment:checking '/home/cobos/Documents/Movement/install/ros2_bubble_rob' for CMake module files
+[12.994s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/cobos/Documents/Movement/build/ros2_bubble_rob' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cobos/Documents/Movement/install/drive_robot:/opt/ros/humble /usr/bin/cmake --install /home/cobos/Documents/Movement/build/ros2_bubble_rob
+[12.995s] Level 1:colcon.colcon_core.environment:checking '/home/cobos/Documents/Movement/install/ros2_bubble_rob' for CMake config files
+[12.995s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_bubble_rob', 'cmake_prefix_path')
+[12.995s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cobos/Documents/Movement/install/ros2_bubble_rob/share/ros2_bubble_rob/hook/cmake_prefix_path.ps1'
+[12.995s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/cobos/Documents/Movement/install/ros2_bubble_rob/share/ros2_bubble_rob/hook/cmake_prefix_path.dsv'
+[12.996s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cobos/Documents/Movement/install/ros2_bubble_rob/share/ros2_bubble_rob/hook/cmake_prefix_path.sh'
+[12.996s] Level 1:colcon.colcon_core.environment:checking '/home/cobos/Documents/Movement/install/ros2_bubble_rob/lib'
+[12.996s] Level 1:colcon.colcon_core.environment:checking '/home/cobos/Documents/Movement/install/ros2_bubble_rob/bin'
+[12.996s] Level 1:colcon.colcon_core.environment:checking '/home/cobos/Documents/Movement/install/ros2_bubble_rob/lib/pkgconfig/ros2_bubble_rob.pc'
+[12.996s] Level 1:colcon.colcon_core.environment:checking '/home/cobos/Documents/Movement/install/ros2_bubble_rob/lib/python3.10/site-packages'
+[12.997s] Level 1:colcon.colcon_core.environment:checking '/home/cobos/Documents/Movement/install/ros2_bubble_rob/bin'
+[12.997s] INFO:colcon.colcon_core.shell:Creating package script '/home/cobos/Documents/Movement/install/ros2_bubble_rob/share/ros2_bubble_rob/package.ps1'
+[12.997s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/cobos/Documents/Movement/install/ros2_bubble_rob/share/ros2_bubble_rob/package.dsv'
+[12.997s] INFO:colcon.colcon_core.shell:Creating package script '/home/cobos/Documents/Movement/install/ros2_bubble_rob/share/ros2_bubble_rob/package.sh'
+[12.998s] INFO:colcon.colcon_core.shell:Creating package script '/home/cobos/Documents/Movement/install/ros2_bubble_rob/share/ros2_bubble_rob/package.bash'
+[12.998s] INFO:colcon.colcon_core.shell:Creating package script '/home/cobos/Documents/Movement/install/ros2_bubble_rob/share/ros2_bubble_rob/package.zsh'
+[12.998s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/cobos/Documents/Movement/install/ros2_bubble_rob/share/colcon-core/packages/ros2_bubble_rob)
+[13.016s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_bubble_rob)
+[13.016s] Level 1:colcon.colcon_core.environment:checking '/home/cobos/Documents/Movement/install/ros2_bubble_rob' for CMake module files
+[13.017s] Level 1:colcon.colcon_core.environment:checking '/home/cobos/Documents/Movement/install/ros2_bubble_rob' for CMake config files
+[13.017s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_bubble_rob', 'cmake_prefix_path')
+[13.017s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cobos/Documents/Movement/install/ros2_bubble_rob/share/ros2_bubble_rob/hook/cmake_prefix_path.ps1'
+[13.017s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/cobos/Documents/Movement/install/ros2_bubble_rob/share/ros2_bubble_rob/hook/cmake_prefix_path.dsv'
+[13.018s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cobos/Documents/Movement/install/ros2_bubble_rob/share/ros2_bubble_rob/hook/cmake_prefix_path.sh'
+[13.018s] Level 1:colcon.colcon_core.environment:checking '/home/cobos/Documents/Movement/install/ros2_bubble_rob/lib'
+[13.018s] Level 1:colcon.colcon_core.environment:checking '/home/cobos/Documents/Movement/install/ros2_bubble_rob/bin'
+[13.018s] Level 1:colcon.colcon_core.environment:checking '/home/cobos/Documents/Movement/install/ros2_bubble_rob/lib/pkgconfig/ros2_bubble_rob.pc'
+[13.018s] Level 1:colcon.colcon_core.environment:checking '/home/cobos/Documents/Movement/install/ros2_bubble_rob/lib/python3.10/site-packages'
+[13.019s] Level 1:colcon.colcon_core.environment:checking '/home/cobos/Documents/Movement/install/ros2_bubble_rob/bin'
+[13.019s] INFO:colcon.colcon_core.shell:Creating package script '/home/cobos/Documents/Movement/install/ros2_bubble_rob/share/ros2_bubble_rob/package.ps1'
+[13.019s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/cobos/Documents/Movement/install/ros2_bubble_rob/share/ros2_bubble_rob/package.dsv'
+[13.020s] INFO:colcon.colcon_core.shell:Creating package script '/home/cobos/Documents/Movement/install/ros2_bubble_rob/share/ros2_bubble_rob/package.sh'
+[13.020s] INFO:colcon.colcon_core.shell:Creating package script '/home/cobos/Documents/Movement/install/ros2_bubble_rob/share/ros2_bubble_rob/package.bash'
+[13.020s] INFO:colcon.colcon_core.shell:Creating package script '/home/cobos/Documents/Movement/install/ros2_bubble_rob/share/ros2_bubble_rob/package.zsh'
+[13.020s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/cobos/Documents/Movement/install/ros2_bubble_rob/share/colcon-core/packages/ros2_bubble_rob)
+[128.157s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/cobos/Documents/Movement/build/sim_ros2_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cobos/Documents/Movement/install/drive_robot:/opt/ros/humble /usr/bin/cmake --build /home/cobos/Documents/Movement/build/sim_ros2_interface -- -j12 -l12
+[128.187s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/cobos/Documents/Movement/build/sim_ros2_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cobos/Documents/Movement/install/drive_robot:/opt/ros/humble /usr/bin/cmake --install /home/cobos/Documents/Movement/build/sim_ros2_interface
+[128.298s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sim_ros2_interface)
+[128.298s] Level 1:colcon.colcon_core.environment:checking '/home/cobos/Documents/Movement/install/sim_ros2_interface' for CMake module files
+[128.299s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/cobos/Documents/Movement/build/sim_ros2_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cobos/Documents/Movement/install/drive_robot:/opt/ros/humble /usr/bin/cmake --install /home/cobos/Documents/Movement/build/sim_ros2_interface
+[128.299s] Level 1:colcon.colcon_core.environment:checking '/home/cobos/Documents/Movement/install/sim_ros2_interface' for CMake config files
+[128.299s] Level 1:colcon.colcon_core.shell:create_environment_hook('sim_ros2_interface', 'cmake_prefix_path')
+[128.299s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cobos/Documents/Movement/install/sim_ros2_interface/share/sim_ros2_interface/hook/cmake_prefix_path.ps1'
+[128.299s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/cobos/Documents/Movement/install/sim_ros2_interface/share/sim_ros2_interface/hook/cmake_prefix_path.dsv'
+[128.300s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cobos/Documents/Movement/install/sim_ros2_interface/share/sim_ros2_interface/hook/cmake_prefix_path.sh'
+[128.300s] Level 1:colcon.colcon_core.environment:checking '/home/cobos/Documents/Movement/install/sim_ros2_interface/bin'
+[128.300s] Level 1:colcon.colcon_core.environment:checking '/home/cobos/Documents/Movement/install/sim_ros2_interface/lib/pkgconfig/sim_ros2_interface.pc'
+[128.300s] Level 1:colcon.colcon_core.environment:checking '/home/cobos/Documents/Movement/install/sim_ros2_interface/lib/python3.10/site-packages'
+[128.301s] Level 1:colcon.colcon_core.environment:checking '/home/cobos/Documents/Movement/install/sim_ros2_interface/bin'
+[128.301s] INFO:colcon.colcon_core.shell:Creating package script '/home/cobos/Documents/Movement/install/sim_ros2_interface/share/sim_ros2_interface/package.ps1'
+[128.301s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/cobos/Documents/Movement/install/sim_ros2_interface/share/sim_ros2_interface/package.dsv'
+[128.301s] INFO:colcon.colcon_core.shell:Creating package script '/home/cobos/Documents/Movement/install/sim_ros2_interface/share/sim_ros2_interface/package.sh'
+[128.302s] INFO:colcon.colcon_core.shell:Creating package script '/home/cobos/Documents/Movement/install/sim_ros2_interface/share/sim_ros2_interface/package.bash'
+[128.302s] INFO:colcon.colcon_core.shell:Creating package script '/home/cobos/Documents/Movement/install/sim_ros2_interface/share/sim_ros2_interface/package.zsh'
+[128.302s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/cobos/Documents/Movement/install/sim_ros2_interface/share/colcon-core/packages/sim_ros2_interface)
+[128.331s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sim_ros2_interface)
+[128.331s] Level 1:colcon.colcon_core.environment:checking '/home/cobos/Documents/Movement/install/sim_ros2_interface' for CMake module files
+[128.331s] Level 1:colcon.colcon_core.environment:checking '/home/cobos/Documents/Movement/install/sim_ros2_interface' for CMake config files
+[128.332s] Level 1:colcon.colcon_core.shell:create_environment_hook('sim_ros2_interface', 'cmake_prefix_path')
+[128.332s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cobos/Documents/Movement/install/sim_ros2_interface/share/sim_ros2_interface/hook/cmake_prefix_path.ps1'
+[128.332s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/cobos/Documents/Movement/install/sim_ros2_interface/share/sim_ros2_interface/hook/cmake_prefix_path.dsv'
+[128.332s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cobos/Documents/Movement/install/sim_ros2_interface/share/sim_ros2_interface/hook/cmake_prefix_path.sh'
+[128.333s] Level 1:colcon.colcon_core.environment:checking '/home/cobos/Documents/Movement/install/sim_ros2_interface/bin'
+[128.333s] Level 1:colcon.colcon_core.environment:checking '/home/cobos/Documents/Movement/install/sim_ros2_interface/lib/pkgconfig/sim_ros2_interface.pc'
+[128.333s] Level 1:colcon.colcon_core.environment:checking '/home/cobos/Documents/Movement/install/sim_ros2_interface/lib/python3.10/site-packages'
+[128.333s] Level 1:colcon.colcon_core.environment:checking '/home/cobos/Documents/Movement/install/sim_ros2_interface/bin'
+[128.333s] INFO:colcon.colcon_core.shell:Creating package script '/home/cobos/Documents/Movement/install/sim_ros2_interface/share/sim_ros2_interface/package.ps1'
+[128.334s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/cobos/Documents/Movement/install/sim_ros2_interface/share/sim_ros2_interface/package.dsv'
+[128.334s] INFO:colcon.colcon_core.shell:Creating package script '/home/cobos/Documents/Movement/install/sim_ros2_interface/share/sim_ros2_interface/package.sh'
+[128.335s] INFO:colcon.colcon_core.shell:Creating package script '/home/cobos/Documents/Movement/install/sim_ros2_interface/share/sim_ros2_interface/package.bash'
+[128.335s] INFO:colcon.colcon_core.shell:Creating package script '/home/cobos/Documents/Movement/install/sim_ros2_interface/share/sim_ros2_interface/package.zsh'
+[128.335s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/cobos/Documents/Movement/install/sim_ros2_interface/share/colcon-core/packages/sim_ros2_interface)
+[128.336s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[128.336s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[128.336s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[128.336s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[128.340s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[128.340s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[128.340s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[128.417s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[128.417s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/cobos/Documents/Movement/install/local_setup.ps1'
+[128.418s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/cobos/Documents/Movement/install/_local_setup_util_ps1.py'
+[128.419s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/cobos/Documents/Movement/install/setup.ps1'
+[128.420s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/cobos/Documents/Movement/install/local_setup.sh'
+[128.421s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/cobos/Documents/Movement/install/_local_setup_util_sh.py'
+[128.421s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/cobos/Documents/Movement/install/setup.sh'
+[128.422s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/cobos/Documents/Movement/install/local_setup.bash'
+[128.422s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/cobos/Documents/Movement/install/setup.bash'
+[128.423s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/cobos/Documents/Movement/install/local_setup.zsh'
+[128.424s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/cobos/Documents/Movement/install/setup.zsh'

@@ -1,0 +1,15 @@
+/home/cobos/Documents/Movement/install/ros2_bubble_rob/share/ament_index/resource_index/package_run_dependencies/ros2_bubble_rob
+/home/cobos/Documents/Movement/install/ros2_bubble_rob/share/ament_index/resource_index/parent_prefix_path/ros2_bubble_rob
+/home/cobos/Documents/Movement/install/ros2_bubble_rob/share/ros2_bubble_rob/environment/ament_prefix_path.sh
+/home/cobos/Documents/Movement/install/ros2_bubble_rob/share/ros2_bubble_rob/environment/ament_prefix_path.dsv
+/home/cobos/Documents/Movement/install/ros2_bubble_rob/share/ros2_bubble_rob/environment/path.sh
+/home/cobos/Documents/Movement/install/ros2_bubble_rob/share/ros2_bubble_rob/environment/path.dsv
+/home/cobos/Documents/Movement/install/ros2_bubble_rob/share/ros2_bubble_rob/local_setup.bash
+/home/cobos/Documents/Movement/install/ros2_bubble_rob/share/ros2_bubble_rob/local_setup.sh
+/home/cobos/Documents/Movement/install/ros2_bubble_rob/share/ros2_bubble_rob/local_setup.zsh
+/home/cobos/Documents/Movement/install/ros2_bubble_rob/share/ros2_bubble_rob/local_setup.dsv
+/home/cobos/Documents/Movement/install/ros2_bubble_rob/share/ros2_bubble_rob/package.dsv
+/home/cobos/Documents/Movement/install/ros2_bubble_rob/share/ament_index/resource_index/packages/ros2_bubble_rob
+/home/cobos/Documents/Movement/install/ros2_bubble_rob/share/ros2_bubble_rob/cmake/ros2_bubble_robConfig.cmake
+/home/cobos/Documents/Movement/install/ros2_bubble_rob/share/ros2_bubble_rob/cmake/ros2_bubble_robConfig-version.cmake
+/home/cobos/Documents/Movement/install/ros2_bubble_rob/share/ros2_bubble_rob/package.xml

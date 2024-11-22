@@ -1,0 +1,38 @@
+[0.843s] Invoking command in '/home/cobos/Documents/Movement/build/drive_robot': PYTHONPATH=/home/cobos/Documents/Movement/build/drive_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/cobos/Documents/Movement/install/drive_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/cobos/Documents/Movement/build/drive_robot/build --no-deps symlink_data
+[0.978s] /home/cobos/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'tests_require'
+[0.978s]   warnings.warn(msg)
+[1.140s] running develop
+[1.140s] /home/cobos/.local/lib/python3.10/site-packages/setuptools/command/develop.py:41: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[1.140s] !!
+[1.140s] 
+[1.140s]         ********************************************************************************
+[1.140s]         Please avoid running ``setup.py`` and ``easy_install``.
+[1.140s]         Instead, use pypa/build, pypa/installer or other
+[1.141s]         standards-based tools.
+[1.141s] 
+[1.141s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[1.141s]         ********************************************************************************
+[1.141s] 
+[1.141s] !!
+[1.141s]   easy_install.initialize_options(self)
+[1.349s] running egg_info
+[1.365s] creating drive_robot.egg-info
+[1.365s] writing drive_robot.egg-info/PKG-INFO
+[1.366s] writing dependency_links to drive_robot.egg-info/dependency_links.txt
+[1.366s] writing entry points to drive_robot.egg-info/entry_points.txt
+[1.366s] writing requirements to drive_robot.egg-info/requires.txt
+[1.366s] writing top-level names to drive_robot.egg-info/top_level.txt
+[1.366s] writing manifest file 'drive_robot.egg-info/SOURCES.txt'
+[1.399s] reading manifest file 'drive_robot.egg-info/SOURCES.txt'
+[1.400s] writing manifest file 'drive_robot.egg-info/SOURCES.txt'
+[1.418s] running build_ext
+[1.418s] Creating /home/cobos/Documents/Movement/install/drive_robot/lib/python3.10/site-packages/drive-robot.egg-link (link to .)
+[1.419s] Installing driving_node script to /home/cobos/Documents/Movement/install/drive_robot/lib/drive_robot
+[1.419s] Installing motor_control_node script to /home/cobos/Documents/Movement/install/drive_robot/lib/drive_robot
+[1.419s] 
+[1.419s] Installed /home/cobos/Documents/Movement/build/drive_robot
+[1.419s] running symlink_data
+[1.419s] creating /home/cobos/Documents/Movement/install/drive_robot/share/ament_index/resource_index/packages
+[1.419s] symbolically linking /home/cobos/Documents/Movement/build/drive_robot/resource/drive_robot -> /home/cobos/Documents/Movement/install/drive_robot/share/ament_index/resource_index/packages
+[1.420s] symbolically linking /home/cobos/Documents/Movement/build/drive_robot/package.xml -> /home/cobos/Documents/Movement/install/drive_robot/share/drive_robot
+[1.462s] Invoked command in '/home/cobos/Documents/Movement/build/drive_robot' returned '0': PYTHONPATH=/home/cobos/Documents/Movement/build/drive_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/cobos/Documents/Movement/install/drive_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/cobos/Documents/Movement/build/drive_robot/build --no-deps symlink_data
