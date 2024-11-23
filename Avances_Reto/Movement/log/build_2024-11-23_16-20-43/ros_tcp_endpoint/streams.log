@@ -1,0 +1,47 @@
+[1.879s] Invoking command in '/home/cobos/Documents/Movement/build/ros_tcp_endpoint': PYTHONPATH=/home/cobos/Documents/Movement/build/ros_tcp_endpoint/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/cobos/Documents/Movement/install/ros_tcp_endpoint/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/cobos/Documents/Movement/build/ros_tcp_endpoint/build --no-deps symlink_data
+[2.049s] /home/cobos/.local/lib/python3.10/site-packages/setuptools/dist.py:488: SetuptoolsDeprecationWarning: Invalid dash-separated options
+[2.050s] !!
+[2.050s] 
+[2.050s]         ********************************************************************************
+[2.050s]         Usage of dash-separated 'script-dir' will not be supported in future
+[2.050s]         versions. Please use the underscore name 'script_dir' instead.
+[2.050s] 
+[2.050s]         By 2025-Mar-03, you need to update your project and remove deprecated calls
+[2.051s]         or your builds will no longer be supported.
+[2.051s] 
+[2.051s]         See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.
+[2.051s]         ********************************************************************************
+[2.051s] 
+[2.051s] !!
+[2.052s]   opt = self.warn_dash_deprecation(opt, section)
+[2.078s] /home/cobos/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'tests_require'
+[2.078s]   warnings.warn(msg)
+[2.319s] running develop
+[2.319s] /home/cobos/.local/lib/python3.10/site-packages/setuptools/command/develop.py:41: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[2.319s] !!
+[2.319s] 
+[2.320s]         ********************************************************************************
+[2.320s]         Please avoid running ``setup.py`` and ``easy_install``.
+[2.320s]         Instead, use pypa/build, pypa/installer or other
+[2.320s]         standards-based tools.
+[2.320s] 
+[2.320s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[2.320s]         ********************************************************************************
+[2.321s] 
+[2.321s] !!
+[2.321s]   easy_install.initialize_options(self)
+[2.640s] running egg_info
+[2.666s] writing ros_tcp_endpoint.egg-info/PKG-INFO
+[2.667s] writing dependency_links to ros_tcp_endpoint.egg-info/dependency_links.txt
+[2.667s] writing entry points to ros_tcp_endpoint.egg-info/entry_points.txt
+[2.668s] writing requirements to ros_tcp_endpoint.egg-info/requires.txt
+[2.668s] writing top-level names to ros_tcp_endpoint.egg-info/top_level.txt
+[2.721s] reading manifest file 'ros_tcp_endpoint.egg-info/SOURCES.txt'
+[2.724s] writing manifest file 'ros_tcp_endpoint.egg-info/SOURCES.txt'
+[2.752s] running build_ext
+[2.752s] Creating /home/cobos/Documents/Movement/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros-tcp-endpoint.egg-link (link to .)
+[2.754s] Installing default_server_endpoint script to /home/cobos/Documents/Movement/install/ros_tcp_endpoint/lib/ros_tcp_endpoint
+[2.754s] 
+[2.754s] Installed /home/cobos/Documents/Movement/build/ros_tcp_endpoint
+[2.754s] running symlink_data
+[2.814s] Invoked command in '/home/cobos/Documents/Movement/build/ros_tcp_endpoint' returned '0': PYTHONPATH=/home/cobos/Documents/Movement/build/ros_tcp_endpoint/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/cobos/Documents/Movement/install/ros_tcp_endpoint/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/cobos/Documents/Movement/build/ros_tcp_endpoint/build --no-deps symlink_data

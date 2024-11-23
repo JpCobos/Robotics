@@ -1,0 +1,32 @@
+[1.591s] Invoking command in '/home/cobos/Documents/Movement/build/my_robot': PYTHONPATH=/home/cobos/Documents/Movement/build/my_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/cobos/Documents/Movement/install/my_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/cobos/Documents/Movement/build/my_robot/build --no-deps symlink_data
+[1.801s] /home/cobos/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'tests_require'
+[1.801s]   warnings.warn(msg)
+[2.009s] running develop
+[2.009s] /home/cobos/.local/lib/python3.10/site-packages/setuptools/command/develop.py:41: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[2.009s] !!
+[2.009s] 
+[2.009s]         ********************************************************************************
+[2.010s]         Please avoid running ``setup.py`` and ``easy_install``.
+[2.010s]         Instead, use pypa/build, pypa/installer or other
+[2.010s]         standards-based tools.
+[2.010s] 
+[2.010s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[2.010s]         ********************************************************************************
+[2.010s] 
+[2.010s] !!
+[2.010s]   easy_install.initialize_options(self)
+[2.306s] running egg_info
+[2.326s] writing my_robot.egg-info/PKG-INFO
+[2.326s] writing dependency_links to my_robot.egg-info/dependency_links.txt
+[2.326s] writing entry points to my_robot.egg-info/entry_points.txt
+[2.327s] writing requirements to my_robot.egg-info/requires.txt
+[2.327s] writing top-level names to my_robot.egg-info/top_level.txt
+[2.370s] reading manifest file 'my_robot.egg-info/SOURCES.txt'
+[2.373s] writing manifest file 'my_robot.egg-info/SOURCES.txt'
+[2.396s] running build_ext
+[2.396s] Creating /home/cobos/Documents/Movement/install/my_robot/lib/python3.10/site-packages/my-robot.egg-link (link to .)
+[2.398s] Installing move_robot script to /home/cobos/Documents/Movement/install/my_robot/lib/my_robot
+[2.399s] 
+[2.399s] Installed /home/cobos/Documents/Movement/build/my_robot
+[2.399s] running symlink_data
+[2.473s] Invoked command in '/home/cobos/Documents/Movement/build/my_robot' returned '0': PYTHONPATH=/home/cobos/Documents/Movement/build/my_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/cobos/Documents/Movement/install/my_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/cobos/Documents/Movement/build/my_robot/build --no-deps symlink_data

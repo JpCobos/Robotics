@@ -1,0 +1,41 @@
+[0.441s] Invoking command in '/home/cobos/Documents/Movement/build/ros_tcp_endpoint': /usr/bin/cmake /home/cobos/Documents/Movement/src/ROS-TCP-Endpoint -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/cobos/Documents/Movement/install/ros_tcp_endpoint
+[0.447s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.447s]   Compatibility with CMake < 2.8.12 will be removed from a future version of
+[0.447s]   CMake.
+[0.448s] 
+[0.448s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[0.449s]   CMake that the project does not need compatibility with older versions.
+[0.449s] 
+[0.449s] [0m
+[0.561s] -- The C compiler identification is GNU 11.4.0
+[0.698s] -- The CXX compiler identification is GNU 11.4.0
+[0.709s] -- Detecting C compiler ABI info
+[0.784s] -- Detecting C compiler ABI info - done
+[0.793s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.793s] -- Detecting C compile features
+[0.793s] -- Detecting C compile features - done
+[0.797s] -- Detecting CXX compiler ABI info
+[0.876s] -- Detecting CXX compiler ABI info - done
+[0.884s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.884s] -- Detecting CXX compile features
+[0.885s] -- Detecting CXX compile features - done
+[0.895s] [31mCMake Error at CMakeLists.txt:4 (find_package):
+[0.896s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[0.896s]   asked CMake to find a package configuration file provided by "catkin", but
+[0.896s]   CMake did not find one.
+[0.896s] 
+[0.896s]   Could not find a package configuration file provided by "catkin" with any
+[0.896s]   of the following names:
+[0.896s] 
+[0.896s]     catkinConfig.cmake
+[0.896s]     catkin-config.cmake
+[0.896s] 
+[0.896s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[0.896s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[0.896s]   provides a separate development package or SDK, be sure it has been
+[0.896s]   installed.
+[0.896s] 
+[0.896s] [0m
+[0.897s] -- Configuring incomplete, errors occurred!
+[0.897s] See also "/home/cobos/Documents/Movement/build/ros_tcp_endpoint/CMakeFiles/CMakeOutput.log".
+[0.900s] Invoked command in '/home/cobos/Documents/Movement/build/ros_tcp_endpoint' returned '1': /usr/bin/cmake /home/cobos/Documents/Movement/src/ROS-TCP-Endpoint -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/cobos/Documents/Movement/install/ros_tcp_endpoint

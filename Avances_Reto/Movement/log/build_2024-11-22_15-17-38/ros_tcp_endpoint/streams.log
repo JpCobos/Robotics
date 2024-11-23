@@ -1,0 +1,29 @@
+[0.437s] Invoking command in '/home/cobos/Documents/Movement/build/ros_tcp_endpoint': /usr/bin/cmake /home/cobos/Documents/Movement/src/ROS-TCP-Endpoint -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/cobos/Documents/Movement/install/ros_tcp_endpoint
+[0.442s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.443s]   Compatibility with CMake < 2.8.12 will be removed from a future version of
+[0.443s]   CMake.
+[0.443s] 
+[0.444s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[0.447s]   CMake that the project does not need compatibility with older versions.
+[0.447s] 
+[0.448s] [0m
+[0.457s] [31mCMake Error at CMakeLists.txt:4 (find_package):
+[0.458s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[0.458s]   asked CMake to find a package configuration file provided by "catkin", but
+[0.458s]   CMake did not find one.
+[0.458s] 
+[0.458s]   Could not find a package configuration file provided by "catkin" with any
+[0.458s]   of the following names:
+[0.458s] 
+[0.458s]     catkinConfig.cmake
+[0.458s]     catkin-config.cmake
+[0.458s] 
+[0.458s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[0.459s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[0.459s]   provides a separate development package or SDK, be sure it has been
+[0.459s]   installed.
+[0.459s] 
+[0.459s] [0m
+[0.460s] -- Configuring incomplete, errors occurred!
+[0.460s] See also "/home/cobos/Documents/Movement/build/ros_tcp_endpoint/CMakeFiles/CMakeOutput.log".
+[0.460s] Invoked command in '/home/cobos/Documents/Movement/build/ros_tcp_endpoint' returned '1': /usr/bin/cmake /home/cobos/Documents/Movement/src/ROS-TCP-Endpoint -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/cobos/Documents/Movement/install/ros_tcp_endpoint

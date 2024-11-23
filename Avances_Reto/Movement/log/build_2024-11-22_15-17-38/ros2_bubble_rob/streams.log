@@ -1,0 +1,2 @@
+[0.439s] Invoking command in '/home/cobos/Documents/Movement/build/ros2_bubble_rob': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cobos/Documents/Movement/install/my_robot:/home/cobos/Documents/Movement/install/drive_robot:/opt/ros/humble /usr/bin/cmake --build /home/cobos/Documents/Movement/build/ros2_bubble_rob -- -j12 -l12
+[0.499s] [100%] Built target ros2BubbleRob

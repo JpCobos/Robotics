@@ -1,0 +1,1 @@
+/home/cobos/Documents/Movement/build/unity_robotics_demo_msgs/rosidl_typesupport_introspection_cpp/unity_robotics_demo_msgs/msg/detail/unity_color__rosidl_typesupport_introspection_cpp.hpp

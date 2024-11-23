@@ -1,0 +1,1 @@
+Invoking command in '/home/cobos/Documents/Movement/build/sim_ros2_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cobos/Documents/Movement/install/my_robot:/home/cobos/Documents/Movement/install/drive_robot:/opt/ros/humble /usr/bin/cmake --build /home/cobos/Documents/Movement/build/sim_ros2_interface -- -j12 -l12

@@ -1,0 +1,9 @@
+{
+  "package_name": "unity_robotics_demo_msgs",
+  "non_idl_tuples": [
+    "/home/cobos/Documents/Movement/src/unity_robotics_demo_msgs:msg/PosRot.msg",
+    "/home/cobos/Documents/Movement/src/unity_robotics_demo_msgs:msg/UnityColor.msg",
+    "/home/cobos/Documents/Movement/src/unity_robotics_demo_msgs:srv/PositionService.srv",
+    "/home/cobos/Documents/Movement/src/unity_robotics_demo_msgs:srv/ObjectPoseService.srv"
+  ]
+}

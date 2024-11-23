@@ -1,0 +1,48 @@
+[1.867s] Invoking command in '/home/cobos/Documents/Movement/build/unity_robotics_demo': PYTHONPATH=/home/cobos/Documents/Movement/build/unity_robotics_demo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/cobos/Documents/Movement/install/unity_robotics_demo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/cobos/Documents/Movement/build/unity_robotics_demo/build --no-deps symlink_data
+[2.059s] /home/cobos/.local/lib/python3.10/site-packages/setuptools/dist.py:488: SetuptoolsDeprecationWarning: Invalid dash-separated options
+[2.059s] !!
+[2.059s] 
+[2.059s]         ********************************************************************************
+[2.060s]         Usage of dash-separated 'script-dir' will not be supported in future
+[2.060s]         versions. Please use the underscore name 'script_dir' instead.
+[2.060s] 
+[2.060s]         By 2025-Mar-03, you need to update your project and remove deprecated calls
+[2.060s]         or your builds will no longer be supported.
+[2.060s] 
+[2.060s]         See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.
+[2.061s]         ********************************************************************************
+[2.061s] 
+[2.061s] !!
+[2.061s]   opt = self.warn_dash_deprecation(opt, section)
+[2.093s] /home/cobos/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'tests_require'
+[2.093s]   warnings.warn(msg)
+[2.332s] running develop
+[2.332s] /home/cobos/.local/lib/python3.10/site-packages/setuptools/command/develop.py:41: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[2.332s] !!
+[2.332s] 
+[2.332s]         ********************************************************************************
+[2.332s]         Please avoid running ``setup.py`` and ``easy_install``.
+[2.333s]         Instead, use pypa/build, pypa/installer or other
+[2.333s]         standards-based tools.
+[2.333s] 
+[2.333s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[2.333s]         ********************************************************************************
+[2.333s] 
+[2.333s] !!
+[2.334s]   easy_install.initialize_options(self)
+[2.654s] running egg_info
+[2.682s] writing unity_robotics_demo.egg-info/PKG-INFO
+[2.683s] writing dependency_links to unity_robotics_demo.egg-info/dependency_links.txt
+[2.684s] writing entry points to unity_robotics_demo.egg-info/entry_points.txt
+[2.684s] writing requirements to unity_robotics_demo.egg-info/requires.txt
+[2.684s] writing top-level names to unity_robotics_demo.egg-info/top_level.txt
+[2.737s] reading manifest file 'unity_robotics_demo.egg-info/SOURCES.txt'
+[2.738s] writing manifest file 'unity_robotics_demo.egg-info/SOURCES.txt'
+[2.765s] running build_ext
+[2.765s] Creating /home/cobos/Documents/Movement/install/unity_robotics_demo/lib/python3.10/site-packages/unity-robotics-demo.egg-link (link to .)
+[2.766s] Installing color_publisher script to /home/cobos/Documents/Movement/install/unity_robotics_demo/lib/unity_robotics_demo
+[2.766s] Installing position_service script to /home/cobos/Documents/Movement/install/unity_robotics_demo/lib/unity_robotics_demo
+[2.766s] 
+[2.766s] Installed /home/cobos/Documents/Movement/build/unity_robotics_demo
+[2.766s] running symlink_data
+[2.844s] Invoked command in '/home/cobos/Documents/Movement/build/unity_robotics_demo' returned '0': PYTHONPATH=/home/cobos/Documents/Movement/build/unity_robotics_demo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/cobos/Documents/Movement/install/unity_robotics_demo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/cobos/Documents/Movement/build/unity_robotics_demo/build --no-deps symlink_data

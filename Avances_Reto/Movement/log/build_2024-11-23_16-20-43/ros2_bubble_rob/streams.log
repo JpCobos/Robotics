@@ -1,0 +1,23 @@
+[0.510s] Invoking command in '/home/cobos/Documents/Movement/build/ros2_bubble_rob': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cobos/Documents/Movement/install/unity_robotics_demo:/home/cobos/Documents/Movement/install/ros_tcp_endpoint:/home/cobos/Documents/Movement/install/my_robot:/home/cobos/Documents/Movement/install/drive_robot:/opt/ros/humble /usr/bin/cmake --build /home/cobos/Documents/Movement/build/ros2_bubble_rob -- -j12 -l12
+[0.994s] [100%] Built target ros2BubbleRob
+[0.996s] Invoked command in '/home/cobos/Documents/Movement/build/ros2_bubble_rob' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cobos/Documents/Movement/install/unity_robotics_demo:/home/cobos/Documents/Movement/install/ros_tcp_endpoint:/home/cobos/Documents/Movement/install/my_robot:/home/cobos/Documents/Movement/install/drive_robot:/opt/ros/humble /usr/bin/cmake --build /home/cobos/Documents/Movement/build/ros2_bubble_rob -- -j12 -l12
+[1.031s] Invoking command in '/home/cobos/Documents/Movement/build/ros2_bubble_rob': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cobos/Documents/Movement/install/unity_robotics_demo:/home/cobos/Documents/Movement/install/ros_tcp_endpoint:/home/cobos/Documents/Movement/install/my_robot:/home/cobos/Documents/Movement/install/drive_robot:/opt/ros/humble /usr/bin/cmake --install /home/cobos/Documents/Movement/build/ros2_bubble_rob
+[1.039s] -- Install configuration: ""
+[1.040s] -- Execute custom install script
+[1.040s] -- Up-to-date symlink: /home/cobos/Documents/Movement/install/ros2_bubble_rob/share/ament_index/resource_index/package_run_dependencies/ros2_bubble_rob
+[1.040s] -- Up-to-date symlink: /home/cobos/Documents/Movement/install/ros2_bubble_rob/share/ament_index/resource_index/parent_prefix_path/ros2_bubble_rob
+[1.041s] -- Up-to-date symlink: /home/cobos/Documents/Movement/install/ros2_bubble_rob/share/ros2_bubble_rob/environment/ament_prefix_path.sh
+[1.041s] -- Up-to-date symlink: /home/cobos/Documents/Movement/install/ros2_bubble_rob/share/ros2_bubble_rob/environment/ament_prefix_path.dsv
+[1.041s] -- Up-to-date symlink: /home/cobos/Documents/Movement/install/ros2_bubble_rob/share/ros2_bubble_rob/environment/path.sh
+[1.041s] -- Up-to-date symlink: /home/cobos/Documents/Movement/install/ros2_bubble_rob/share/ros2_bubble_rob/environment/path.dsv
+[1.042s] -- Up-to-date symlink: /home/cobos/Documents/Movement/install/ros2_bubble_rob/share/ros2_bubble_rob/local_setup.bash
+[1.042s] -- Up-to-date symlink: /home/cobos/Documents/Movement/install/ros2_bubble_rob/share/ros2_bubble_rob/local_setup.sh
+[1.042s] -- Up-to-date symlink: /home/cobos/Documents/Movement/install/ros2_bubble_rob/share/ros2_bubble_rob/local_setup.zsh
+[1.043s] -- Up-to-date symlink: /home/cobos/Documents/Movement/install/ros2_bubble_rob/share/ros2_bubble_rob/local_setup.dsv
+[1.043s] -- Symlinking: /home/cobos/Documents/Movement/install/ros2_bubble_rob/share/ros2_bubble_rob/package.dsv
+[1.052s] -- Up-to-date symlink: /home/cobos/Documents/Movement/install/ros2_bubble_rob/share/ament_index/resource_index/packages/ros2_bubble_rob
+[1.052s] -- Up-to-date symlink: /home/cobos/Documents/Movement/install/ros2_bubble_rob/share/ros2_bubble_rob/cmake/ros2_bubble_robConfig.cmake
+[1.053s] -- Up-to-date symlink: /home/cobos/Documents/Movement/install/ros2_bubble_rob/share/ros2_bubble_rob/cmake/ros2_bubble_robConfig-version.cmake
+[1.053s] -- Up-to-date symlink: /home/cobos/Documents/Movement/install/ros2_bubble_rob/share/ros2_bubble_rob/package.xml
+[1.053s] -- Up-to-date: /home/cobos/Documents/Movement/install/ros2_bubble_rob/lib/ros2_bubble_rob/ros2BubbleRob
+[1.056s] Invoked command in '/home/cobos/Documents/Movement/build/ros2_bubble_rob' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cobos/Documents/Movement/install/unity_robotics_demo:/home/cobos/Documents/Movement/install/ros_tcp_endpoint:/home/cobos/Documents/Movement/install/my_robot:/home/cobos/Documents/Movement/install/drive_robot:/opt/ros/humble /usr/bin/cmake --install /home/cobos/Documents/Movement/build/ros2_bubble_rob

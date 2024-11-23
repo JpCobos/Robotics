@@ -1,0 +1,45 @@
+/home/cobos/.local/lib/python3.10/site-packages/setuptools/dist.py:488: SetuptoolsDeprecationWarning: Invalid dash-separated options
+!!
+
+        ********************************************************************************
+        Usage of dash-separated 'script-dir' will not be supported in future
+        versions. Please use the underscore name 'script_dir' instead.
+
+        By 2025-Mar-03, you need to update your project and remove deprecated calls
+        or your builds will no longer be supported.
+
+        See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.
+        ********************************************************************************
+
+!!
+  opt = self.warn_dash_deprecation(opt, section)
+/home/cobos/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'tests_require'
+  warnings.warn(msg)
+running develop
+/home/cobos/.local/lib/python3.10/site-packages/setuptools/command/develop.py:41: EasyInstallDeprecationWarning: easy_install command is deprecated.
+!!
+
+        ********************************************************************************
+        Please avoid running ``setup.py`` and ``easy_install``.
+        Instead, use pypa/build, pypa/installer or other
+        standards-based tools.
+
+        See https://github.com/pypa/setuptools/issues/917 for details.
+        ********************************************************************************
+
+!!
+  easy_install.initialize_options(self)
+running egg_info
+writing ros_tcp_endpoint.egg-info/PKG-INFO
+writing dependency_links to ros_tcp_endpoint.egg-info/dependency_links.txt
+writing entry points to ros_tcp_endpoint.egg-info/entry_points.txt
+writing requirements to ros_tcp_endpoint.egg-info/requires.txt
+writing top-level names to ros_tcp_endpoint.egg-info/top_level.txt
+reading manifest file 'ros_tcp_endpoint.egg-info/SOURCES.txt'
+writing manifest file 'ros_tcp_endpoint.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/cobos/Documents/Movement/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros-tcp-endpoint.egg-link (link to .)
+Installing default_server_endpoint script to /home/cobos/Documents/Movement/install/ros_tcp_endpoint/lib/ros_tcp_endpoint
+
+Installed /home/cobos/Documents/Movement/build/ros_tcp_endpoint
+running symlink_data
