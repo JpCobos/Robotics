@@ -1,40 +1,40 @@
-# Integration of CoppeliaSim, Unity, and RViz with ROS2  
+# Integración de CoppeliaSim, Unity y RViz con ROS2  
 
-## Project Description  
-This repository demonstrates the connection and integration of **CoppeliaSim**, **Unity**, and **RViz** using **ROS2** for robotics simulation and visualization. The goal is to enable seamless communication between these tools to simulate a robot’s movement in CoppeliaSim, visualize it in RViz, and render it in Unity for immersive experiences.  
+## Descripción del Proyecto  
+Este repositorio demuestra la conexión e integración de **CoppeliaSim**, **Unity** y **RViz** utilizando **ROS2** para la simulación y visualización de robots. El objetivo es habilitar una comunicación fluida entre estas herramientas para simular el movimiento de un robot en CoppeliaSim, visualizarlo en RViz y renderizarlo en Unity para experiencias inmersivas.  
 
-The repository includes configurations, scripts, and documentation to help users set up the system and achieve a synchronized workflow.  
-
----
-
-## Features  
-- **CoppeliaSim**: Simulates robot motion and dynamics.  
-- **ROS2**: Manages communication between tools using topics and TF for real-time position and movement data.  
-- **RViz**: Visualizes the robot’s 3D model, trajectory, and sensor data.  
-- **Unity**: Provides a realistic 3D environment for advanced rendering and immersive interaction.  
+El repositorio incluye configuraciones, scripts y documentación para ayudar a los usuarios a configurar el sistema y lograr un flujo de trabajo sincronizado.  
 
 ---
 
-## Author Information  
-- **Name**: Jose Pablo Cobos Austria 
-- **Student ID**: A01274631  
-- **Institution**: ITESM    
+## Características  
+- **CoppeliaSim**: Simula el movimiento y las dinámicas del robot.  
+- **ROS2**: Gestiona la comunicación entre herramientas usando tópicos y TF para datos en tiempo real de posición y movimiento.  
+- **RViz**: Visualiza el modelo 3D del robot, su trayectoria y los datos de sensores.  
+- **Unity**: Proporciona un entorno 3D realista para renderización avanzada e interacción inmersiva.  
 
 ---
 
-## Prerequisites  
+## Información del Autor  
+- **Nombre**: Jose Pablo Cobos Austria  
+- **Matrícula**: A01274631  
+- **Institución**: ITESM  
 
-### Software Requirements  
-- [CoppeliaSim](https://www.coppeliarobotics.com/) (latest version)  
-- [Unity3D](https://unity.com/) (2021.3 or later recommended)  
-- [ROS2](https://docs.ros.org/en/rolling/Installation.html) (Rolling or Humble version)  
-- RViz2 (part of ROS2 installation)  
+---
 
-### Programming Languages  
-- Python or C++ (ROS2 node development)  
-- C# (Unity scripting)  
+## Requisitos Previos  
 
-### Dependencies  
-Install the following ROS2 packages:  
+### Requisitos de Software  
+- [CoppeliaSim](https://www.coppeliarobotics.com/) (última versión)  
+- [Unity3D](https://unity.com/) (recomendado 2021.3 o posterior)  
+- [ROS2](https://docs.ros.org/en/rolling/Installation.html) (versión Rolling o Humble)  
+- RViz2 (incluido con ROS2)  
+
+### Lenguajes de Programación  
+- Python o C++ (desarrollo de nodos ROS2)  
+- C# (scripting en Unity)  
+
+### Dependencias  
+Instala los siguientes paquetes de ROS2:  
 ```bash
 sudo apt install ros-humble-tf2-tools ros-humble-rviz2 ros-humble-geometry-msgs ros-humble-nav-msgs
