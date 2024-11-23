@@ -1,5 +1,5 @@
 # Reto - Proyecto de Robótica
-
+#
 ## Descripción del Proyecto
 Esta carpeta contiene los archivos relacionados con el **Reto** en el contexto de simulación y visualización robótica. Este proyecto utiliza herramientas como **CoppeliaSim**, **ROS2** y **RViz**, integradas para explorar, simular y analizar el movimiento de robots en un entorno virtual.
 
