@@ -1,4 +1,4 @@
-# Integración de CoppeliaSim, Unity y RViz con ROS2  
+# Simulazción de Cinemática de Puzzlebot con CoppeliaSim, Unity y RViz con ROS2  
 
 ## Descripción del Proyecto  
 Este repositorio demuestra la conexión e integración de **CoppeliaSim**, **Unity** y **RViz** utilizando **ROS2** para la simulación y visualización de robots. El objetivo es habilitar una comunicación fluida entre estas herramientas para simular el movimiento de un robot en CoppeliaSim, visualizarlo en RViz y renderizarlo en Unity para experiencias inmersivas.  
